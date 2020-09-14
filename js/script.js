@@ -24,10 +24,11 @@ $(document).ready(function () {
     });
 });
 
-$('a[href^="#"]').on('click', function (e) {
-    var navHeight = document.getElementById("topNavBar");
 
+$('a[href^="#"]:not([data-toggle="tab"])').on('click', function (e) {
+    var navHeight = document.getElementById("topNavBar");
     $('html, body').animate({ scrollTop: $(this.hash).offset().top - navHeight.offsetHeight }, 800);
+    return false;
 });
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -84,4 +85,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     calendar.render();
+});
+
+$(window).on('load', function () {
+    $("body").removeClass("loading");
 });

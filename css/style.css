@@ -89,10 +89,12 @@ nav.navbar {
     padding-left: 20px !important;
     padding-right: 20px !important;
     text-align: center;
+     font-family: Sailec-Medium;
 }
 
 .navbar-nav li a:hover {
     border-color: transparent !important;
+    color: #3499ff;
 }
 
 .banner-card-wrap {
@@ -103,7 +105,7 @@ nav.navbar {
 }
 
 .banner-card {
-    padding: 50px 0;
+    padding: 40px 0;
     position: relative;
     z-index: 99;
 }
@@ -142,13 +144,12 @@ nav.navbar {
     max-width: calc(50% - 10px);
     flex: 0 50%;
     width: 50%;
-    padding-left: 100px;
+    padding-left: 70px;
     transform: perspective(10px);
 }
 
 .title-date {
     color: #ffffff;
-    font-family: Sailec-Bold;
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -157,12 +158,12 @@ nav.navbar {
     font-size: 72px;
     color: #A2D0FF;
     font-family: Sailec-Bold;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 .title-txt img {
-    height: 60px;
-    margin-bottom: 15px;
+    height: 36px;
+    margin-bottom: 10px;
 }
 
 .title-txt span {
@@ -184,20 +185,20 @@ nav.navbar {
 .content-txt {
     font-size: 16px;
     color: #ffffff;
-    margin-bottom: 55px;
+    margin-bottom: 30px;
 }
 
 .save-seat-btn {
-    height: 64px;
-    width: 240px;
+    height: 48px;
+    max-width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #3973E6;
     color: #ffffff;
-    font-family: Sailec-Bold;
+    font-family: Sailec-Medium;
     font-size: 14px;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 .save-seat-btn:hover {
@@ -212,7 +213,7 @@ section {
 section .main-title-md {
     font-size: 40px;
     font-family: Sailec-Bold;
-    line-height: 1.4;
+    line-height: 1.2;
     text-align: center;
     color: #060606;
 }
@@ -222,8 +223,8 @@ section .main-title-sm {
     font-weight: normal;
     line-height: 1.5;
     color: #4d4d4d;
-    text-transform: capitalize;
-    margin-bottom: 74px;
+    /*text-transform: capitalize;*/
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -246,14 +247,13 @@ section .main-title-sm {
 }
 
 .benifits-section h4 {
-    margin-bottom: 48px;
+    margin-bottom: 40px;
 }
 
 .benifits-section .inner-card .card-content {
     background-color: #1a1a60;
-    padding: 32px;
+    padding: 25px;
     flex: 1;
-    min-height: 250px;
 }
 
 .benifits-section .inner-card {
@@ -266,8 +266,9 @@ section .main-title-sm {
 }
 
 .benifits-section .inner-card .card-content h4 {
-    font-size: 32px;
+    font-size: 26px;
     color: #ffffff;
+    font-family: Sailec-Bold;
     margin-bottom: 8px;
 }
 
@@ -275,6 +276,7 @@ section .main-title-sm {
     font-size: 16px;
     color: #dce8ff;
     margin: 0;
+    font-family: Sailec-Light;
 }
 
 .benifits-section .inner-card .img-area {
@@ -282,7 +284,7 @@ section .main-title-sm {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px 45px;
+    padding: 20px;
     border-radius: 30px 30px 0 0;
     overflow: hidden;
 }
@@ -427,7 +429,7 @@ section .main-title-sm {
 
 .partner-logo-section,
 .agenda-section {
-    padding: 145px 0;
+    padding: 100px 0;
 }
 
 .partner-logos .logo-card {
@@ -477,7 +479,7 @@ section .main-title-sm {
 .benifits-section,
 .default-section {
     padding: 0 64px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .book-seat-section .book-card-box {
@@ -492,10 +494,10 @@ section .main-title-sm {
 
 .book-seat-section .book-card-box .sec-left {
     background-color: #3a3985;
-    padding: 64px 81px;
+    padding: 34px 40px;
     background-image: url(../images/form-banner.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 400px;
     background-position: center bottom;
 }
 
@@ -557,14 +559,18 @@ section .main-title-sm {
 }
 
 .book-seat-section .book-card-box .sec-right .fserv-container form .fserv-button-submit {
-    width: 240px;
-    height: 64px;
-    border-radius: 8px;
+    min-width: 200px;
+    height: 48px;
+    border-radius: 16px;
     background-color: #3973e6 !important;
     font-size: 14px !important;
-    font-family: Sailec-Bold;
+    font-family: Sailec-Medium;
+    text-transform: uppercase;
 }
-
+button:focus,
+input:focus{
+    outline: none;
+}
 .book-seat-section .book-card-box .sec-right .fserv-container form .fserv-label {
     font-size: 16px !important;
     margin-bottom: 18px;
@@ -593,7 +599,7 @@ section .main-title-sm {
 
 .nxt-exp-section {
     background-color: #eef3ff;
-    padding: 150px 64px;
+    padding: 100px 64px;
 }
 
 .nxt-exp-section .main-title-md {
@@ -778,13 +784,14 @@ footer a:hover {
 
 .banner-card2 .count-design span {
     font-size: 16px;
+    font-family: Sailec-Medium;
     font-weight: 300;
     color: #4d4d4d;
     text-align: left;
 }
 
 .banner-card2 .left-side {
-    padding: 80px 16px 80px 100px;
+    padding: 40px 16px 40px 60px;
 }
 
 
@@ -927,8 +934,31 @@ footer a:hover {
 .viewSpeakers .modal-body {
     padding: 0 !important;
 }
-
-
+.mw-400{
+    max-width: 400px;
+}
+.modal-content iframe{
+    max-width: 100%;
+}
+button.navbar-toggler {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+button.navbar-toggler .fa-bars:before{
+    content: "\f00d";
+}
+button.navbar-toggler.collapsed .fa-bars:before{
+    content: "\f0c9";
+}
+body > section,
+nav.navbar{
+    max-width: 2000px;
+    margin: 0 auto;
+}
+.loading .banner-card{
+    display: none;
+}
 @media screen and (max-width:1199px) {
     .ban-card-content {
         max-width: calc(70% - 10px);
@@ -1017,9 +1047,24 @@ footer a:hover {
 }
 
 @media screen and (max-width: 575px) {
+    .fc .fc-toolbar.fc-header-toolbar{
+        flex-wrap: wrap;
+        text-align: center
+    }
+    .fc-toolbar-chunk{
+        flex: 1 1 100%;
+        margin-bottom: 10px
+    }
+    nav.navbar{
+        box-shadow: 0px 2px 9px rgba(0,0,0,25%);
+    }
+    .mw-400{
+        max-width: 300px;
+    }
     section .main-title-md {
         font-size: 32px;
         line-height: 1.2;
+        margin-bottom: 20px;
     }
 
     section .main-title-sm {
@@ -1034,7 +1079,7 @@ footer a:hover {
 
     .partner-logo-section,
     .agenda-section {
-        padding: 100px 0;
+        padding: 70px 0;
     }
 
     .ban-card-content {
@@ -1044,11 +1089,11 @@ footer a:hover {
     }
 
     .banner-card2 .left-side {
-        padding: 60px 32px;
+        padding: 30px 32px;
     }
 
     .benifits-section .inner-card .card-content h4 {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .banner-card2 .play-video {
@@ -1074,8 +1119,8 @@ footer a:hover {
     .benifits-section,
     .default-section {
         padding: 0 16px;
-        margin-bottom: 80px;
         margin: 16px;
+        margin-bottom: 80px;
     }
 
     .book-seat-section .book-card-box .sec-left {

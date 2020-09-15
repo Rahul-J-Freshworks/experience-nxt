@@ -1,11 +1,15 @@
 $(document).ready(function () {
     $(".banner-card-wrap").owlCarousel({
-        items: 1
+        items: 1,
+        autoplay: true,
+        loop: true,
     });
 
     $(".partner-logos").owlCarousel({
         items: 5,
         nav: true,
+        autoplay: true,
+        loop: true,
         navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
         responsive: {
             0: {

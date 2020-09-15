@@ -4,37 +4,37 @@
 @font-face {
     font-family: Sailec-Bold;
     src: url(../fonts/sailec-webfont/33C86F_0_0.eot);
-    src: url(../fonts/sailec-webfont/33C86F_0_0.eot&#iefix) format("embedded-opentype"), 
-    url(../fonts/sailec-webfont/33C86F_0_0.woff2) format("woff2"), 
-    url(../fonts/sailec-webfont/33C86F_0_0.woff) format("woff"), 
-    url(../fonts/sailec-webfont/33C86F_0_0.ttf) format("truetype")
+    src: url(../fonts/sailec-webfont/33C86F_0_0.eot&#iefix) format("embedded-opentype"),
+        url(../fonts/sailec-webfont/33C86F_0_0.woff2) format("woff2"),
+        url(../fonts/sailec-webfont/33C86F_0_0.woff) format("woff"),
+        url(../fonts/sailec-webfont/33C86F_0_0.ttf) format("truetype")
 }
 
 @font-face {
     font-family: Sailec-Light;
     src: url(../fonts/sailec-webfont/33C86F_2_0.eot);
-    src: url(../fonts/sailec-webfont/33C86F_2_0.eot&#iefix) format("embedded-opentype"), 
-    url(../fonts/sailec-webfont/33C86F_2_0.woff2) format("woff2"), 
-    url(../fonts/sailec-webfont/33C86F_2_0.woff) format("woff"), 
-    url(../fonts/sailec-webfont/33C86F_2_0.ttf) format("truetype")
+    src: url(../fonts/sailec-webfont/33C86F_2_0.eot&#iefix) format("embedded-opentype"),
+        url(../fonts/sailec-webfont/33C86F_2_0.woff2) format("woff2"),
+        url(../fonts/sailec-webfont/33C86F_2_0.woff) format("woff"),
+        url(../fonts/sailec-webfont/33C86F_2_0.ttf) format("truetype")
 }
 
 @font-face {
     font-family: Sailec-Medium;
     src: url(../fonts/sailec-webfont/33C86F_4_0.eot);
-    src: url(../fonts/sailec-webfont/33C86F_4_0.eot&#iefix) format("embedded-opentype"), 
-    url(../fonts/sailec-webfont/33C86F_4_0.woff2) format("woff2"), 
-    url(../fonts/sailec-webfont/33C86F_4_0.woff) format("woff"), 
-    url(../fonts/sailec-webfont/33C86F_4_0.ttf) format("truetype")
+    src: url(../fonts/sailec-webfont/33C86F_4_0.eot&#iefix) format("embedded-opentype"),
+        url(../fonts/sailec-webfont/33C86F_4_0.woff2) format("woff2"),
+        url(../fonts/sailec-webfont/33C86F_4_0.woff) format("woff"),
+        url(../fonts/sailec-webfont/33C86F_4_0.ttf) format("truetype")
 }
 
 @font-face {
     font-family: Sailec-Regular;
     src: url(../fonts/sailec-webfont/33C86F_6_0.eot);
-    src: url(../fonts/sailec-webfont/33C86F_6_0.eot&#iefix) format("embedded-opentype"), 
-    url(../fonts/sailec-webfont/33C86F_6_0.woff2) format("woff2"), 
-    url(../fonts/sailec-webfont/33C86F_6_0.woff) format("woff"), 
-    url(../fonts/sailec-webfont/33C86F_6_0.ttf) format("truetype")
+    src: url(../fonts/sailec-webfont/33C86F_6_0.eot&#iefix) format("embedded-opentype"),
+        url(../fonts/sailec-webfont/33C86F_6_0.woff2) format("woff2"),
+        url(../fonts/sailec-webfont/33C86F_6_0.woff) format("woff"),
+        url(../fonts/sailec-webfont/33C86F_6_0.ttf) format("truetype")
 }
 
 :root {
@@ -89,7 +89,7 @@ nav.navbar {
     padding-left: 20px !important;
     padding-right: 20px !important;
     text-align: center;
-     font-family: Sailec-Medium;
+    font-family: Sailec-Medium;
 }
 
 .navbar-nav li a:hover {
@@ -338,6 +338,13 @@ section .main-title-sm {
     color: #ffffff;
 }
 
+.speaker1 a:hover,
+.speaker2 a:hover {
+    color: #fff;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
 .speaker1::before,
 .speaker2::before,
 .speaker1::after,
@@ -567,10 +574,12 @@ section .main-title-sm {
     font-family: Sailec-Medium;
     text-transform: uppercase;
 }
+
 button:focus,
-input:focus{
+input:focus {
     outline: none;
 }
+
 .book-seat-section .book-card-box .sec-right .fserv-container form .fserv-label {
     font-size: 16px !important;
     margin-bottom: 18px;
@@ -934,34 +943,42 @@ footer a:hover {
 .viewSpeakers .modal-body {
     padding: 0 !important;
 }
-.mw-400{
+
+.mw-400 {
     max-width: 400px;
 }
-.modal-content iframe{
+
+.modal-content iframe {
     max-width: 100%;
 }
+
 button.navbar-toggler {
     position: absolute;
     right: 10px;
     top: 10px;
 }
-button.navbar-toggler .fa-bars:before{
+
+button.navbar-toggler .fa-bars:before {
     content: "\f00d";
 }
-button.navbar-toggler.collapsed .fa-bars:before{
+
+button.navbar-toggler.collapsed .fa-bars:before {
     content: "\f0c9";
 }
-body > section,
-nav.navbar{
+
+body>section,
+nav.navbar {
     max-width: 2000px;
     margin: 0 auto;
 }
-.loading .banner-card{
+
+.loading .banner-card {
     display: none;
 }
+
 @media screen and (max-width:1199px) {
     .ban-card-content {
-        max-width: calc(70% - 10px);
+        max-width: calc(60% - 10px);
         flex: 0 70%;
         width: 70%;
         padding-left: 70px;
@@ -1047,20 +1064,24 @@ nav.navbar{
 }
 
 @media screen and (max-width: 575px) {
-    .fc .fc-toolbar.fc-header-toolbar{
+    .fc .fc-toolbar.fc-header-toolbar {
         flex-wrap: wrap;
         text-align: center
     }
-    .fc-toolbar-chunk{
+
+    .fc-toolbar-chunk {
         flex: 1 1 100%;
         margin-bottom: 10px
     }
-    nav.navbar{
-        box-shadow: 0px 2px 9px rgba(0,0,0,25%);
+
+    nav.navbar {
+        box-shadow: 0px 2px 9px rgba(0, 0, 0, 25%);
     }
-    .mw-400{
+
+    .mw-400 {
         max-width: 300px;
     }
+
     section .main-title-md {
         font-size: 32px;
         line-height: 1.2;
@@ -1123,6 +1144,33 @@ nav.navbar{
         margin-bottom: 80px;
     }
 
+    .banner-section1,
+    .banner-section2,
+    .benifits-section {
+        padding: 0;
+    }
+
+    .banner-card-wrap,
+    .banner-card2,
+    .benifits-section .inner-card {
+        border-radius: 16px;
+    }
+
+    .benifits-section .inner-card .img-area {
+        border-radius: 16px 16px 0 0;
+    }
+
+    .partner-logo-section .owl-nav button {
+        width: 50px;
+        height: 50px;
+        border-radius: 12px;
+    }
+
+    .partner-logos button.owl-next,
+    .partner-logos button.owl-prev {
+        margin: 0 15px;
+    }
+
     .book-seat-section .book-card-box .sec-left {
         padding: 32px 32px;
     }
@@ -1144,7 +1192,11 @@ nav.navbar{
     }
 
     .nxt-exp-section {
-        padding: 50px 32px;
+        padding: 50px 16px;
+    }
+
+    .nxt-exp-section .inner-card {
+        border-radius: 16px;
     }
 
     .nxt-exp-section .main-title-md {
@@ -1205,6 +1257,6 @@ nav.navbar{
     }
 }
 
-.modal-backdrop{
-    background-color: rgba(15,15,55,40%);
+.modal-backdrop {
+    background-color: rgba(15, 15, 55, 40%);
 }

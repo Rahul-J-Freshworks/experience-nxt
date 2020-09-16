@@ -63,7 +63,8 @@ nav.navbar {
     padding: 8px 64px;
 }
 
-.navbar-nav li a.active::after {
+.navbar-nav li a.active::after,
+nav .navbar-nav li.active a::after {
     content: "";
     position: absolute;
     height: 2px;
@@ -76,7 +77,8 @@ nav.navbar {
     margin: auto;
 }
 
-.navbar-nav li a.active {
+.navbar-nav li a.active,
+nav .navbar-nav li.active a {
     color: #0b48ff !important;
 }
 
@@ -191,7 +193,7 @@ nav.navbar {
 
 .save-seat-btn {
     height: 48px;
-    max-width: 200px;
+    max-width: 230px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -509,6 +511,10 @@ section .main-title-sm {
     background-position: center bottom;
 }
 
+.book-seat-section .vietna-box-card .sec-left {
+    background-position: center bottom -45px;
+}
+
 .book-seat-section .book-card-box .sec-left h3 {
     font-size: 39px;
     font-family: Sailec-Bold;
@@ -650,11 +656,11 @@ input:focus {
     font-family: Sailec-Bold;
     line-height: 1.75;
     color: #060606;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .nxt-exp-section .inner-card p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.13;
     color: #4d4d4d;
     margin-bottom: 16px;

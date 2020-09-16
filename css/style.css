@@ -551,6 +551,13 @@ section .main-title-sm {
     position: relative;
 }
 
+.book-seat-section .book-card-box .sec-right .fserv-container .fserv-form>div:last-child {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+}
+
 .book-seat-section .book-card-box .sec-right .fserv-container .fserv-form .fserv-field {
     flex: 0 50%;
     max-width: 50%;
@@ -669,14 +676,14 @@ input:focus {
 .nxt-exp-section .inner-card a {
     display: flex;
     align-items: center;
-    height: 40px;
+    height: 45px;
     border-radius: 20px;
     background-color: #1a1a60;
     font-size: 14px;
     font-weight: 500;
     color: #ffffff;
     padding: 11px 30px;
-    line-height: 1;
+    line-height: 1.2;
     cursor: pointer;
 }
 

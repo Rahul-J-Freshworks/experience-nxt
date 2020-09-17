@@ -361,7 +361,6 @@ section .main-title-sm {
     background-repeat: no-repeat;
 }
 
-
 .speaker1::before,
 .speaker2::before {
     background-image: url(../images/speaker-shape1.png);
@@ -454,6 +453,17 @@ section .main-title-sm {
     max-width: 100%;
     max-height: 100%;
     background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.partner-logos .logo-card>img {
+    max-width: 100% !important;
+    max-height: 100%;
+    object-fit: contain;
+    padding: 15px;
 }
 
 .partner-logo-section .owl-nav {
@@ -461,23 +471,25 @@ section .main-title-sm {
     flex-direction: row;
 }
 
-.partner-logo-section .owl-nav button {
+.partner-logo-section .owl-nav button,
+.agenda-section .owl-nav button {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 64px;
     background-color: #0b48ff !important;
     height: 64px;
-    border-radius: 16px;
+    border-radius: 16px !important;
 }
 
-.partner-logo-section .owl-nav button.disabled {
+.partner-logo-section .owl-nav button.disabled,
+.agenda-section .owl-nav button.disabled {
     background-color: #dbe4fe !important;
 }
 
-.partner-logo-section .owl-nav button i {
+.partner-logo-section .owl-nav button i,
+.agenda-section .owl-nav button i {
     color: white;
-
 }
 
 
@@ -932,20 +944,19 @@ footer a:hover {
     border-radius: 50%;
 }
 
-.view-speaker-modal::before {
-    content: "";
+.view-speaker-modal .modal-speaker-img {
     background-image: url(../images/modal-background.png);
-    background-size: covers;
-    position: absolute;
-    height: 100%;
-    width: 40%;
+    background-size: cover;
     background-repeat: no-repeat;
-
+    height: 100%;
+    width: 100%;
+    background-position: center;
 }
 
-.view-speaker-modal .content-area {
-    margin-left: 40%;
-    margin-left: 40%;
+.view-speaker-modal .content-area .row>div:last-child {
+    /* margin-left: 40%;
+    margin-left: 40%; */
+    /* padding: 50px; */
     padding: 50px;
 }
 
@@ -988,6 +999,44 @@ nav.navbar {
 
 .loading .banner-card {
     display: none;
+}
+
+.modal-backdrop {
+    background-color: rgba(46, 46, 63);
+}
+
+
+/* Agenda start */
+
+
+.agenda-row>p {
+    border: 1px #ccc solid;
+    margin: 0;
+    border-block-start-style: none;
+    border-right-style: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #4d4d4d;
+    position: relative;
+
+    /* border-collapse: separate; */
+}
+
+.agenda-row {
+    border-top: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+}
+
+.agenda-title {
+    background-color: #f1f1f1;
+    font-weight: 600;
+    color: #060606;
+
+}
+
+/* Agenda end */
+.speakers .speakersImg {
+    /* filter: grayscale(1); */
 }
 
 @media screen and (max-width:1199px) {
@@ -1048,6 +1097,12 @@ nav.navbar {
     }
 }
 
+@media screen and (max-width:768px) {
+    .view-speaker-modal .content-area {
+        min-width: 400px;
+    }
+}
+
 @media screen and (max-width:767px) {
     .ban-card-content {
         max-width: calc(80% - 10px);
@@ -1090,6 +1145,10 @@ nav.navbar {
 
     nav.navbar {
         box-shadow: 0px 2px 9px rgba(0, 0, 0, 25%);
+    }
+
+    nav.navbar {
+        padding: 8px 16px;
     }
 
     .mw-400 {
@@ -1174,10 +1233,11 @@ nav.navbar {
         border-radius: 16px 16px 0 0;
     }
 
-    .partner-logo-section .owl-nav button {
+    .partner-logo-section .owl-nav button,
+    .agenda-section .owl-nav button {
         width: 50px;
         height: 50px;
-        border-radius: 12px;
+        border-radius: 12px !important;
     }
 
     .partner-logos button.owl-next,
@@ -1269,8 +1329,36 @@ nav.navbar {
         width: 40px;
         font-size: 20px;
     }
-}
 
-.modal-backdrop {
-    background-color: rgba(15, 15, 55, 40%);
+    /* Agenda start */
+    .agenda-row .agenda-title {
+        display: none;
+    }
+
+    .agenda-row .agenda-time,
+    .agenda-row .agenda-type {
+        border-bottom: none;
+    }
+
+    .agenda-row .agenda-time::before,
+    .agenda-row .agenda-type::before,
+    .agenda-row .agenda-topic::before {
+        color: #060606;
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .agenda-row .agenda-time::before {
+        content: "Time : ";
+    }
+
+    .agenda-row .agenda-type::before {
+        content: "Type : ";
+    }
+
+    .agenda-row .agenda-topic::before {
+        content: "Topic : ";
+    }
+
+    /* Agenda end */
 }

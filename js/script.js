@@ -8,7 +8,7 @@ $(document).ready(function () {
     $(".speakersSlide").owlCarousel({
         items: 1,
         nav: true,
-        autoplay: true,
+        autoplay: false,
         autoplayHoverPause:true,
         dots:false,
         loop: true,

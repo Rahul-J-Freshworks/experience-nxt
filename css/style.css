@@ -1038,7 +1038,36 @@ nav.navbar {
 .speakers .speakersImg {
     /* filter: grayscale(1); */
 }
-
+.language-indicate{
+    margin-right: -15px;
+    margin-left: -15px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.language-indicate-text{
+    font-size: 20px;
+    color: #0b48ff;
+    font-family: Sailec-Medium;
+    font-weight: normal;
+    position: relative;
+}
+.language-indicate-text:after {
+    background: #0b48ff;
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 24px;
+    bottom: -6px;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    margin: auto;
+}
+.language-indicate .fa{
+    padding-right: 15px;
+    padding-left: 15px;
+}
 @media screen and (max-width:1199px) {
     .ban-card-content {
         max-width: calc(60% - 10px);

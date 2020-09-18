@@ -156,7 +156,7 @@ var json = [
         ]
     },
     {
-        "language": "Vietnam",
+        "language": "Vietnamese",
         "speakers": [
             {
                 "id": "v1",
@@ -258,6 +258,3 @@ $('#viewSpeakers').on('show.bs.modal', function (e) {
     $('#speakerLinkedIn').attr('href',$(e.relatedTarget).attr('data-linkedin'));
 
 });
-
-
-

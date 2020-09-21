@@ -9,8 +9,8 @@ $(document).ready(function () {
         items: 1,
         nav: true,
         autoplay: false,
-        autoplayHoverPause:true,
-        dots:false,
+        autoplayHoverPause: true,
+        dots: false,
         loop: true,
         navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"]
     });
@@ -90,7 +90,7 @@ var json = [
                 "email": "chan@exabytes.com"
             },
             {
-                "id": "e4", 
+                "id": "e4",
                 "name": "Jaymes",
                 "fullName": "Jaymes Deok",
                 "designation": "Chief Digital Officer",
@@ -101,7 +101,7 @@ var json = [
                 "email": "value"
             },
             {
-                "id": "e5", 
+                "id": "e5",
                 "name": "Wilson",
                 "fullName": "Wilson Lim",
                 "designation": "Business Operation Director",
@@ -113,14 +113,14 @@ var json = [
             }
             // ,
             // {
-            //     "id": "e6", 
+            //     "id": "",
             //     "name": "Jenthi",
             //     "fullName": "Jenthi Krishna",
             //     "designation": "Manager, CRM & Loyalty",
             //     "company": "Nando's",
             //     "linkedin": "",
             //     "description": "",
-            //     "imgSrc": "wilson.jpg",
+            //     "imgSrc": "jenthi.jpg",
             //     "email": "value"
             // }
         ]
@@ -140,7 +140,6 @@ var json = [
                 "imgSrc": "wilson.jpg",
                 "email": "value"
             },
-
             {
                 "id": "b2",
                 "name": "Dayu",
@@ -150,6 +149,39 @@ var json = [
                 "linkedin": "https://www.linkedin.com/in/dayu-dara-permata-38072a2b/",
                 "description": "Need access",
                 "imgSrc": "dayu.jpg",
+                "email": "value"
+            },
+            {
+                "id": "b3",
+                "name": "Kevin",
+                "fullName": "Kevin Sugianto",
+                "designation": "Head of Commercial",
+                "company": "Kerry Express",
+                "linkedin": "https://www.linkedin.com/in/kevinsugianto/",
+                "description": "",
+                "imgSrc": "kevin.jpg",
+                "email": "value"
+            },
+            {
+                "id": "b4",
+                "name": "Airindira",
+                "fullName": "Airindira Siregar",
+                "designation": "GM Service management",
+                "company": "PGAS",
+                "linkedin": "https://www.linkedin.com/in/airindira-graciella-siregar-bb841125/",
+                "description": "",
+                "imgSrc": "airindira.jpg",
+                "email": "value"
+            },
+            {
+                "id": "b5",
+                "name": "Yulia Dwi",
+                "fullName": "Yulia Dwi Anggoro",
+                "designation": "Sr. Community Engagement",
+                "company": "Chilibeli",
+                "linkedin": "https://www.linkedin.com/in/yulia-dwi-anggoro/",
+                "description": "",
+                "imgSrc": "yulia.jpg",
                 "email": "value"
             }
 
@@ -168,7 +200,63 @@ var json = [
                 "description": "Colin has been in Vietnam since 1995 and is the founder of the national HR Associations. His experience ranges from consulting for PwC, to global HR leadership roles, to now founding a tech startup social enterprise. He advises the Vietnam government on HR matters in his role with the World Bank's Vietnam Business Forum. He is a judge of the Vietnam HR Awards and a number of global startup competitions, including the United Nations Generation Unlimited and the Hult Prize. He is a keynote speaker around Asia on the future of work and how people can best adapt to technology transformation.",
                 "imgSrc": "colin.jpg",
                 "email": "value"
+            },
+            {
+                "id": "v2",
+                "name": "Kalidas Ghose",
+                "fullName": "Kalidas Ghose",
+                "designation": "CEO",
+                "company": "FE Credit",
+                "linkedin": "https://www.linkedin.com/in/kalidas-ghose-a02ab74/",
+                "description": "",
+                "imgSrc": "kalidas.jpg",
+                "email": "value"
             }
+            // ,
+            // {
+            //     "id": "v3",
+            //     "name": "Nguyễn Thịnh",
+            //     "fullName": "Nguyễn Thịnh",
+            //     "designation": "IT Director",
+            //     "company": "Yola",
+            //     "linkedin": "https://www.linkedin.com/in/thinh-nguyen-595b0430/",
+            //     "description": "",
+            //     "imgSrc": "thinh.jpg",
+            //     "email": "value"
+            // },
+            // {
+            //     "id": "v4",
+            //     "name": "Mandy Nguyen",
+            //     "fullName": "Mandy Nguyen",
+            //     "designation": "Director of Ecosystem Development",
+            //     "company": "Startup Vietnam Foundation",
+            //     "linkedin": "https://www.linkedin.com/in/mandyquyennguyen/",
+            //     "description": "",
+            //     "imgSrc": "mandy.jpg",
+            //     "email": "value"
+            // },
+            // {
+            //     "id": "v5",
+            //     "name": "Vu, Le Anh",
+            //     "fullName": "Vu, Le Anh",
+            //     "designation": "CIO",
+            //     "company": "CMC Cloud",
+            //     "linkedin": "",
+            //     "description": "",
+            //     "imgSrc": "vule.jpg",
+            //     "email": "value"
+            // },
+            // {
+            //     "id": "v6",
+            //     "name": "Fulin Deok",
+            //     "fullName": "Fulin Deok",
+            //     "designation": "CTO",
+            //     "company": "Infofabrica",
+            //     "linkedin": "https://www.linkedin.com/in/fulin-deok-b0514455/",
+            //     "description": "",
+            //     "imgSrc": "fulin.jpg",
+            //     "email": "value"
+            // }
         ]
     },
     {
@@ -200,11 +288,6 @@ var json = [
     }
 ];
 
-
-
-
-
-
 var a = '';
 var b = '';
 /////var c = '<div class="row justify-content-center">';
@@ -226,7 +309,7 @@ for (var i = 0; i < json.length; i++) {
 
     for (var j = 0; j < json[i].speakers.length; j++) {
 
-        c += '<div class="col-xl-3 col-md-4 col-6"><div class="speakers"><div class="speaker1"> <img class="speakersImg" src="images/speakers/'+json[i].speakers[j].imgSrc+'" /><a data-toggle="modal"'
+        c += '<div class="col-xl-3 col-md-4 col-6"><div class="speakers"><div class="speaker1"> <img class="speakersImg" src="images/speakers/' + json[i].speakers[j].imgSrc + '" /><a data-toggle="modal"'
         c += 'data-fullName=' + JSON.stringify(json[i].speakers[j].fullName) + ''
         c += 'data-name=' + JSON.stringify(json[i].speakers[j].name) + ''
         c += 'data-designation=' + JSON.stringify(json[i].speakers[j].designation) + ''
@@ -235,7 +318,7 @@ for (var i = 0; i < json.length; i++) {
         c += 'data-imgSrc=' + JSON.stringify(json[i].speakers[j].imgSrc) + ''
         c += 'data-linkedin=' + JSON.stringify(json[i].speakers[j].linkedin) + ''
         c += 'data-id=' + JSON.stringify(json[i].speakers[j].id) + ' data-target="#viewSpeakers">'
-        c += '+</a> </div><h4>' + json[i].speakers[j].fullName + '</h4><p><i>' + json[i].speakers[j].designation + '</i><br>'+json[i].speakers[j].company+'</p> </div> </div>'
+        c += '+</a> </div><h4>' + json[i].speakers[j].fullName + '</h4><p><i>' + json[i].speakers[j].designation + '</i><br>' + json[i].speakers[j].company + '</p> </div> </div>'
 
     }
     c += '</div>'
@@ -252,9 +335,9 @@ $('#viewSpeakers').on('show.bs.modal', function (e) {
 
     console.log($('#speakerName').length);
     $('#speakerName').html($(e.relatedTarget).attr('data-fullName'));
-    $('#speakerDesignation').html($(e.relatedTarget).attr('data-designation')+"<br>"+$(e.relatedTarget).attr('data-company'));
-    $('#speakerFollowName').html("Follow "+$(e.relatedTarget).attr('data-name'));
-    $('.modal-speaker-img').css('background-image','url("images/speakers/'+$(e.relatedTarget).attr('data-imgSrc')+'")');
-    $('#speakerLinkedIn').attr('href',$(e.relatedTarget).attr('data-linkedin'));
+    $('#speakerDesignation').html($(e.relatedTarget).attr('data-designation') + "<br>" + $(e.relatedTarget).attr('data-company'));
+    $('#speakerFollowName').html("Follow " + $(e.relatedTarget).attr('data-name'));
+    $('.modal-speaker-img').css('background-image', 'url("images/speakers/' + $(e.relatedTarget).attr('data-imgSrc') + '")');
+    $('#speakerLinkedIn').attr('href', $(e.relatedTarget).attr('data-linkedin'));
 
 });

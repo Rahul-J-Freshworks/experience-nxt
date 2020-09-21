@@ -1009,8 +1009,8 @@ nav.navbar {
 /* Agenda start */
 
 
-.agenda-row>p {
-    border: 1px #ccc solid;
+.agenda-row p {
+    /* border: 1px #ccc solid; */
     margin: 0;
     border-block-start-style: none;
     border-right-style: none;
@@ -1018,13 +1018,20 @@ nav.navbar {
     padding-bottom: 8px;
     color: #4d4d4d;
     position: relative;
-
-    /* border-collapse: separate; */
 }
 
-.agenda-row {
-    border-top: 1px #ccc solid;
-    border-right: 1px #ccc solid;
+.agenda-row .row {
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 0.07);
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.agenda-row .row:nth-child(odd) {
+    background-color: rgb(220 232 255 / 0.3);
 }
 
 .agenda-title {
@@ -1038,20 +1045,23 @@ nav.navbar {
 .speakers .speakersImg {
     /* filter: grayscale(1); */
 }
-.language-indicate{
+
+.language-indicate {
     margin-right: -15px;
     margin-left: -15px;
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 15px;
 }
-.language-indicate-text{
+
+.language-indicate-text {
     font-size: 20px;
     color: #0b48ff;
     font-family: Sailec-Medium;
     font-weight: normal;
     position: relative;
 }
+
 .language-indicate-text:after {
     background: #0b48ff;
     content: "";
@@ -1064,13 +1074,16 @@ nav.navbar {
     border-radius: 5px;
     margin: auto;
 }
-.language-indicate .fa{
+
+.language-indicate .fa {
     padding-right: 15px;
     padding-left: 15px;
 }
-.thankyou-text{
+
+.thankyou-text {
     font-size: 20px;
 }
+
 @media screen and (max-width:1199px) {
     .ban-card-content {
         max-width: calc(60% - 10px);
@@ -1136,9 +1149,10 @@ nav.navbar {
 }
 
 @media screen and (max-width:767px) {
-    .mt-xd-2{
+    .mt-xd-2 {
         margin-top: 2em;
     }
+
     .ban-card-content {
         max-width: calc(80% - 10px);
         flex: 0 80%;

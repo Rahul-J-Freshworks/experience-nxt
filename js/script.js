@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     $(".banner-card-wrap").owlCarousel({
         items: 1,
         autoplay: true,
@@ -326,8 +327,6 @@ for (var i = 0; i < json.length; i++) {
     c = '';
 }
 
-
-
 $('#viewSpeakers').on('show.bs.modal', function (e) {
     // var yourparameter = e.relatedTarget.dataset.yourparameter;
     // Do some stuff w/ it.
@@ -341,3 +340,33 @@ $('#viewSpeakers').on('show.bs.modal', function (e) {
     $('#speakerLinkedIn').attr('href', $(e.relatedTarget).attr('data-linkedin'));
 
 });
+
+// Mobile number validation
+var WebFormEvent = {
+    afterInstall: function () {
+        (function ($) {
+            $.fn.inputFilter = function (inputFilter) {
+                return this.on("input keydown keyup mousedown mouseup select contextmenu drop",
+                    function () {
+                        if (inputFilter(this.value)) {
+                            this.oldValue = this.value;
+                            this.oldSelectionStart = this.selectionStart;
+                            this.oldSelectionEnd = this.selectionEnd;
+                        } else if (this.hasOwnProperty("oldValue")) {
+                            this.value = this.oldValue;
+                            this.setSelectionRange(this.oldSelectionStart, this.oldSelectionEnd);
+                        } else {
+                            this.value = "";
+                        }
+                    });
+            };
+        }(jQuery));
+
+        $(".formserv-tel-field input").attr("maxlength", "15");
+        $(".formserv-tel-field input").attr("minlength", "6");
+        $(".formserv-tel-field input").inputFilter(function (value) {
+            return /^-?\d*$/.test(value);
+        });
+    }
+}
+

@@ -111,8 +111,40 @@ var json = [
                 "description": "",
                 "imgSrc": "wilson.jpg",
                 "email": "value"
+            },
+            {
+                "id": "e6",
+                "name": "Airindira",
+                "fullName": "Airindira Siregar",
+                "designation": "GM Service management",
+                "company": "PGAS",
+                "linkedin": "https://www.linkedin.com/in/airindira-graciella-siregar-bb841125/",
+                "description": "",
+                "imgSrc": "airindira.jpg",
+                "email": "value"
+            },
+            {
+                "id": "e7",
+                "name": "Vaithi",
+                "fullName": "Vaithiyanathan R",
+                "designation": "Senior Vice President – Operations (Digital Business Solutions)",
+                "company": "Allsec Technologies",
+                "linkedin": "https://www.linkedin.com/in/vaithiyanathan-vaithi-ramsuvamee-3479b71/",
+                "description": "",
+                "imgSrc": "vaithiyanathan_r.jpg",
+                "email": "value"
             }
-            // ,
+            // {
+            //     "id": "e8",
+            //     "name": "Wen Chi Li",
+            //     "fullName": "Wen Chi Li",
+            //     "designation": "Director",
+            //     "company": "InfoFabrica",
+            //     "linkedin": "https://www.linkedin.com/in/wen-chi-li-a4210612/",
+            //     "description": "",
+            //     "imgSrc": "wen.jpg",
+            //     "email": "value"
+            // },
             // {
             //     "id": "",
             //     "name": "Jenthi",
@@ -162,20 +194,9 @@ var json = [
                 "description": "",
                 "imgSrc": "kevin.jpg",
                 "email": "value"
-            },
+            },            
             {
                 "id": "b4",
-                "name": "Airindira",
-                "fullName": "Airindira Siregar",
-                "designation": "GM Service management",
-                "company": "PGAS",
-                "linkedin": "https://www.linkedin.com/in/airindira-graciella-siregar-bb841125/",
-                "description": "",
-                "imgSrc": "airindira.jpg",
-                "email": "value"
-            },
-            {
-                "id": "b5",
                 "name": "Yulia Dwi",
                 "fullName": "Yulia Dwi Anggoro",
                 "designation": "Sr. Community Engagement",
@@ -212,8 +233,29 @@ var json = [
                 "description": "",
                 "imgSrc": "kalidas.jpg",
                 "email": "value"
+            },
+            {
+                "id": "v3",
+                "name": "Vu, Le Anh",
+                "fullName": "Vu, Le Anh",
+                "designation": "CIO",
+                "company": "CMC Cloud",
+                "linkedin": "https://www.linkedin.com/",
+                "description": "",
+                "imgSrc": "vu-le.jpg",
+                "email": "value"
             }
-            // ,
+            // {
+            //     "id": "v3"
+            //     "name": "Nguyễn Thịnh",
+            //     "fullName": "Nguyễn Thịnh",
+            //     "designation": "IT Director",
+            //     "company": "Yola",
+            //     "linkedin": "https://www.linkedin.com/in/thinh-nguyen-595b0430/",
+            //     "description": "",
+            //     "imgSrc": "nguyen.jpg",
+            //     "email": "value"
+            // },
             // {
             //     "id": "v3",
             //     "name": "Nguyễn Thịnh",

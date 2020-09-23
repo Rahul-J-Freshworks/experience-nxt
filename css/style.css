@@ -1008,7 +1008,9 @@ nav.navbar {
 
 /* Agenda start */
 
-
+.agenda-row {
+    font-size: 14px;
+}
 .agenda-row p {
     /* border: 1px #ccc solid; */
     margin: 0;
@@ -1019,23 +1021,31 @@ nav.navbar {
     color: #4d4d4d;
     position: relative;
 }
-
+span.agenda-type-label {
+    background-color: #3973E6;
+    padding: 2px 8px;
+    color: #fff;
+    border-radius: 10px;
+}
+span.agenda-type-label.break-label {
+    background-color: #b0b0b0;
+}
 .agenda-row .row {
-    padding: 10px;
-    box-shadow: 1px 1px 5px rgb(0 0 0 / 0.07);
-    background-color: #fff;
-    border-radius: 8px;
+    padding: 0;
     margin: 0;
     width: auto;
-    margin-bottom: 20px;
+    background-color: #fff;
+    /*box-shadow: 1px 1px 5px rgb(0 0 0 / 0.07);
+    border-radius: 8px;
+    margin-bottom: 20px;*/
 }
 
 .agenda-row .row:nth-child(odd) {
-    background-color: rgb(220 232 255 / 0.3);
+    background-color: rgb(221 225 233 / 30%);
 }
 
 .agenda-title {
-    background-color: #f1f1f1;
+    background-color: rgb(161 183 225 / 30%);
     font-weight: 600;
     color: #060606;
 
@@ -1082,6 +1092,11 @@ nav.navbar {
     font-size: 20px;
 }
 
+@media screen and (min-width:1200px) {
+    .speakersSlide .owl-nav {
+        margin-top: 50px;
+    }
+}
 @media screen and (max-width:1199px) {
     .ban-card-content {
         max-width: calc(60% - 10px);

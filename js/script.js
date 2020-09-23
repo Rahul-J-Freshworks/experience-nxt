@@ -332,7 +332,7 @@ $('#viewSpeakers').on('show.bs.modal', function (e) {
     // Do some stuff w/ it.
     //alert((JSON.stringify(array)))
 
-    console.log($('#speakerName').length);
+    //console.log($('#speakerName').length);
     $('#speakerName').html($(e.relatedTarget).attr('data-fullName'));
     $('#speakerDesignation').html($(e.relatedTarget).attr('data-designation') + "<br>" + $(e.relatedTarget).attr('data-company'));
     $('#speakerFollowName').html("Follow " + $(e.relatedTarget).attr('data-name'));

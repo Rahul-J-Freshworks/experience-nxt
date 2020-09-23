@@ -784,8 +784,8 @@ footer a:hover {
 }
 
 .banner-card2 .play-video .play-btn:hover {
-    opacity: 0.9;
     cursor: pointer;
+    background-color: #fa7e7e;
 }
 
 .banner-card2 .count-design {

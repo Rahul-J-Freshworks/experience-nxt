@@ -595,6 +595,8 @@
 		$(window).on('load', function () {
 			$('#English-tab, #English').addClass("show in active");
 			$('#Bahasa-tab, #Thai-tab, #Vietnamese-tab ').addClass("hide");
+		    var agreeText = '<div class="agree-text">By clicking on "SAVE YOUR SEAT" you agree to our <a target="_blank" href="https://www.freshworks.com/terms/">T & C</a> and <a target="_blank" href="https://www.freshworks.com/privacy/">privacy notice</a></div>';
+		    $(".fserv-form").parent().append(agreeText);
 		});
 	</script>
 </body>

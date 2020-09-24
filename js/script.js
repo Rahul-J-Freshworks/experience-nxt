@@ -404,7 +404,7 @@ var WebFormEvent = {
             };
         }(jQuery));
 
-
+        $('input[name="lead[custom_field][cf_source_referrer_url]"]').closest(".fserv-field").hide();
         $('input[name="lead[custom_field][cf_source_referrer_url]"]').val(window.location.href); 
         $(".formserv-tel-field input").attr("maxlength", "15");
         $(".formserv-tel-field input").attr("minlength", "6");

@@ -576,7 +576,7 @@ section .main-title-sm {
     width: 50%;
 }
 
-.book-seat-section .book-card-box .sec-right .fserv-container div {
+.book-seat-section .book-card-box .sec-right .fserv-container div:not(.agree-text) {
     margin: 0 !important;
 }
 
@@ -1091,7 +1091,14 @@ span.agenda-type-label.break-label {
 .thankyou-text {
     font-size: 20px;
 }
-
+.fserv-container div.agree-text {
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: center
+}
+.fserv-container div.agree-text a{
+    color:#3973e6;
+}
 @media screen and (min-width:1200px) {
     .speakersSlide .owl-nav {
         margin-top: 50px;

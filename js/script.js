@@ -404,6 +404,11 @@ var WebFormEvent = {
             };
         }(jQuery));
 
+        var agreeText = '<div class="agree-text">By clicking on "SAVE YOUR SEAT" you agree to our <a target="_blank" href="https://www.freshworks.com/terms/">T & C</a> and <a target="_blank" href="https://www.freshworks.com/privacy/">privacy notice</a></div>';
+        $(".fserv-form").parent().append(agreeText);
+        if($('input[name="lead[custom_field][cf_source_referrer_url]"]').length){
+            $('input[name="lead[custom_field][cf_source_referrer_url]"]').val(window.location.href); 
+        }
         $(".formserv-tel-field input").attr("maxlength", "15");
         $(".formserv-tel-field input").attr("minlength", "6");
         $(".formserv-tel-field input").inputFilter(function (value) {

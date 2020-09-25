@@ -49,6 +49,8 @@ $('a[href^="#"]:not([data-toggle="tab"])').on('click', function (e) {
 
 $(window).on('load', function () {
     $("body").removeClass("loading");
+    $('input[name="lead[custom_field][cf_source_referrer_url]"]').closest(".fserv-field").hide();
+	$('input[name="lead[custom_field][cf_source_referrer_url]"]').val(window.location.href);
 });
 
 

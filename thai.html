@@ -378,9 +378,6 @@
 				<img src="images/logos/logo4.png" />
 			</div>
 			<div class="logo-card">
-				<img src="images/logos/logo5.png" />
-			</div>
-			<div class="logo-card">
 				<img src="images/logos/logo6.png" />
 			</div>
 			<div class="logo-card">
@@ -448,7 +445,7 @@
 			<div class="agenda-row">
 
 				<div class="row p-0">
-					<p class="col-sm-3 agenda-title">เวลา (SGT) (GMT+8)</p>
+					<p class="col-sm-3 agenda-title">เวลา (SGT) (GMT+7)</p>
 					<p class="col-sm-3 agenda-title">ประเภทของงาน</p>
 					<p class="col-sm-6 agenda-title">หัวข้อ</p>
 				</div>
@@ -462,7 +459,7 @@
 				</div>
 
 				<div class="row">
-					<p class="col-sm-3 agenda-time"> 10:00 น. - 10:30 น.</p>
+					<p class="col-sm-3 agenda-time"> 09:30 น. - 10:00 น.</p>
 					<p class="col-sm-3 agenda-type"><span class="agenda-type-label">คำปราศรัยสำคัญ CX</span></p>
 					<p class="col-sm-6 agenda-topic"> CX การติดต่อสื่อสารกับลูกค้าหลากหลายช่องทาง
 						(Omnichannel) - อนาคตของโซลูชันการยึดลูกค้าเป็นศูนย์กลาง </p>
@@ -575,6 +572,8 @@
 		$(window).on('load', function () {
 			$('#Thai-tab, #Thai').addClass("show in active");
 			$('#Bahasa-tab, #English-tab, #Vietnamese-tab ').addClass("hide");
+			var agreeText = '<div class="agree-text">ด้วยการคลิกที่ "สำรองที่นั่ง" หรือสำรองที่นั่งของคุณ คุณยอมรับต่อ <a target="_blank" href="https://www.freshworks.com/terms/">ข้อกำหนดและเงื่อนไข</a> และ <a target="_blank" href="https://www.freshworks.com/privacy/">แจ้งให้ทราบความเป็นส่วนตัว</a></div>';
+		    $(".fserv-form").parent().append(agreeText);
 		});
 	</script>
 </body>

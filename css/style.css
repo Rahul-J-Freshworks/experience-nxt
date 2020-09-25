@@ -1328,10 +1328,14 @@ span.agenda-type-label.break-label {
     }
 
     .book-seat-section .book-card-box .sec-right .fserv-container form .fserv-button-submit {
-        width: 200px;
+        width: auto;
         margin: auto;
         display: block;
         height: 55px;
+    }
+    .partner-logo-section .main-title-md{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .nxt-exp-section {

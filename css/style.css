@@ -1099,6 +1099,14 @@ span.agenda-type-label.break-label {
 .fserv-container div.agree-text a{
     color:#3973e6;
 }
+/* Modal Fix start */
+.modal-backdrop.fade.in {
+    display: none;
+}
+body.home-page:not(.modal-open) {
+    padding-right: 0 !important;
+}
+/* Modal Fix end */
 @media screen and (min-width:1200px) {
     .speakersSlide .owl-nav {
         margin-top: 50px;
@@ -1233,7 +1241,9 @@ span.agenda-type-label.break-label {
     section .main-title-sm {
         margin-bottom: 50px;
     }
-
+    .view-speaker-modal .modal-speaker-img{
+        display: none;
+    }
     .speakers-section .view-btn {
         width: 220px;
         height: 55px;

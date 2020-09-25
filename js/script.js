@@ -382,7 +382,14 @@ $('#viewSpeakers').on('show.bs.modal', function (e) {
     $('#speakerFollowName').html("Follow " + $(e.relatedTarget).attr('data-name'));
     $('.modal-speaker-img').css('background-image', 'url("images/speakers/' + $(e.relatedTarget).attr('data-imgSrc') + '")');
     $('#speakerLinkedIn').attr('href', $(e.relatedTarget).attr('data-linkedin'));
+});
 
+$('#viewSpeakers').on('shown.bs.modal', function (e) {
+    $('.modal-backdrop.fade.in').remove();
+});
+
+$('#viewSpeakers').on('hidden.bs.modal', function (e) {
+    $('.home-page').removeAttr("style");
 });
 
 // Mobile number validation

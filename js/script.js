@@ -94,17 +94,6 @@ var json = [
             },
             {
                 "id": "e4",
-                "name": "Jaymes",
-                "fullName": "Jaymes Deok",
-                "designation": "Chief Digital Officer",
-                "company": "Infofabrica Consulting Pte Ltd",
-                "linkedin": "https://www.linkedin.com/in/fulin-deok-b0514455/",
-                "description": "Jaymes Deok is the Chief Digital Officer of InfoFabrica. He spearheads InfoFabrica’s digital transformation journey. After spending more than a decade in digital consultancy, Jaymes truly understands how digital transformation can help businesses achieve improved customer experience, employee experience and desired business outcomes. Jaymes worked with Infineon, Royal Sporting House, Singapore Petroleum Company and NAFDA to achieve improved customer experience, employee productivity and data accuracy. Jaymes had also worked with a broad spectrum of digital solutions like ERP solutions, accounting solutions, finance performance management solutions, finance budgeting & planning solutions, cloud contact centre solutions, omnichannel communication solutions, service desk ticketing solutions, project management solutions, task management solutions, sales management solutions, customer relationship management solutions, point-of-sales solutions, business intelligence solutions etc.",
-                "imgSrc": "jaymes.jpg",
-                "email": "value"
-            },
-            {
-                "id": "e5",
                 "name": "Wilson",
                 "fullName": "Wilson Lim",
                 "designation": "Business Operation Director",
@@ -115,7 +104,7 @@ var json = [
                 "email": "value"
             },
             {
-                "id": "e6",
+                "id": "e5",
                 "name": "Airindira",
                 "fullName": "Airindira Siregar",
                 "designation": "GM Service management",
@@ -126,7 +115,7 @@ var json = [
                 "email": "value"
             },
             {
-                "id": "e7",
+                "id": "e6",
                 "name": "Vaithi",
                 "fullName": "Vaithiyanathan R",
                 "designation": "Senior Vice President – Operations (Digital Business Solutions)",
@@ -135,16 +124,38 @@ var json = [
                 "description": "",
                 "imgSrc": "vaithiyanathan_r.jpg",
                 "email": "value"
+            },
+            {
+                "id": "e7",
+                "name": "Wen Chi Li",
+                "fullName": "Wen Chi Li",
+                "designation": "Director",
+                "company": "InfoFabrica",
+                "linkedin": "https://www.linkedin.com/in/wen-chi-li-a4210612/",
+                "description": "",
+                "imgSrc": "wen.jpg",
+                "email": "value"
+            },
+            {
+                "id": "e8",
+                "name": "Kevin",
+                "fullName": "Kevin Sugianto",
+                "designation": "Head of Commercial",
+                "company": "Kerry Express",
+                "linkedin": "https://www.linkedin.com/in/kevinsugianto/",
+                "description": "",
+                "imgSrc": "kevin.jpg",
+                "email": "value"
             }
             // {
-            //     "id": "e8",
-            //     "name": "Wen Chi Li",
-            //     "fullName": "Wen Chi Li",
-            //     "designation": "Director",
-            //     "company": "InfoFabrica",
-            //     "linkedin": "https://www.linkedin.com/in/wen-chi-li-a4210612/",
-            //     "description": "",
-            //     "imgSrc": "wen.jpg",
+            //     "id": "e4",
+            //     "name": "Jaymes",
+            //     "fullName": "Jaymes Deok",
+            //     "designation": "Chief Digital Officer",
+            //     "company": "Infofabrica Consulting Pte Ltd",
+            //     "linkedin": "https://www.linkedin.com/in/fulin-deok-b0514455/",
+            //     "description": "Jaymes Deok is the Chief Digital Officer of InfoFabrica. He spearheads InfoFabrica’s digital transformation journey. After spending more than a decade in digital consultancy, Jaymes truly understands how digital transformation can help businesses achieve improved customer experience, employee experience and desired business outcomes. Jaymes worked with Infineon, Royal Sporting House, Singapore Petroleum Company and NAFDA to achieve improved customer experience, employee productivity and data accuracy. Jaymes had also worked with a broad spectrum of digital solutions like ERP solutions, accounting solutions, finance performance management solutions, finance budgeting & planning solutions, cloud contact centre solutions, omnichannel communication solutions, service desk ticketing solutions, project management solutions, task management solutions, sales management solutions, customer relationship management solutions, point-of-sales solutions, business intelligence solutions etc.",
+            //     "imgSrc": "jaymes.jpg",
             //     "email": "value"
             // },
             // {
@@ -172,7 +183,7 @@ var json = [
                 "company": "Koinworks",
                 "linkedin": "https://www.linkedin.com/in/jonathan-bryan-a5615345/",
                 "description": "Jonathan Bryan as Chief Marketing Officer is responsible to plan and execute overall marketing ideas both online and offline.As an online business enthusiast, Jonathan takes parts in conducting marketing and campaign ideas to emphasize the existence of KoinWorks. Aside from planning marketing ideas, Jonathan is also in charge of product development as he analyzes various aspects from the marketing side to make it real. With his passion in digital marketing, he was regularly coaching at 1000 Startup training hundreds of future leaders.Prior to joining KoinWorks, this Mechatronics Engineering graduate of Swiss German University, had spent his time in JobsDB and CareerBuilder Indonesia",
-                "imgSrc": "wilson.jpg",
+                "imgSrc": "jonathan.jpg",
                 "email": "value"
             },
             {
@@ -196,18 +207,29 @@ var json = [
                 "description": "",
                 "imgSrc": "kevin.jpg",
                 "email": "value"
-            },            
+            }, 
             {
                 "id": "b4",
-                "name": "Yulia Dwi",
-                "fullName": "Yulia Dwi Anggoro",
-                "designation": "Sr. Community Engagement",
+                "name": "Yumir",
+                "fullName": "Yumir Syamsyah Lubis",
+                "designation": "Head of Marketing & communications",
                 "company": "Chilibeli",
-                "linkedin": "https://www.linkedin.com/in/yulia-dwi-anggoro/",
-                "description": "",
-                "imgSrc": "yulia.jpg",
+                "linkedin": "https://www.linkedin.com/in/yumir-lubis-36886030/",
+                "description": "Yumir started to broaden up the marketing horizon in planning integrated advertising and promotional campaigns that stimulate sales, build consumer loyalty and increase bottom-line profitability.Previously, as the Creative Director at U-Studio Unilever, he led and commissions the team in the creation of entertaining and useful content, leveraging on creative insights from U-Studio's global network. Ten years of working in the creative industry gave him experience in creating thematic and tactical campaigns in teams such as Ogilvy, Geometry Global, TBWA, and leading a Tokopedia in-house creative team.  Also, Yumir led Tokopedia's in-house as Creative Group Lead, improving products and services for its users by using content creation both in visual and audio communication approach, standing up the social media engagement, creating and maintaining creative quality, and setting on brand guidelines.In 2015-2016, Yumir was the Senior Copywriter at Ogilvy & Mather Indonesia, where he created thematic and tactical campaigns from some of the biggest FMCG brands from Unilever and Nestle. He also joined in Thinking Machine Asia as Creative Group Head that won notable accounts for Pertamina, Mayora, PEPSI, via.com, and PZ Cussons.",
+                "imgSrc": "yumir.jpg",
                 "email": "value"
-            }
+            }           
+            // {
+            //     "id": "b4",
+            //     "name": "Yulia Dwi",
+            //     "fullName": "Yulia Dwi Anggoro",
+            //     "designation": "Sr. Community Engagement",
+            //     "company": "Chilibeli",
+            //     "linkedin": "https://www.linkedin.com/in/yulia-dwi-anggoro/",
+            //     "description": "",
+            //     "imgSrc": "yulia.jpg",
+            //     "email": "value"
+            // }
 
         ]
     },

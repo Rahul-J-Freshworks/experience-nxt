@@ -303,17 +303,6 @@ var json = [
             //     "email": "value"
             // },
             // {
-            //     "id": "v5",
-            //     "name": "Vu, Le Anh",
-            //     "fullName": "Vu, Le Anh",
-            //     "designation": "CIO",
-            //     "company": "CMC Cloud",
-            //     "linkedin": "",
-            //     "description": "",
-            //     "imgSrc": "vule.jpg",
-            //     "email": "value"
-            // },
-            // {
             //     "id": "v6",
             //     "name": "Fulin Deok",
             //     "fullName": "Fulin Deok",

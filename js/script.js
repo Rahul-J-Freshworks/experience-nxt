@@ -116,17 +116,6 @@ var json = [
             },
             {
                 "id": "e6",
-                "name": "Vaithi",
-                "fullName": "Vaithiyanathan R",
-                "designation": "Senior Vice President – Operations (Digital Business Solutions)",
-                "company": "Allsec Technologies",
-                "linkedin": "https://www.linkedin.com/in/vaithiyanathan-vaithi-ramsuvamee-3479b71/",
-                "description": "",
-                "imgSrc": "vaithiyanathan_r.jpg",
-                "email": "value"
-            },
-            {
-                "id": "e7",
                 "name": "Wen Chi Li",
                 "fullName": "Wen Chi Li",
                 "designation": "Director",
@@ -137,7 +126,7 @@ var json = [
                 "email": "value"
             },
             {
-                "id": "e8",
+                "id": "e7",
                 "name": "Kevin",
                 "fullName": "Kevin Sugianto",
                 "designation": "Head of Commercial",

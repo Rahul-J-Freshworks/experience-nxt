@@ -107,8 +107,8 @@ var json = [
                 "id": "e5",
                 "name": "Airindira",
                 "fullName": "Airindira Siregar",
-                "designation": "GM Service management",
-                "company": "PGAS",
+                "designation": "ICT & ICS Service Management Division Head",
+                "company": "PGNCOM",
                 "linkedin": "https://www.linkedin.com/in/airindira-graciella-siregar-bb841125/",
                 "description": "",
                 "imgSrc": "airindira.jpg",
@@ -134,6 +134,72 @@ var json = [
                 "linkedin": "https://www.linkedin.com/in/kevinsugianto/",
                 "description": "",
                 "imgSrc": "kevin.jpg",
+                "email": "value"
+            },
+            {
+                "id": "e8",
+                "name": "Ashish",
+                "fullName": "Ashish Thukral",
+                "designation": "Managing Partner",
+                "company": "Mindshare",
+                "linkedin": "https://www.linkedin.com/in/ashish-thukral-2941053/",
+                "description": "",
+                "imgSrc": "ashish.jpg",
+                "email": "value"
+            },
+            {
+                "id": "e9",
+                "name": "Prasad",
+                "fullName": "Prasad Ramakrishnan",
+                "designation": "Chief Information Officer & Chief Information Security Officer",
+                "company": "Freshworks",
+                "linkedin": "https://www.linkedin.com/in/prasadramakrishnan/",
+                "description": "__",
+                "imgSrc": "prasad.jpg",
+                "email": "value"
+            },
+            {
+                "id": "e10",
+                "name": "Paddy Rathinam",
+                "fullName": "Paddy Rathinam",
+                "designation": "Chief Customer Officer",
+                "company": "Freshworks",
+                "linkedin": "https://www.linkedin.com/in/paddyrathinam/",
+                "description": "",
+                "imgSrc": "rathinam.jpg",
+                "email": "value"
+            },
+            {
+                "id": "e11",
+                "name": "Sidharth Malik",
+                "fullName": "Sidharth Malik",
+                "designation": "Chief Revenue Officer",
+                "company": "Freshworks",
+                "linkedin": "https://www.linkedin.com/in/sidharthmalik/",
+                "description": "",
+                "imgSrc": "sidharth.jpg",
+                "email": "value"
+            },
+            {
+                "id": "e12",
+                "name": "Anand Venkatraman",
+                "fullName": "Anand Venkatraman",
+                "designation": "Vice President & Global Partnerships Head",
+                "company": "Freshworks",
+                "linkedin": "https://www.linkedin.com/in/anandvenkat/",
+                "description": "",
+                "imgSrc": "anand.jpg",
+                "email": "value"
+            },
+            {
+                "id": "e13",
+                "name": "Ganesh Raj",
+                "fullName": "Ganesh Raj",
+                "designation": "Director-Strategic Alliances",
+                "company": "Freshworks",
+                "linkedin": "https://www.linkedin.com/in/ganesh-raj-823ab65/",
+                "description": "",
+                "imgSrc": "ganesh.jpg",
                 "email": "value"
             }
             // {
@@ -206,6 +272,17 @@ var json = [
                 "linkedin": "https://www.linkedin.com/in/yumir-lubis-36886030/",
                 "description": "Yumir started to broaden up the marketing horizon in planning integrated advertising and promotional campaigns that stimulate sales, build consumer loyalty and increase bottom-line profitability.Previously, as the Creative Director at U-Studio Unilever, he led and commissions the team in the creation of entertaining and useful content, leveraging on creative insights from U-Studio's global network. Ten years of working in the creative industry gave him experience in creating thematic and tactical campaigns in teams such as Ogilvy, Geometry Global, TBWA, and leading a Tokopedia in-house creative team.  Also, Yumir led Tokopedia's in-house as Creative Group Lead, improving products and services for its users by using content creation both in visual and audio communication approach, standing up the social media engagement, creating and maintaining creative quality, and setting on brand guidelines.In 2015-2016, Yumir was the Senior Copywriter at Ogilvy & Mather Indonesia, where he created thematic and tactical campaigns from some of the biggest FMCG brands from Unilever and Nestle. He also joined in Thinking Machine Asia as Creative Group Head that won notable accounts for Pertamina, Mayora, PEPSI, via.com, and PZ Cussons.",
                 "imgSrc": "yumir.jpg",
+                "email": "value"
+            }, 
+            {
+                "id": "b5",
+                "name": "Hery Liandro",
+                "fullName": "Hery Liandro",
+                "designation": "Business Development Director",
+                "company": "Weefer",
+                "linkedin": "https://www.linkedin.com/in/hery-liandro-520a0850/",
+                "description": "",
+                "imgSrc": "hery.jpg",
                 "email": "value"
             }           
             // {

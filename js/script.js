@@ -201,6 +201,17 @@ var json = [
                 "description": "",
                 "imgSrc": "ganesh.jpg",
                 "email": "value"
+            },
+            {
+                "id": "e14",
+                "name": "Colin",
+                "fullName": "Colin Blackwell",
+                "designation": "Chairman of HR Group",
+                "company": "Vietnam Business Forum",
+                "linkedin": "https://www.linkedin.com/in/colin-blackwell-70772030/",
+                "description": "Colin has been in Vietnam since 1995 and is the founder of the national HR Associations. His experience ranges from consulting for PwC, to global HR leadership roles, to now founding a tech startup social enterprise. He advises the Vietnam government on HR matters in his role with the World Bank's Vietnam Business Forum. He is a judge of the Vietnam HR Awards and a number of global startup competitions, including the United Nations Generation Unlimited and the Hult Prize. He is a keynote speaker around Asia on the future of work and how people can best adapt to technology transformation.",
+                "imgSrc": "colin.jpg",
+                "email": "value"
             }
             // {
             //     "id": "e4",
@@ -304,17 +315,6 @@ var json = [
         "speakers": [
             {
                 "id": "v1",
-                "name": "Colin",
-                "fullName": "Colin Blackwell",
-                "designation": "Chairman of HR Group",
-                "company": "Vietnam Business Forum",
-                "linkedin": "https://www.linkedin.com/in/colin-blackwell-70772030/",
-                "description": "Colin has been in Vietnam since 1995 and is the founder of the national HR Associations. His experience ranges from consulting for PwC, to global HR leadership roles, to now founding a tech startup social enterprise. He advises the Vietnam government on HR matters in his role with the World Bank's Vietnam Business Forum. He is a judge of the Vietnam HR Awards and a number of global startup competitions, including the United Nations Generation Unlimited and the Hult Prize. He is a keynote speaker around Asia on the future of work and how people can best adapt to technology transformation.",
-                "imgSrc": "colin.jpg",
-                "email": "value"
-            },
-            {
-                "id": "v2",
                 "name": "Kalidas Ghose",
                 "fullName": "Kalidas Ghose",
                 "designation": "CEO",
@@ -325,27 +325,71 @@ var json = [
                 "email": "value"
             },
             {
-                "id": "v3",
-                "name": "Vu, Le Anh",
-                "fullName": "Vu, Le Anh",
-                "designation": "CIO",
+                "id": "v2",
+                "name": "Vu Le Anh",
+                "fullName": "Vu Le Anh",
+                "designation": "Director of CMC Cloud Computing Unit",
                 "company": "CMC Cloud",
                 "linkedin": "https://www.linkedin.com/",
                 "description": "",
                 "imgSrc": "vu-le.jpg",
                 "email": "value"
+            },
+            {
+                "id": "v3",
+                "name": "Vy Nguyen",
+                "fullName": "Vy Nguyen",
+                "designation": "Country Manager",
+                "company": "Digi InfoFabrica",
+                "linkedin": "https://www.linkedin.com/in/vytnguyen171/",
+                "description": "",
+                "imgSrc": "vy.png",
+                "email": "value"
+            },
+            {
+                "id": "v4",
+                "name": "Trun Dung",
+                "fullName": "Trun Dung",
+                "designation": "Human Resources Director",
+                "company": "USG Boral Vietnam",
+                "linkedin": "https://www.linkedin.com/in/trungdh/",
+                "description": "",
+                "imgSrc": "trun.jpg",
+                "email": "value"
+            },
+            {
+                "id": "v5",
+                "name": "Thinh Nguyen",
+                "fullName": "Thinh Nguyen",
+                "designation": "Head Of Information Technology",
+                "company": "YOLA",
+                "linkedin": "https://www.linkedin.com/in/thinh-nguyen-595b0430/",
+                "description": "",
+                "imgSrc": "thinh.jpg",
+                "email": "value"
+            },
+            {
+                "id": "v6",
+                "name": "Peter Phuc Huynh",
+                "fullName": "Peter Phuc Huynh",
+                "designation": "Country Sales Director for Vietnam",
+                "company": "Resulticks",
+                "linkedin": "https://www.linkedin.com/in/hvphuc/",
+                "description": "",
+                "imgSrc": "peterphuchuynh.jpg",
+                "email": "value"
+            },
+            {
+                "id": "v7",
+                "name": "Le Hong Phuc",
+                "fullName": "Le Hong Phuc",
+                "designation": "Founder & President",
+                "company": "Vietnam Human Resources Association (VNHR)",
+                "linkedin": "https://www.linkedin.com/in/lehongphuc/",
+                "description": "",
+                "imgSrc": "lehongphuc.jpg",
+                "email": "value"
             }
-            // {
-            //     "id": "v3"
-            //     "name": "Nguyễn Thịnh",
-            //     "fullName": "Nguyễn Thịnh",
-            //     "designation": "IT Director",
-            //     "company": "Yola",
-            //     "linkedin": "https://www.linkedin.com/in/thinh-nguyen-595b0430/",
-            //     "description": "",
-            //     "imgSrc": "nguyen.jpg",
-            //     "email": "value"
-            // },
             // {
             //     "id": "v3",
             //     "name": "Nguyễn Thịnh",
@@ -405,6 +449,28 @@ var json = [
                 "description": "",
                 "imgSrc": "alex.jpg",
                 "email": "value"
+            },
+            {
+                "id": "t3",
+                "email": "value",
+                "name": "Thanaboon Mingkaew",
+                "fullName": "Thanaboon Mingkaew",
+                "designation": "CEO & Chairman",
+                "company": "SmartIoT Technology Co., Ltd.",
+                "linkedin": "https://www.linkedin.com/in/thanaboon-mingkaew-953b332b/",
+                "description": "",
+                "imgSrc": "thanaboon.jpg",
+                "email": "value"
+            },
+            {
+                "id": "t4",
+                "name": "Anthony Daño",
+                "fullName": "Anthony Daño",
+                "designation": "Head Of Business Development",
+                "company": "SmartIoT Technology Co., Ltd.",
+                "linkedin": "https://www.linkedin.com/in/anthony-da%C3%B1o-73314416b/",
+                "description": "",
+                "imgSrc": "anthony.jpg",
             }
         ]
     }

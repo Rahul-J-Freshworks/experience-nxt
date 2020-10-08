@@ -349,7 +349,7 @@ var json = [
             {
                 "id": "v4",
                 "name": "Trung Dung",
-                "fullName": "Trun Dung",
+                "fullName": "Trung Dung",
                 "designation": "Human Resources Director",
                 "company": "USG Boral Vietnam",
                 "linkedin": "https://www.linkedin.com/in/trungdh/",

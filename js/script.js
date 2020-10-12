@@ -107,7 +107,7 @@ var json = [
                 "id": "e5",
                 "name": "Airindira",
                 "fullName": "Airindira Siregar",
-                "designation": "ICT & ICS Service Management Division Head",
+                "designation": "Pjs. Division Head, ICT & ICS Service Management",
                 "company": "PGNCOM",
                 "linkedin": "https://www.linkedin.com/in/airindira-graciella-siregar-bb841125/",
                 "description": "",
@@ -428,17 +428,17 @@ var json = [
     {
         "language": "Thai",
         "speakers": [
-            {
-                "id": "t1",
-                "name": "Topp",
-                "fullName": "Topp Jirayut",
-                "designation": "CEO",
-                "company": "Bitkub",
-                "linkedin": "https://www.linkedin.com/in/toppjirayut/",
-                "description": "Colin has been in Vietnam since 1995 and is the founder of the national HR Associations. Hs experience ranges from consulting for PwC, to global HR leadership roles, to now founding a tech startup social enterprise. He advises the Vietnam government on HR matters in his role with the World Bank's Vietnam Business Forum. He is a judge of the Vietnam HR Awards and a number of global startup competitions, including the United Nations Generation Unlimited and the Hult Prize. He is a keynote speaker around Asia on the future of work and how people can best adapt to technology transformation.",
-                "imgSrc": "topp.jpg",
-                "email": "value"
-            },
+            // {
+            //     "id": "t1",
+            //     "name": "Topp",
+            //     "fullName": "Topp Jirayut",
+            //     "designation": "CEO",
+            //     "company": "Bitkub",
+            //     "linkedin": "https://www.linkedin.com/in/toppjirayut/",
+            //     "description": "Colin has been in Vietnam since 1995 and is the founder of the national HR Associations. Hs experience ranges from consulting for PwC, to global HR leadership roles, to now founding a tech startup social enterprise. He advises the Vietnam government on HR matters in his role with the World Bank's Vietnam Business Forum. He is a judge of the Vietnam HR Awards and a number of global startup competitions, including the United Nations Generation Unlimited and the Hult Prize. He is a keynote speaker around Asia on the future of work and how people can best adapt to technology transformation.",
+            //     "imgSrc": "topp.jpg",
+            //     "email": "value"
+            // },
             {
                 "id": "t2",
                 "name": "Alex",
@@ -463,7 +463,7 @@ var json = [
                 "email": "value"
             },
             {
-                "id": "t4",
+                "id": "t1",
                 "name": "Anthony Daño",
                 "fullName": "Anthony Daño",
                 "designation": "Head Of Business Development",

@@ -346,19 +346,19 @@ var json = [
                 "imgSrc": "vy.png",
                 "email": "value"
             },
+            // {
+            //     "id": "v4",
+            //     "name": "Trung Dung",
+            //     "fullName": "Trung Dung",
+            //     "designation": "Human Resources Director",
+            //     "company": "USG Boral Vietnam",
+            //     "linkedin": "https://www.linkedin.com/in/trungdh/",
+            //     "description": "",
+            //     "imgSrc": "trun.jpg",
+            //     "email": "value"
+            // },
             {
                 "id": "v4",
-                "name": "Trung Dung",
-                "fullName": "Trung Dung",
-                "designation": "Human Resources Director",
-                "company": "USG Boral Vietnam",
-                "linkedin": "https://www.linkedin.com/in/trungdh/",
-                "description": "",
-                "imgSrc": "trun.jpg",
-                "email": "value"
-            },
-            {
-                "id": "v5",
                 "name": "Thinh Nguyen",
                 "fullName": "Thinh Nguyen",
                 "designation": "Head Of Information Technology",
@@ -369,7 +369,7 @@ var json = [
                 "email": "value"
             },
             {
-                "id": "v6",
+                "id": "v5",
                 "name": "Peter Phuc Huynh",
                 "fullName": "Peter Phuc Huynh",
                 "designation": "Country Sales Director for Vietnam",
@@ -380,7 +380,7 @@ var json = [
                 "email": "value"
             },
             {
-                "id": "v7",
+                "id": "v5",
                 "name": "Le Hong Phuc",
                 "fullName": "Le Hong Phuc",
                 "designation": "Founder & President",

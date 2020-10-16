@@ -212,6 +212,17 @@ var json = [
                 "description": "Colin has been in Vietnam since 1995 and is the founder of the national HR Associations. His experience ranges from consulting for PwC, to global HR leadership roles, to now founding a tech startup social enterprise. He advises the Vietnam government on HR matters in his role with the World Bank's Vietnam Business Forum. He is a judge of the Vietnam HR Awards and a number of global startup competitions, including the United Nations Generation Unlimited and the Hult Prize. He is a keynote speaker around Asia on the future of work and how people can best adapt to technology transformation.",
                 "imgSrc": "colin.jpg",
                 "email": "value"
+            },
+            {
+                "id": "e15",
+                "name": "Vinod Chandramouli",
+                "fullName": "Vinod Chandramouli",
+                "designation": "Head of ASEAN Business",
+                "company": "Freshworks Inc.",
+                "linkedin": "https://www.linkedin.com/in/vinodchandramouli/",
+                "description": "",
+                "imgSrc": "vinod.jpg",
+                "email": "value"
             }
             // {
             //     "id": "e4",
@@ -295,7 +306,29 @@ var json = [
                 "description": "",
                 "imgSrc": "hery.jpg",
                 "email": "value"
-            }           
+            }, 
+            {
+                "id": "b6",
+                "name": "Daud Novel Leonardo",
+                "fullName": "Daud Novel Leonardo",
+                "designation": "General Manager",
+                "company": "Chilibeli",
+                "linkedin": "https://www.linkedin.com/in/daud-novel-leonardo-2a493463/",
+                "description": "",
+                "imgSrc": "daud.jpg",
+                "email": "value"
+            }, 
+            {
+                "id": "b7",
+                "name": "Aliya Amitra Tjakraamidjaja",
+                "fullName": "Aliya Amitra Tjakraamidjaja",
+                "designation": "COO",
+                "company": "Tinkerlust",
+                "linkedin": "https://www.linkedin.com/in/aliya-amitra-tjakraamidjaja-a4ab43a3/",
+                "description": "",
+                "imgSrc": "aliya.jpg",
+                "email": "value"
+            }                       
             // {
             //     "id": "b4",
             //     "name": "Yulia Dwi",

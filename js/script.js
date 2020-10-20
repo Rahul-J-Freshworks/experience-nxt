@@ -504,7 +504,18 @@ var json = [
                 "linkedin": "https://www.linkedin.com/in/anthony-da%C3%B1o-73314416b/",
                 "description": "",
                 "imgSrc": "anthony.jpg",
+            },
+            {
+                "id": "t4",
+                "name": "Jitti Niramitranon",
+                "fullName": "Jitti Niramitranon",
+                "designation": "Deputy Director (Office of Educational Administration)",
+                "company": "Kasetsart University",
+                "linkedin": "https://www.linkedin.com/in/jitti-niramitranon-2363211b9/",
+                "description": "",
+                "imgSrc": "jitti.jpg",
             }
+            
         ]
     }
 ];

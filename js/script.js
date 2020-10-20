@@ -514,6 +514,16 @@ var json = [
                 "linkedin": "https://www.linkedin.com/in/jitti-niramitranon-2363211b9/",
                 "description": "",
                 "imgSrc": "jitti.jpg",
+            },
+            {
+                "id": "t5",
+                "name": "Pansak Plumkoson",
+                "fullName": "Pansak Plumkoson",
+                "designation": "Head of Sales",
+                "company": "Cloudee Telecom",
+                "linkedin": "https://www.linkedin.com/in/pansak-plumkoson-bab59a126/",
+                "description": "",
+                "imgSrc": "pansak.jpg",
             }
             
         ]

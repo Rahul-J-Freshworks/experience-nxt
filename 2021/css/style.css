@@ -2378,7 +2378,7 @@ h2 {
     width: 100%;
 }
 
-.customer-videos-btn .video-img {
+.customer-videos-btn .video-img img {
     z-index: 9;
     position: relative;
 }

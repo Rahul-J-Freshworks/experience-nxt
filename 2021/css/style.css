@@ -1048,6 +1048,7 @@ body>section,
 nav.navbar {
     max-width: 2000px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .loading .banner-card {
@@ -1264,9 +1265,17 @@ body.home-page:not(.modal-open) {
         margin-bottom: 15px;
     }
 
+    .nxt-freshwork .nxt-list li {
+        width: 100%;
+    }
+
+    .private-policy-btn {
+        font-size: 12px;
+    }
+
+    .book-seat-section .book-card-box .sec-right .fserv-container form .fserv-button-submit,
     .save-seat-btn {
         height: 40px;
-        width: 160px;
         font-size: 12px;
     }
 
@@ -1622,7 +1631,7 @@ section .main-title-sm {
 
 .default-section.nxt-btn {
     position: relative;
-    margin: 0;
+    margin: auto;
 }
 
 .default-section.nxt-btn:after {
@@ -1646,12 +1655,13 @@ section .main-title-sm {
 section {
     padding-top: 120px;
     padding-bottom: 120px;
-    margin: 0;
+    margin: auto;
 }
 
 .banner-section1 {
     padding-top: 0;
     padding-bottom: 0;
+    margin: auto;
 }
 
 .banner-card.row img {
@@ -1773,6 +1783,7 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
+    overflow: hidden;
 }
 
 .card-customer-btn h2 {
@@ -1807,6 +1818,8 @@ section {
     letter-spacing: 0px;
     color: #141462;
     text-transform: capitalize;
+    z-index: 9;
+    position: relative;
 }
 
 .highlights-box {
@@ -2344,6 +2357,7 @@ span.agenda-type-label {
 
 section.default-section.nxt-freshwork {
     background: #141462;
+    margin: auto;
 }
 
 section.default-section.nxt-freshwork img {
@@ -2388,6 +2402,8 @@ h2 {
     margin: auto;
     display: block;
     width: 100%;
+    padding: 70px 0;
+    position: relative;
 }
 
 .customer-videos-btn .video-img img {
@@ -2407,14 +2423,14 @@ h2 {
 
 .customer-videos-btn .video-img::before {
     background-image: url(../images/video-before.svg);
-    bottom: calc(100% - 62px);
-    right: calc(100% - 125px);
+    bottom: calc(100% - 132px);
+    right: calc(100% - 61px);
 }
 
 .customer-videos-btn .video-img::after {
     background-image: url(../images/video-after.svg);
-    top: calc(100% - 62px);
-    left: calc(100% - 125px);
+    top: calc(100% - 132px);
+    left: calc(100% - 61px);
 }
 
 .customer-videos-btn .inner-icon-img {
@@ -2499,6 +2515,10 @@ h2 {
 
 .nxt-freshwork .nxt-list li:nth-child(4):after {
     background: #EE5A24;
+}
+
+button.navbar-toggler {
+    top: 20px;
 }
 
 /*	
@@ -2626,7 +2646,7 @@ h2 {
 
     .highlights-section h2,
     .whats-new-section h2 {
-        margin-bottom: 0px;
+        margin-bottom: 40px;
         font-size: 30px;
     }
 
@@ -2806,6 +2826,30 @@ h2 {
 
     .agenda-section .main-title-md {
         margin-bottom: 10px;
+    }
+
+    .book-seat-section .book-card-box .sec-right .fserv-container form .fserv-button-submit {
+        height: 40px;
+        font-size: 12px !important;
+        font-family: 'Sailec-Regular';
+        font-family: 'Sailec-Regular';
+        font-weight: unset;
+    }
+
+    .customer-videos-btn .inner-icon-img {
+        margin: auto;
+    }
+
+    .customer-videos-btn .card-customer-btn [class*="col-"] {
+        text-align: center;
+    }
+
+    .customer-videos-btn .card-customer-btn .row:before {
+        left: 33%;
+    }
+
+    .customer-videos-btn .card-customer-btn .row:after {
+        left: 66%;
     }
 }
 

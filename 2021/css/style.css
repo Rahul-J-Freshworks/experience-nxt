@@ -2378,6 +2378,11 @@ h2 {
     width: 100%;
 }
 
+.customer-videos-btn .video-img {
+    z-index: 9;
+    position: relative;
+}
+
 .customer-videos-btn .video-img::before,
 .customer-videos-btn .video-img::after {
     content: "";
@@ -2385,17 +2390,19 @@ h2 {
     width: 126px;
     background-size: contain;
     position: absolute;
-    display: none;
+    z-index: 0;
 }
 
 .customer-videos-btn .video-img::before {
     background-image: url(../images/video-before.svg);
-    bottom: calc(100% - 60px);
+    bottom: calc(100% - 62px);
     right: calc(100% - 125px);
 }
 
 .customer-videos-btn .video-img::after {
     background-image: url(../images/video-after.svg);
+    top: calc(100% - 62px);
+    left: calc(100% - 125px);
 }
 
 .customer-videos-btn .inner-icon-img {

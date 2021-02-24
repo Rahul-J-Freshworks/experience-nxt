@@ -149,7 +149,7 @@ nav .navbar-nav li.active a {
     flex: 0 50%;
     width: 50%; */
     height: 100%;
-    padding-left: 70px;
+    padding-left: 40px;
     transform: perspective(10px);
 }
 
@@ -484,7 +484,7 @@ section .main-title-sm {
 /* Partner logo section */
 
 .partner-logo-section {
-    background-color: #eef3ff;
+    background-color: #ffffff;
 }
 
 .partner-logo-section,
@@ -686,7 +686,7 @@ input:focus {
 /* End */
 
 .nxt-exp-section {
-    background-color: #ffffff;
+    background-color: #F9F9FE;
     padding: 100px 64px;
 }
 
@@ -1565,7 +1565,6 @@ nav.navbar {
     line-height: 1.33;
     letter-spacing: 0px;
     color: #141462;
-    text-transform: capitalize;
     width: 100%;
     margin-bottom: 16px;
 }
@@ -1668,7 +1667,6 @@ section {
 .registation-card-content .title-txt {
     font-size: 40px;
     line-height: 58px;
-    font-weight: bold;
     letter-spacing: 0px;
     color: #141462;
     margin-bottom: 24px;
@@ -1753,7 +1751,7 @@ section {
 
 .nxt-form-btn {
     position: relative;
-    background: #f9f9fe 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
 }
 
 .nxt-form-btn:before {
@@ -1812,13 +1810,15 @@ section {
 }
 
 .highlights-box {
-    max-width: 300px;
-    margin: 0 auto;
+    width: 300px;
+    max-width: 100%;
+    margin: 10px auto;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 32px #14146214;
     border-radius: 16px;
-    padding: 50px 30px;
+    padding: 70px 30px 30px 30px;
     position: relative;
+    z-index: 9;
 }
 
 .highlights-box h3 {
@@ -1844,24 +1844,26 @@ section {
     top: 20px;
 }
 
-.highlights-wrap .round-shape:before {
+.highlights-wrap .round-shape.top:before,
+.highlights-wrap .round-shape.bottom:before {
     content: "";
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 188px;
+    height: 188px;
     position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .highlights-wrap .round-shape.top:before {
-    right: -10px;
-    top: -50px;
-    background-color: #0952E2;
+    left: -32px;
+    bottom: -105px;
+    background-image: url(../images/highlight-shape1.svg);
 }
 
 .highlights-wrap .round-shape.bottom:before {
-    left: -10px;
-    bottom: -50px;
-    background-color: #FFBB00;
+    right: -45px;
+    top: -130px;
+    background-image: url(../images/highlight-shape2.svg);
 }
 
 .highlights-wrap .col-12:nth-child(1) .highlights-box:before {
@@ -2107,11 +2109,12 @@ section {
 }
 
 .nxt-exp-section .card-content-button-btn {
-    background-color: #f9f9fe;
+    background-color: #FFFFFF;
     display: flex;
     padding: 25px;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 3px 32px #14146214;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -2258,8 +2261,9 @@ footer {
 .language-indicate-date {
     background: #e5eeff;
     border-radius: 8px;
-    padding: 10px 15px;
+    padding: 16px 24px;
     display: inline-block;
+    font-family: 'Sailec-Medium';
     text-align: center;
     color: #2B71FC;
     font-size: 14px;
@@ -2358,12 +2362,20 @@ section.default-section.nxt-freshwork .main-title-sm {
     position: relative;
     color: white;
     font-size: 16px;
-    padding-left: 18px;
+    padding-left: 38px;
+    list-style: none;
 }
 
 .nxt-freshwork .nxt-list li {
     padding: 16px 0;
     position: relative;
+    width: 300px;
+    max-width: 100%;
+    border-bottom: 1px rgb(255 255 255 / 30%) dashed;
+}
+
+.nxt-freshwork .nxt-list li:last-child {
+    border-bottom: none;
 }
 
 h2 {
@@ -2452,19 +2464,42 @@ h2 {
     text-align: left;
 }
 
-/* .nxt-freshwork .nxt-list li::before{
-   
-        content: "";
-        height: 12px;
-        width: 12px;
-        border-radius: 50%;
-        background: white;
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translate(10px, 10px);
-   
-} */
+.nxt-freshwork .nxt-list::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 41px;
+    bottom: 41px;
+    border-right: 1px rgb(255 255 255 / 50%) dashed;
+}
+
+.nxt-freshwork .nxt-list li::after {
+    content: "";
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    right: calc(100% + 31px);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nxt-freshwork .nxt-list li:nth-child(1):after {
+    background: #0952E2;
+}
+
+.nxt-freshwork .nxt-list li:nth-child(2):after {
+    background: #FFBB00;
+}
+
+.nxt-freshwork .nxt-list li:nth-child(3):after {
+    background: #00FFCB;
+}
+
+.nxt-freshwork .nxt-list li:nth-child(4):after {
+    background: #EE5A24;
+}
 
 /*	
 1250 */

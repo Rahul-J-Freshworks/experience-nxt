@@ -1611,7 +1611,6 @@ nav.navbar {
 section .main-title-md {
     font-size: 40px;
     line-height: 58px;
-    font-weight: bold;
     letter-spacing: 0px;
     color: #141462;
     margin-bottom: 32px;
@@ -1923,7 +1922,7 @@ section {
 }
 
 .speakers .speaker-content {
-    padding: 28px 24px;
+    padding: 28px 24px 10px 24px;
 }
 
 .speaker1:before,
@@ -2085,7 +2084,6 @@ section {
 
 .nxt-exp-section .inner-card .card-content h4 {
     font-size: 24px;
-    font-weight: bold;
     line-height: 32px;
     color: #fff;
     margin-bottom: 10px;
@@ -2096,7 +2094,7 @@ section {
     width: 100%;
 }
 
-.nxt-exp-section .inner-card .card-content a {
+.nxt-exp-section .inner-card .card-content p {
     background-color: transparent;
     position: relative;
     letter-spacing: 0.22px;
@@ -2107,7 +2105,7 @@ section {
     height: auto;
 }
 
-.nxt-exp-section .inner-card .card-content a:before {
+.nxt-exp-section .inner-card .card-content p:before {
     content: "";
     position: absolute;
     background-image: url(../images/calendar.svg);
@@ -2308,6 +2306,11 @@ section.default-section.nxt-freshwork .main-title-sm {
     position: relative;
 }
 
+h2 {
+    font-family: 'Sailec-Bold';
+    font-weight: unset !important;
+}
+
 /* .nxt-freshwork .nxt-list li::before{
    
         content: "";
@@ -2463,10 +2466,6 @@ section.default-section.nxt-freshwork .main-title-sm {
         margin: 30px 0px;
     }
 
-    .speakers .speaker-content {
-        left: 50%;
-        margin-left: -103px;
-    }
 
     .speaker-btn:last-child .speaker1 {
         margin-bottom: 0px;
@@ -2642,12 +2641,6 @@ section.default-section.nxt-freshwork .main-title-sm {
         line-height: 1.31;
     }
 
-    .speakers .speaker-content {
-        margin-left: -90px;
-        max-width: 100%;
-        width: 100%;
-    }
-
     .speaker1 a,
     .speaker2 a {
         height: 35px;
@@ -2665,18 +2658,6 @@ section.default-section.nxt-freshwork .main-title-sm {
         max-width: 100%;
     }
 
-    .speakers .speaker-content {
-        left: 0%;
-        margin-left: 0;
-    }
-}
-
-@media screen and (max-width: 455px) {
-    .speakers .speaker-content {
-        margin-left: 0px;
-        max-width: 100%;
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 425px) {

@@ -213,6 +213,13 @@ nav .navbar-nav li.active a {
     text-decoration: unset;
 }
 
+p.save-seat-btn,
+p.save-seat-btn:hover {
+    background-color: transparent;
+    background-color: transparent;
+    color: #2b71fc;
+}
+
 section {
     padding: 75px 0;
 }
@@ -1169,358 +1176,6 @@ body.home-page:not(.modal-open) {
     padding-right: 0 !important;
 }
 
-/* Modal Fix end */
-@media screen and (min-width:1200px) {
-    .speakersSlide .owl-nav {
-        margin-top: 50px;
-    }
-}
-
-@media screen and (max-width:1199px) {
-    /* .ban-card-content {
-        max-width: calc(60% - 10px);
-        flex: 0 70%;
-        width: 70%;
-        padding-left: 70px;
-    } */
-}
-
-@media screen and (max-width:991px) {
-    .title-date {
-        margin-bottom: 8px;
-    }
-
-    .title-txt br:first-child {
-        display: none;
-    }
-
-    .title-txt span:after {
-        border-right: 5px #7F58D7 solid;
-        height: 15px;
-        border-bottom: 5px #7F58D7 solid;
-        width: 15px;
-        bottom: 8px;
-        left: calc(100% + 15px);
-    }
-
-    .title-txt {
-        font-size: 28px;
-        margin-bottom: 20px;
-    }
-
-    .content-txt {
-        margin-bottom: 25px;
-        font-size: 14px;
-    }
-
-    .ban-card-content {
-        padding-left: 40px;
-    }
-
-    .save-seat-btn {
-        height: 50px;
-        width: 185px;
-    }
-
-    footer .footer-nav {
-        flex-direction: column;
-        text-align: left;
-        align-items: flex-start !important;
-        margin-bottom: 32px;
-    }
-
-    footer .footer-nav a {
-        margin-bottom: 16px;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .view-speaker-modal .content-area {
-        min-width: 400px;
-    }
-}
-
-@media screen and (max-width:767px) {
-    .mt-xd-2 {
-        margin-top: 2em;
-    }
-
-    /* .ban-card-content {
-        max-width: calc(80% - 10px);
-        flex: 0 80%;
-        width: 80%;
-    } */
-
-    .banner-card::before {
-        width: 60%;
-        opacity: 0.3;
-    }
-
-    .title-txt br:first-child {
-        display: none;
-    }
-
-    .title-txt,
-    .content-txt {
-        margin-bottom: 15px;
-    }
-
-    .nxt-freshwork .nxt-list li {
-        width: 100%;
-    }
-
-    .private-policy-btn {
-        font-size: 12px;
-    }
-
-    .book-seat-section .book-card-box .sec-right .fserv-container form .fserv-button-submit,
-    .save-seat-btn {
-        height: 40px;
-        font-size: 12px;
-    }
-
-}
-
-@media screen and (max-width: 575px) {
-    .fc .fc-toolbar.fc-header-toolbar {
-        flex-wrap: wrap;
-        text-align: center
-    }
-
-    .fc-toolbar-chunk {
-        flex: 1 1 100%;
-        margin-bottom: 10px
-    }
-
-    nav.navbar {
-        box-shadow: 0px 2px 9px rgba(0, 0, 0, 25%);
-    }
-
-    nav.navbar {
-        padding: 8px 16px;
-    }
-
-    .mw-400 {
-        max-width: 300px;
-    }
-
-    section .main-title-md {
-        font-size: 32px;
-        line-height: 1.2;
-        margin-bottom: 20px;
-    }
-
-    section .main-title-sm {
-        margin-bottom: 50px;
-    }
-
-    .view-speaker-modal .modal-speaker-img {
-        display: none;
-    }
-
-    .speakers-section .view-btn {
-        width: 220px;
-        height: 55px;
-        font-size: 14px;
-    }
-
-    .partner-logo-section,
-    .agenda-section {
-        padding: 70px 0;
-    }
-
-    /* .ban-card-content {
-        max-width: calc(100% - 10px);
-        flex: 0 100%;
-        width: 100%;
-    } */
-
-    .banner-card2 .left-side {
-        padding: 30px 32px;
-    }
-
-    .benifits-section .inner-card .card-content h4 {
-        font-size: 20px;
-    }
-
-    .banner-card2 .play-video {
-        padding-right: 32px;
-        padding-left: 32px;
-        padding-top: 32px;
-        padding-bottom: 32px;
-    }
-
-    .banner-card2 .count-design p {
-        font-size: 32px;
-        margin-right: 32px;
-        margin-top: 22px;
-    }
-
-    .banner-card2 .count-design span {
-        font-size: 14px;
-    }
-
-    .book-seat-section,
-    .banner-section1,
-    .banner-section2,
-    .benifits-section,
-    .default-section {
-        padding: 0 16px;
-        margin: 16px;
-        margin-bottom: 80px;
-    }
-
-    .banner-section1,
-    .banner-section2,
-    .benifits-section {
-        padding: 0;
-    }
-
-    .banner-card-wrap,
-    .banner-card2,
-    .benifits-section .inner-card {
-        border-radius: 16px;
-    }
-
-    .benifits-section .inner-card .img-area {
-        border-radius: 16px 16px 0 0;
-    }
-
-    .partner-logo-section .owl-nav button,
-    .agenda-section .owl-nav button {
-        width: 50px;
-        height: 50px;
-        border-radius: 12px !important;
-    }
-
-    .partner-logos button.owl-next,
-    .partner-logos button.owl-prev {
-        margin: 0 15px;
-    }
-
-    .book-seat-section .book-card-box .sec-left {
-        padding: 32px 32px;
-    }
-
-    .book-seat-section .book-card-box .sec-right .fserv-container {
-        padding: 16px 0;
-    }
-
-    .book-seat-section .book-card-box .sec-right .fserv-container form .fserv-field+div:not(.fserv-field) {
-        width: 100%;
-        padding: 0;
-    }
-
-    .book-seat-section .book-card-box .sec-right .fserv-container form .fserv-button-submit {
-        width: auto;
-        margin: auto;
-        display: block;
-        height: 55px;
-    }
-
-    .partner-logo-section .main-title-md {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .nxt-exp-section {
-        padding: 50px 16px;
-    }
-
-    .nxt-exp-section .inner-card {
-        border-radius: 16px;
-    }
-
-    .nxt-exp-section .main-title-md {
-        margin-bottom: 32px;
-    }
-
-    .nxt-exp-section .inner-card h4 {
-        font-size: 28px;
-    }
-
-    footer .footer-nav {
-        flex-direction: column;
-        text-align: left;
-        align-items: flex-start !important;
-        margin-bottom: 32px;
-    }
-
-    footer .footer-nav a {
-        margin-bottom: 16px;
-    }
-
-    .nxt-exp-section .inner-card {
-        padding: 40px 20px;
-    }
-
-    .book-seat-section .book-card-box .sec-right .fserv-container .fserv-form .fserv-field {
-        flex: 0 100%;
-        max-width: 100%;
-        width: 100%;
-        margin-bottom: 32px !important;
-    }
-
-    .speaker1::before,
-    .speaker2::before,
-    .speaker1::after,
-    .speaker2::after {
-        height: 40px;
-        width: 40px;
-    }
-
-    .speaker1::before,
-    .speaker2::before {
-        left: -5.5px;
-        bottom: 10px;
-    }
-
-    .speaker1::after,
-    .speaker2::after {
-        right: -5.5px;
-        top: 10px;
-    }
-
-    .speaker1 a,
-    .speaker2 a {
-        height: 40px;
-        width: 40px;
-        font-size: 20px;
-    }
-
-    /* Agenda start */
-    .agenda-row .agenda-title {
-        display: none;
-    }
-
-    .agenda-row .agenda-time,
-    .agenda-row .agenda-type {
-        border-bottom: none;
-    }
-
-    .agenda-row .agenda-time::before,
-    .agenda-row .agenda-type::before,
-    .agenda-row .agenda-topic::before {
-        color: #060606;
-        font-weight: 600;
-        font-size: 13px;
-    }
-
-    .agenda-row .agenda-time::before {
-        content: "Time : ";
-    }
-
-    .agenda-row .agenda-type::before {
-        content: "Type : ";
-    }
-
-    .agenda-row .agenda-topic::before {
-        content: "Session : ";
-    }
-
-    /* Agenda end */
-}
-
 /* Style-2 start */
 nav.navbar {
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -1595,11 +1250,11 @@ nav.navbar {
 .owl-theme .owl-dots .owl-dot.active span {
     width: 10px;
     height: 24px;
-    background-color: #141462;
+    background-color: #ffbb00;
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background-color: #141462;
+    background-color: #ffbb00;
 }
 
 .banner-card::before {
@@ -1662,6 +1317,7 @@ section {
     padding-top: 0;
     padding-bottom: 0;
     margin: auto;
+    background: #141462;
 }
 
 .banner-card.row img {
@@ -2132,8 +1788,10 @@ section {
     border-bottom-right-radius: 20px;
 }
 
-.nxt-exp-section .card-content-button-btn a {
+.nxt-exp-section .card-content-button-btn a,
+.nxt-exp-section .card-content-button-btn p {
     height: 50px;
+    margin: 0;
 }
 
 .nxt-exp-section .card-inside-details {
@@ -2356,7 +2014,8 @@ span.agenda-type-label {
 /* Agenda style end */
 
 section.default-section.nxt-freshwork {
-    background: #141462;
+    /* background: #141462; */
+    padding-top: 0;
     margin: auto;
 }
 
@@ -2364,17 +2023,17 @@ section.default-section.nxt-freshwork img {
     max-width: 100%;
 }
 
-section.default-section.nxt-freshwork .main-title-md {
+/* section.default-section.nxt-freshwork .main-title-md {
     color: white;
 }
 
 section.default-section.nxt-freshwork .main-title-sm {
     color: #E9F1FF;
-}
+} */
 
 .nxt-freshwork .nxt-list {
     position: relative;
-    color: white;
+    /* color: white; */
     font-size: 16px;
     padding-left: 38px;
     list-style: none;
@@ -2385,7 +2044,7 @@ section.default-section.nxt-freshwork .main-title-sm {
     position: relative;
     width: 300px;
     max-width: 100%;
-    border-bottom: 1px rgb(255 255 255 / 30%) dashed;
+    border-bottom: 1px rgba(20 20 98 / 50%) dashed;
 }
 
 .nxt-freshwork .nxt-list li:last-child {
@@ -2486,7 +2145,7 @@ h2 {
     left: 0;
     top: 41px;
     bottom: 41px;
-    border-right: 1px rgb(255 255 255 / 50%) dashed;
+    border-right: 1px rgba(20 20 98 / 50%) dashed;
 }
 
 .nxt-freshwork .nxt-list li::after {
@@ -2521,80 +2180,72 @@ button.navbar-toggler {
     top: 20px;
 }
 
-/*	
-1250 */
-@media screen and (max-width: 1250px) {
-    .title-txt {
-        font-size: 50px;
+.ban-card-content .title-txt {
+    color: white;
+}
+
+.ban-card-content .content-txt {
+    color: #bcd3ff;
+}
+
+section.whats-new-section {
+    background-color: #f9f9fe;
+}
+
+/* Modal Fix end */
+@media screen and (min-width:1200px) {
+    .speakersSlide .owl-nav {
+        margin-top: 50px;
     }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width:991px) {
+    .title-date {
+        margin-bottom: 8px;
+    }
+
+    .title-txt br:first-child {
+        display: none;
+    }
+
+    .title-txt span:after {
+        border-right: 5px #7F58D7 solid;
+        height: 15px;
+        border-bottom: 5px #7F58D7 solid;
+        width: 15px;
+        bottom: 8px;
+        left: calc(100% + 15px);
+    }
+
     .title-txt {
-        font-size: 36px;
-        line-height: 65px;
-    }
-
-    .book-seat-section,
-    .banner-section1,
-    .banner-section2,
-    .benifits-section,
-    .default-section,
-    section {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
-
-    /* .ban-card-content {
-        max-width: calc(50% - 10px);
-        flex: 0 50%;
-        width: 50%;
-    } */
-
-    .default-section.nxt-btn:after {
-        background-size: 440px;
-        width: 440px;
-    }
-
-    section .main-title-md {
+        font-size: 28px;
         margin-bottom: 20px;
     }
 
-    .card-customer-btn p {
-        margin-bottom: 40px;
+    .content-txt {
+        margin-bottom: 25px;
+        font-size: 14px;
     }
 
-    .partner-logos .item {
-        border-right: 1px solid#d6d6d6;
-        height: 100%;
-        width: 100%;
-        display: block;
-        max-width: 100%;
+    .ban-card-content {
+        padding-left: 40px;
     }
 
-    .partner-logos .logo-card:first-child:before {
-        width: 160%;
-        height: 2px;
-        left: -45px;
-        border-top: 1px solid #d6d6d6;
+    .save-seat-btn {
+        height: 50px;
+        width: 185px;
     }
 
-    .partner-logo-section .partner-logos:before {
-        width: 10px;
+    footer .footer-nav {
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start !important;
+        margin-bottom: 32px;
     }
 
-    .nxt-exp-section .row .col {
-        margin-bottom: 40px;
+    footer .footer-nav a {
+        margin-bottom: 16px;
     }
-}
-
-@media screen and (max-width: 1037px) {
-    .banner-card::before {
-        right: 0;
-    }
-}
-
-@media screen and (max-width: 991px) {
 
     .book-seat-section,
     .banner-section1,
@@ -2722,7 +2373,50 @@ button.navbar-toggler {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width:768px) {
+    .view-speaker-modal .content-area {
+        min-width: 400px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .mt-xd-2 {
+        margin-top: 2em;
+    }
+
+    /* .ban-card-content {
+        max-width: calc(80% - 10px);
+        flex: 0 80%;
+        width: 80%;
+    } */
+
+    .banner-card::before {
+        width: 60%;
+        opacity: 0.3;
+    }
+
+    .title-txt br:first-child {
+        display: none;
+    }
+
+    .title-txt,
+    .content-txt {
+        margin-bottom: 15px;
+    }
+
+    .nxt-freshwork .nxt-list li {
+        width: 100%;
+    }
+
+    .private-policy-btn {
+        font-size: 12px;
+    }
+
+    .book-seat-section .book-card-box .sec-right .fserv-container form .fserv-button-submit,
+    .save-seat-btn {
+        height: 40px;
+        font-size: 12px;
+    }
 
     .book-seat-section,
     .banner-section1,
@@ -2852,6 +2546,318 @@ button.navbar-toggler {
         left: 66%;
     }
 }
+
+@media screen and (max-width: 575px) {
+    .fc .fc-toolbar.fc-header-toolbar {
+        flex-wrap: wrap;
+        text-align: center
+    }
+
+    .fc-toolbar-chunk {
+        flex: 1 1 100%;
+        margin-bottom: 10px
+    }
+
+    nav.navbar {
+        box-shadow: 0px 2px 9px rgba(0, 0, 0, 25%);
+    }
+
+    nav.navbar {
+        padding: 8px 16px;
+    }
+
+    .mw-400 {
+        max-width: 300px;
+    }
+
+    section .main-title-md {
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    section .main-title-sm {
+        margin-bottom: 50px;
+    }
+
+    .view-speaker-modal .modal-speaker-img {
+        display: none;
+    }
+
+    .speakers-section .view-btn {
+        width: 220px;
+        height: 55px;
+        font-size: 14px;
+    }
+
+    .partner-logo-section,
+    .agenda-section {
+        padding: 70px 0;
+    }
+
+    /* .ban-card-content {
+        max-width: calc(100% - 10px);
+        flex: 0 100%;
+        width: 100%;
+    } */
+
+    .banner-card2 .left-side {
+        padding: 30px 32px;
+    }
+
+    .benifits-section .inner-card .card-content h4 {
+        font-size: 20px;
+    }
+
+    .banner-card2 .play-video {
+        padding-right: 32px;
+        padding-left: 32px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .banner-card2 .count-design p {
+        font-size: 32px;
+        margin-right: 32px;
+        margin-top: 22px;
+    }
+
+    .banner-card2 .count-design span {
+        font-size: 14px;
+    }
+
+    .book-seat-section,
+    .banner-section1,
+    .banner-section2,
+    .benifits-section,
+    .default-section {
+        padding: 0 16px;
+        margin: 16px;
+        margin-bottom: 80px;
+    }
+
+    .banner-section1,
+    .banner-section2,
+    .benifits-section {
+        padding: 0;
+    }
+
+    .banner-card-wrap,
+    .banner-card2,
+    .benifits-section .inner-card {
+        border-radius: 16px;
+    }
+
+    .benifits-section .inner-card .img-area {
+        border-radius: 16px 16px 0 0;
+    }
+
+    .partner-logo-section .owl-nav button,
+    .agenda-section .owl-nav button {
+        width: 50px;
+        height: 50px;
+        border-radius: 12px !important;
+    }
+
+    .partner-logos button.owl-next,
+    .partner-logos button.owl-prev {
+        margin: 0 15px;
+    }
+
+    .book-seat-section .book-card-box .sec-left {
+        padding: 32px 32px;
+    }
+
+    .book-seat-section .book-card-box .sec-right .fserv-container {
+        padding: 16px 0;
+    }
+
+    .book-seat-section .book-card-box .sec-right .fserv-container form .fserv-field+div:not(.fserv-field) {
+        width: 100%;
+        padding: 0;
+    }
+
+    .book-seat-section .book-card-box .sec-right .fserv-container form .fserv-button-submit {
+        width: auto;
+        margin: auto;
+        display: block;
+        height: 55px;
+    }
+
+    .partner-logo-section .main-title-md {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .nxt-exp-section {
+        padding: 50px 16px;
+    }
+
+    .nxt-exp-section .inner-card {
+        border-radius: 16px;
+    }
+
+    .nxt-exp-section .main-title-md {
+        margin-bottom: 32px;
+    }
+
+    .nxt-exp-section .inner-card h4 {
+        font-size: 28px;
+    }
+
+    footer .footer-nav {
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start !important;
+        margin-bottom: 32px;
+    }
+
+    footer .footer-nav a {
+        margin-bottom: 16px;
+    }
+
+    .nxt-exp-section .inner-card {
+        padding: 40px 20px;
+    }
+
+    .book-seat-section .book-card-box .sec-right .fserv-container .fserv-form .fserv-field {
+        flex: 0 100%;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 32px !important;
+    }
+
+    .speaker1::before,
+    .speaker2::before,
+    .speaker1::after,
+    .speaker2::after {
+        height: 40px;
+        width: 40px;
+    }
+
+    .speaker1::before,
+    .speaker2::before {
+        left: -5.5px;
+        bottom: 10px;
+    }
+
+    .speaker1::after,
+    .speaker2::after {
+        right: -5.5px;
+        top: 10px;
+    }
+
+    .speaker1 a,
+    .speaker2 a {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+    }
+
+    /* Agenda start */
+    .agenda-row .agenda-title {
+        display: none;
+    }
+
+    .agenda-row .agenda-time,
+    .agenda-row .agenda-type {
+        border-bottom: none;
+    }
+
+    .agenda-row .agenda-time::before,
+    .agenda-row .agenda-type::before,
+    .agenda-row .agenda-topic::before {
+        color: #060606;
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .agenda-row .agenda-time::before {
+        content: "Time : ";
+    }
+
+    .agenda-row .agenda-type::before {
+        content: "Type : ";
+    }
+
+    .agenda-row .agenda-topic::before {
+        content: "Session : ";
+    }
+
+    /* Agenda end */
+}
+
+@media screen and (max-width: 1250px) {
+    .title-txt {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .title-txt {
+        font-size: 36px;
+        line-height: 65px;
+    }
+
+    .book-seat-section,
+    .banner-section1,
+    .banner-section2,
+    .benifits-section,
+    .default-section,
+    section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    /* .ban-card-content {
+        max-width: calc(50% - 10px);
+        flex: 0 50%;
+        width: 50%;
+    } */
+
+    .default-section.nxt-btn:after {
+        background-size: 440px;
+        width: 440px;
+    }
+
+    section .main-title-md {
+        margin-bottom: 20px;
+    }
+
+    .card-customer-btn p {
+        margin-bottom: 40px;
+    }
+
+    .partner-logos .item {
+        border-right: 1px solid#d6d6d6;
+        height: 100%;
+        width: 100%;
+        display: block;
+        max-width: 100%;
+    }
+
+    .partner-logos .logo-card:first-child:before {
+        width: 160%;
+        height: 2px;
+        left: -45px;
+        border-top: 1px solid #d6d6d6;
+    }
+
+    .partner-logo-section .partner-logos:before {
+        width: 10px;
+    }
+
+    .nxt-exp-section .row .col {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 1037px) {
+    .banner-card::before {
+        right: 0;
+    }
+}
+
 
 @media screen and (max-width: 600px) {
     .ban-card-content {

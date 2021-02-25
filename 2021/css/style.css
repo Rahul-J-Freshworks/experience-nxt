@@ -1079,7 +1079,7 @@ nav.navbar {
     border-block-start-style: none;
     border-right-style: none;
     color: #4d4d4d;
-    line-height: 1.6;
+    line-height: 1.8;
     position: relative;
 }
 
@@ -1987,7 +1987,7 @@ span.agenda-type-label {
 }
 
 .agenda-row .agenda-event:not(:first-child) {
-    border-top: 1px #ccc dashed;
+    border-top: 1px #141562 dashed;
     padding-top: 20px;
 }
 
@@ -2034,6 +2034,11 @@ span.agenda-type-label {
 .agenda-row p.agenda-type {
     padding-top: 0;
     padding-bottom: 0;
+}
+
+.agenda-row .agenda-type:not(:first-child) {
+    border-top: 1px #ccc dashed;
+    margin-top: 10px;
 }
 
 
@@ -2575,21 +2580,22 @@ section.whats-new-section {
 
     /* .agenda-event .agenda-topic:not(.agenda-speaker) {
         padding-top: 2px;
-    } */
-
-    .agenda-row .agenda-event:not(:first-child) {
-        border: none;
+    }
+    */
+    .agenda-row .agenda-time:before {
+        content: "Time: ";
+        display: inline-block;
+        font-size: 24px;
+        font-family: 'Sailec-Medium';
+        font-weight: unset;
+        padding-right: 10px;
     }
 
-    .agenda-row .agenda-event:not(:first-child)::after {
-        content: "";
-        height: 1px;
-        position: absolute;
-        /* background: linear-gradient(45deg, #ccc, transparent); */
-        top: 0;
-        border-top: 1px #ccc dashed;
-        width: 60%;
+    .agenda-row .agenda-time {
+        font-size: 25px;
+        font-family: 'Sailec-Medium';
     }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -2800,24 +2806,6 @@ section.whats-new-section {
     }
 
     /* Agenda start */
-
-    .agenda-row .agenda-time,
-    .agenda-row .agenda-type {
-        border-bottom: none;
-    }
-
-    .agenda-row .agenda-time::before,
-    .agenda-row .agenda-type::before,
-    .agenda-row .agenda-topic::before {
-        color: #060606;
-        font-weight: 600;
-        font-size: 13px;
-        display: none;
-    }
-
-    .agenda-row .agenda-time::before {
-        content: "Time : ";
-    }
 
     /* .agenda-row .agenda-type::before {
         content: "Type : ";

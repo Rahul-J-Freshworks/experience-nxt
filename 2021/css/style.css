@@ -2003,8 +2003,11 @@ span.agenda-type-label {
 }
 
 .agenda-row .row:not(.p-0) {
-    border-bottom: 1px #e1e1e1 dashed;
     padding: 10px 0;
+}
+
+.agenda-row .row:not(:last-child) {
+    border-bottom: 1px #e1e1e1 dashed;
 }
 
 .agenda-row .row:not(.p-0) .row:not(.p-0) {

@@ -917,16 +917,12 @@ footer a:hover {
     margin-left: -12px;
 }
 
-
-
-
-
 /*  */
 /* .book-seat-section .book-card-box .sec-right .fserv-container .powered-by add important for the display none --- */
 
 .owl-dots {
     position: absolute;
-    left: 0;
+    left: -10px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -1301,7 +1297,7 @@ section .main-title-sm {
 }
 
 .default-section.nxt-btn>.container {
-    z-index: 9999;
+    z-index: 9;
     position: relative;
 }
 

@@ -504,7 +504,7 @@ for (var i = 0; i < json.length; i++) {
 
     a += '<li class="nav-item"><a class= "nav-link" id = "' + json[i].language + '-tab" data-toggle="tab" href = "#' + json[i].language + '" role = "tab" aria-controls="' + json[i].language + '" aria-selected="true"> ' + json[i].language + '</a> </li>';
 
-    b += '<div class="tab-pane fade active in" id="' + json[i].language + '" role="tabpanel" aria-labelledby="' + json[i].language + '-tab" ></div>';
+    b += '<div class="tab-pane fade show active in" id="' + json[i].language + '" role="tabpanel" aria-labelledby="' + json[i].language + '-tab" ></div>';
 
     $('#' + json[i].language).html(c);
 }

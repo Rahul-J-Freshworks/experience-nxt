@@ -139,7 +139,7 @@ var json = [
             {
                 "id": "e8",
                 "name": "Allian",
-                "fullName": "Allian Marie Sheila (Dela Cruz) Garcia",
+                "fullName": "Allian Marie Sheila Garcia",
                 "designation": "Business Process Innovations Consultant",
                 "company": "Philippine Seven Corporation",
                 "linkedin": "",

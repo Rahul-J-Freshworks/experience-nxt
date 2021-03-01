@@ -3087,6 +3087,12 @@ section.whats-new-section {
     }
 }
 
+@media screen and (min-width:992px) {
+    .banner-card {
+        padding: 100px 0;
+    }
+}
+
 .banner-section1 {
     padding-left: 0;
     padding-top: 0;

@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     $(".banner-card-wrap").owlCarousel({
         items: 1,
-        autoplay: true,
+        autoplay: false,
         loop: true,
     });
     $(".speakersSlide").owlCarousel({

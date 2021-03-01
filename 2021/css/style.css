@@ -108,7 +108,7 @@ nav .navbar-nav li.active a {
 }
 
 .banner-card {
-    padding: 40px 0;
+    /* padding: 40px 0; */
     position: relative;
     z-index: 99;
 }
@@ -1228,7 +1228,7 @@ nav.navbar {
 }
 
 .title-date {
-    color: #141462;
+    color: #ffffff;
     letter-spacing: 3.36px;
     letter-spacing: 3px;
     font-size: 14px;
@@ -1320,8 +1320,8 @@ section {
 }
 
 .banner-card.row img {
-    width: 100%;
-    max-width: 546px;
+    width: calc(100% - 10px);
+    /* max-width: 546px; */
     margin: auto;
 }
 
@@ -2055,7 +2055,7 @@ span.agenda-type-label {
 /* Agenda style end */
 
 section.default-section.nxt-freshwork {
-    /* background: #141462; */
+    background: #f9f9fe;
     padding-top: 0;
     margin: auto;
 }
@@ -2301,7 +2301,6 @@ section.whats-new-section {
 
     .save-seat-btn {
         height: 50px;
-        width: 185px;
     }
 
     footer .footer-nav {
@@ -2503,7 +2502,7 @@ section.whats-new-section {
     }
 
     .ban-card-content {
-        max-width: calc(100% - 10px);
+        max-width: 100%;
         flex: 0 100%;
         width: 100%;
         padding: 0 15px;
@@ -2630,6 +2629,26 @@ section.whats-new-section {
     .agenda-row .agenda-time {
         font-size: 25px;
         font-family: 'Sailec-Medium';
+    }
+
+    .banner-card .ban-card-content {
+        z-index: 99;
+    }
+
+    .banner-card .col-md-6:last-child {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        opacity: 0.2;
+        height: 250px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .banner-card .col-md-6:last-child img {
+        object-fit: contain;
+        height: 100%;
     }
 
 }
@@ -2848,6 +2867,10 @@ section.whats-new-section {
     } */
 
     /* Agenda end */
+    .banner-section1 {
+        margin: 0;
+        padding: 16px;
+    }
 }
 
 @media screen and (max-width: 1250px) {
@@ -3003,3 +3026,10 @@ section.whats-new-section {
         margin-bottom: 50px;
     }
 }
+
+/* .banner-section1,
+.banner-card-wrap .banner-card {
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+} */

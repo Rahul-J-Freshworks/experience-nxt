@@ -108,8 +108,10 @@ nav .navbar-nav li.active a {
 }
 
 .banner-card {
-    /* padding: 40px 0; */
+    padding: 40px 0;
     position: relative;
+    margin-right: 0;
+    margin-left: 0;
     z-index: 99;
 }
 
@@ -1320,7 +1322,7 @@ section {
 }
 
 .banner-card.row img {
-    width: calc(100% - 10px);
+    width: 100%;
     /* max-width: 546px; */
     margin: auto;
 }
@@ -2259,11 +2261,66 @@ section.whats-new-section {
     background-color: #f9f9fe;
 }
 
+/* .banner-grp3.banner-card {
+    background-image: url(../images/banner-grp3.png);
+} */
+.banner-card img {
+    display: none !important;
+}
+
+.banner-card.banner-img1-2021::before,
+.banner-card.banner-img2-2021::before,
+.banner-card.banner-img3-2021::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    background-size: contain;
+    background-position-x: right;
+    right: 0;
+    left: unset;
+}
+
+.banner-card.banner-img1-2021::before {
+    background-image: url(../images/banner-grp1.png);
+}
+
+.banner-card.banner-img2-2021::before {
+    background-image: url(../images/banner-grp2.png);
+}
+
+.banner-card.banner-img3-2021::before {
+    width: 100%;
+    background-image: url(../images/banner-grp3.png);
+    background-size: cover;
+    left: 0;
+}
+
+.owl-dots {
+    left: 64px;
+}
+
+.banner-section1 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.ban-card-content {
+    padding-left: 0;
+}
 
 /* Modal Fix end */
 @media screen and (min-width:1200px) {
     .speakersSlide .owl-nav {
         margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:1320px) {
+    .owl-dots {
+        left: 8px;
     }
 }
 
@@ -2295,8 +2352,12 @@ section.whats-new-section {
         font-size: 14px;
     }
 
+    /* 
     .ban-card-content {
         padding-left: 40px;
+    } */
+    .owl-dots {
+        left: 8px;
     }
 
     .save-seat-btn {
@@ -2327,7 +2388,7 @@ section.whats-new-section {
     }
 
     .banner-card-wrap .banner-card {
-        padding: 7px 0;
+        padding: 25px 0;
     }
 
     .default-section.nxt-btn:after {
@@ -2526,7 +2587,7 @@ section.whats-new-section {
     }
 
     .banner-card-wrap .banner-card {
-        max-width: 540px;
+        max-width: 100%;
         margin: 0 auto;
     }
 
@@ -2944,7 +3005,6 @@ section.whats-new-section {
     }
 }
 
-
 @media screen and (max-width: 600px) {
     .ban-card-content {
         margin-left: 15px;
@@ -3027,9 +3087,9 @@ section.whats-new-section {
     }
 }
 
-/* .banner-section1,
-.banner-card-wrap .banner-card {
-    padding-right: 0;
+.banner-section1 {
+    padding-left: 0;
     padding-top: 0;
+    padding-right: 0;
     padding-bottom: 0;
-} */
+}

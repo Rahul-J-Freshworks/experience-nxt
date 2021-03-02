@@ -198,7 +198,7 @@ nav .navbar-nav li.active a {
 .save-seat-btn {
     height: 48px;
     max-width: 230px;
-    padding: 15px 35px;
+    padding: 15px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1832,11 +1832,12 @@ section {
     background-color: transparent;
     position: relative;
     letter-spacing: 0.22px;
-    color: #dbdbdb;
+    color: #ffffff;
     font-size: 14px;
     line-height: 28px;
     padding: 0;
     height: auto;
+    margin-bottom: 0;
 }
 
 .nxt-exp-section .inner-card .card-content p:before {

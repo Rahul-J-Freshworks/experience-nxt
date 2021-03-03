@@ -2312,6 +2312,10 @@ section.whats-new-section {
     padding-left: 0;
 }
 
+body.page-loading .banner-section1 .banner-card:not(:first-child) {
+    display: none;
+}
+
 /* Modal Fix end */
 @media screen and (min-width:1200px) {
     .speakersSlide .owl-nav {

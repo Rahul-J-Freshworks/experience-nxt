@@ -3,8 +3,9 @@ $(document).ready(function () {
     $(".banner-card-wrap").owlCarousel({
         items: 1,
         autoplay: true,
-        loop: true,
+        loop: true
     });
+
     $(".speakersSlide").owlCarousel({
         items: 1,
         nav: false,
@@ -51,6 +52,7 @@ $(window).on('load', function () {
     $("body").removeClass("loading");
     $('input[name="lead[custom_field][cf_source_referrer_url]"]').closest(".fserv-field").hide();
     $('input[name="lead[custom_field][cf_source_referrer_url]"]').val(window.location.href);
+    $("body").removeClass("page-loading");
 });
 
 
@@ -145,6 +147,116 @@ var json = [
                 "linkedin": "",
                 "description": "",
                 "imgSrc": "allian-marie.png",
+                "email": ""
+            },
+            {
+                "id": "e9",
+                "name": "Raymond",
+                "fullName": "Raymond Devadass",
+                "designation": "Founder & CEO",
+                "company": "Daythree",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "raymond-devadass.png",
+                "email": ""
+            },
+            {
+                "id": "e10",
+                "name": "Stanley",
+                "fullName": "Stanley Chan",
+                "designation": "Head of Technology Partners, Asia Pacific ",
+                "company": "Amazon Web Services",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "stanley-chan.png",
+                "email": ""
+            },
+            {
+                "id": "e11",
+                "name": "Sutantijo",
+                "fullName": "Cliff Ricardo Sutantijo",
+                "designation": "VP of Growth & Marketing",
+                "company": "Qoala",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "cliff-ricardo.png",
+                "email": ""
+            },
+            {
+                "id": "e12",
+                "name": "Maneesha",
+                "fullName": "Maneesha Bhusal",
+                "designation": "Director, Head of Customer Experience & Customer Service",
+                "company": "JD.ID",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "maneesha-bhusal.png",
+                "email": ""
+            },
+            {
+                "id": "e13",
+                "name": "Swaminathan",
+                "fullName": "Swaminathan Raghunathan",
+                "designation": "Retrieving data. Wait a few seconds and try to cut or copy again.",
+                "company": "Freshworks",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "swaminathan-raghunathan.png",
+                "email": ""
+            },
+            {
+                "id": "e14",
+                "name": "Chintu",
+                "fullName": "Chintu Bousally",
+                "designation": "Regional Sales Head, Singapore ",
+                "company": "Freshworks",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "chintu-bousally.png",
+                "email": ""
+            },
+            {
+                "id": "e15",
+                "name": "Kaushik",
+                "fullName": "Kaushik Sekar",
+                "designation": "Regional Sales Head, Phillipines ",
+                "company": "Freshworks",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "kaushik-sekar.png",
+                "email": ""
+            },
+            {
+                "id": "e16",
+                "name": "Sandeep",
+                "fullName": "Sandeep John",
+                "designation": "Head of Field Marketing, ASEAN",
+                "company": "Freshworks",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "sandeep-john.png",
+                "email": ""
+            },
+            // {
+            //     "id": "e17",
+            //     "name": "Andrew",
+            //     "fullName": "Andrew Nawin",
+            //     "designation": "Director, Customer Support",
+            //     "company": "Freshworks",
+            //     "linkedin": "",
+            //     "description": "",
+            //     "imgSrc": "andrew-nawin.png",
+            //     "email": ""
+            // },
+            {
+                "id": "e18",
+                "name": "Ricky",
+                "fullName": "Ricky S. Natapradja",
+                "designation": "Sr. VP – Head of Strategic Sales Management",
+                "company": "PT Sompo Insurance Indonesia",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "ricky-natapradja.png",
                 "email": ""
             }
         ]

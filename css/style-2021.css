@@ -2316,6 +2316,15 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
     display: none;
 }
 
+.speakers .speaker-company {
+    color: #0b48ff;
+    font-family: 'Sailec-Medium';
+}
+
+/* .speakers p:not(.speaker-company) {
+    font-size: 13px;
+} */
+
 /* Modal Fix end */
 @media screen and (min-width:1200px) {
     .speakersSlide .owl-nav {

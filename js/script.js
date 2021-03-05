@@ -84,50 +84,6 @@ var json = [
                 "email": ""
             },
             {
-                "id": "e3",
-                "name": "Arun",
-                "fullName": "Arun Pattabhiraman",
-                "designation": "Chief Growth Officer",
-                "company": "Freshworks",
-                "linkedin": "",
-                "description": "",
-                "imgSrc": "arun-pattabhiraman.png",
-                "email": ""
-            },
-            {
-                "id": "e4",
-                "name": "Vinod",
-                "fullName": "Vinod Chandramouli",
-                "designation": "Head of ASEAN Business",
-                "company": "Freshworks",
-                "linkedin": "",
-                "description": "",
-                "imgSrc": "vinod-chandramouli.png",
-                "email": ""
-            },
-            {
-                "id": "e5",
-                "name": "Vishal",
-                "fullName": "Vishal Chopra",
-                "designation": "Head of Field Marketing ROW",
-                "company": "Freshworks",
-                "linkedin": "",
-                "description": "",
-                "imgSrc": "vishal-chopra.png",
-                "email": ""
-            },
-            {
-                "id": "e6",
-                "name": "Ganesh",
-                "fullName": "Ganesh Raj",
-                "designation": "Director Strategic Alliances",
-                "company": "Freshworks",
-                "linkedin": "",
-                "description": "",
-                "imgSrc": "ganesh-raj.png",
-                "email": ""
-            },
-            {
                 "id": "e7",
                 "name": "Charles",
                 "fullName": "Charles Manuel",
@@ -194,10 +150,65 @@ var json = [
                 "email": ""
             },
             {
+                "id": "e18",
+                "name": "Ricky",
+                "fullName": "Ricky S. Natapradja",
+                "designation": "Sr. VP – Head of Strategic Sales Management",
+                "company": "PT Sompo Insurance Indonesia",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "ricky-natapradja.png",
+                "email": ""
+            },
+            {
+                "id": "e3",
+                "name": "Arun",
+                "fullName": "Arun Pattabhiraman",
+                "designation": "Chief Growth Officer",
+                "company": "Freshworks",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "arun-pattabhiraman.png",
+                "email": ""
+            },
+            {
+                "id": "e4",
+                "name": "Vinod",
+                "fullName": "Vinod Chandramouli",
+                "designation": "Head of ASEAN Business",
+                "company": "Freshworks",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "vinod-chandramouli.png",
+                "email": ""
+            },
+            {
+                "id": "e5",
+                "name": "Vishal",
+                "fullName": "Vishal Chopra",
+                "designation": "Head of Field Marketing APAC & MEA",
+                "company": "Freshworks",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "vishal-chopra.png",
+                "email": ""
+            },
+            {
+                "id": "e6",
+                "name": "Ganesh",
+                "fullName": "Ganesh Raj",
+                "designation": "Director Strategic Alliances",
+                "company": "Freshworks",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "ganesh-raj.png",
+                "email": ""
+            },
+            {
                 "id": "e13",
                 "name": "Swaminathan",
                 "fullName": "Swaminathan Raghunathan",
-                "designation": "Retrieving data. Wait a few seconds and try to cut or copy again.",
+                "designation": "Head of Solution Engineering",
                 "company": "Freshworks",
                 "linkedin": "",
                 "description": "",
@@ -237,26 +248,15 @@ var json = [
                 "imgSrc": "sandeep-john.png",
                 "email": ""
             },
-            // {
-            //     "id": "e17",
-            //     "name": "Andrew",
-            //     "fullName": "Andrew Nawin",
-            //     "designation": "Director, Customer Support",
-            //     "company": "Freshworks",
-            //     "linkedin": "",
-            //     "description": "",
-            //     "imgSrc": "andrew-nawin.png",
-            //     "email": ""
-            // },
             {
-                "id": "e18",
-                "name": "Ricky",
-                "fullName": "Ricky S. Natapradja",
-                "designation": "Sr. VP – Head of Strategic Sales Management",
-                "company": "PT Sompo Insurance Indonesia",
+                "id": "e17",
+                "name": "Andrew",
+                "fullName": "Andrew Nawin",
+                "designation": "Director, Customer Support",
+                "company": "Freshworks",
                 "linkedin": "",
                 "description": "",
-                "imgSrc": "ricky-natapradja.png",
+                "imgSrc": "andrew-nawin.png",
                 "email": ""
             }
         ]
@@ -553,7 +553,7 @@ for (var i = 0; i < json.length; i++) {
 
     for (var j = 0; j < json[i].speakers.length; j++) {
 
-        c += '<div class="col-xl-3 col-md-4 col-6"><div class="speakers"><div class="speaker1"><div class="speaker-content"><h4>' + json[i].speakers[j].fullName + '</h4><p>' + json[i].speakers[j].designation + '<br>' + json[i].speakers[j].company + '</p> </div>  <img class="speakersImg" src="images/speakers/' + json[i].speakers[j].imgSrc + '" /><a data-toggle="modal"'
+        c += '<div class="col-xl-3 col-md-4 col-6"><div class="speakers"><div class="speaker1"><div class="speaker-content"><h4>' + json[i].speakers[j].fullName + '</h4><p>' + json[i].speakers[j].designation + '</p><p class="speaker-company">' + json[i].speakers[j].company + '</p> </div>  <img class="speakersImg" src="images/speakers/' + json[i].speakers[j].imgSrc + '" /><a data-toggle="modal"'
         c += 'data-fullName=' + JSON.stringify(json[i].speakers[j].fullName) + ''
         c += 'data-name=' + JSON.stringify(json[i].speakers[j].name) + ''
         c += 'data-designation=' + JSON.stringify(json[i].speakers[j].designation) + ''

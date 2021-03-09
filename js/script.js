@@ -84,6 +84,39 @@ var json = [
                 "email": ""
             },
             {
+                "id": "e3",
+                "name": "Arun",
+                "fullName": "Arun Pattabhiraman",
+                "designation": "Chief Growth Officer",
+                "company": "Freshworks",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "arun-pattabhiraman.png",
+                "email": ""
+            },
+            {
+                "id": "e4",
+                "name": "Vinod",
+                "fullName": "Vinod Chandramouli",
+                "designation": "Head of ASEAN Business",
+                "company": "Freshworks",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "vinod-chandramouli.png",
+                "email": ""
+            },
+            {
+                "id": "e5",
+                "name": "Vishal",
+                "fullName": "Vishal Chopra",
+                "designation": "Head of Field Marketing APAC & MEA",
+                "company": "Freshworks",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "vishal-chopra.png",
+                "email": ""
+            },
+            {
                 "id": "e7",
                 "name": "Charles",
                 "fullName": "Charles Manuel",
@@ -153,7 +186,7 @@ var json = [
                 "id": "e18",
                 "name": "Ricky",
                 "fullName": "Ricky S. Natapradja",
-                "designation": "Sr. VP – Head of Strategic Sales Management",
+                "designation": "Dep. Chief Sales Officer - Local Sales & Distribution",
                 "company": "PT Sompo Insurance Indonesia",
                 "linkedin": "",
                 "description": "",
@@ -161,36 +194,14 @@ var json = [
                 "email": ""
             },
             {
-                "id": "e3",
-                "name": "Arun",
-                "fullName": "Arun Pattabhiraman",
-                "designation": "Chief Growth Officer",
-                "company": "Freshworks",
+                "id": "e19",
+                "name": "Jeane",
+                "fullName": "Jeane Carolina",
+                "designation": "Customer Service Manager",
+                "company": "Peduli Sehat",
                 "linkedin": "",
                 "description": "",
-                "imgSrc": "arun-pattabhiraman.png",
-                "email": ""
-            },
-            {
-                "id": "e4",
-                "name": "Vinod",
-                "fullName": "Vinod Chandramouli",
-                "designation": "Head of ASEAN Business",
-                "company": "Freshworks",
-                "linkedin": "",
-                "description": "",
-                "imgSrc": "vinod-chandramouli.png",
-                "email": ""
-            },
-            {
-                "id": "e5",
-                "name": "Vishal",
-                "fullName": "Vishal Chopra",
-                "designation": "Head of Field Marketing APAC & MEA",
-                "company": "Freshworks",
-                "linkedin": "",
-                "description": "",
-                "imgSrc": "vishal-chopra.png",
+                "imgSrc": "jeane-carolina.png",
                 "email": ""
             },
             {

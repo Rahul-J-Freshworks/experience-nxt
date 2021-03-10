@@ -205,6 +205,16 @@ var json = [
                 "email": ""
             },
             {
+                "id": "e20",
+                "name": "Puspa",
+                "fullName": "Puspa Maslim",
+                "designation": "Chief of Happiness Resources",
+                "company": "Alterra",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "puspa-maslim.png",
+                "email": ""
+            }, {
                 "id": "e6",
                 "name": "Ganesh",
                 "fullName": "Ganesh Raj",

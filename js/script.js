@@ -214,7 +214,19 @@ var json = [
                 "description": "",
                 "imgSrc": "puspa-maslim.png",
                 "email": ""
-            }, {
+            },
+            {
+                "id": "e21",
+                "name": "Mike",
+                "fullName": "Mike Villar",
+                "designation": "CEO",
+                "company": "Growth Rocket",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "mike-villar.png",
+                "email": ""
+            },
+            {
                 "id": "e6",
                 "name": "Ganesh",
                 "fullName": "Ganesh Raj",

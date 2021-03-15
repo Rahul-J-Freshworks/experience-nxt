@@ -61,17 +61,17 @@ var json = [
     {
         "language": "English",
         "speakers": [
-            {
-                "id": "e1",
-                "name": "Anand",
-                "fullName": "Anand Venkatraman",
-                "designation": "VP & GM for APAC",
-                "company": "Freshworks",
-                "linkedin": "",
-                "description": "",
-                "imgSrc": "anand-venkatraman.png",
-                "email": ""
-            },
+            // {
+            //     "id": "e1",
+            //     "name": "Anand",
+            //     "fullName": "Anand Venkatraman",
+            //     "designation": "VP & GM for APAC",
+            //     "company": "Freshworks",
+            //     "linkedin": "",
+            //     "description": "",
+            //     "imgSrc": "anand-venkatraman.png",
+            //     "email": ""
+            // },
             {
                 "id": "e2",
                 "name": "Ajey",
@@ -224,6 +224,17 @@ var json = [
                 "linkedin": "",
                 "description": "",
                 "imgSrc": "mike-villar.png",
+                "email": ""
+            },
+            {
+                "id": "e22",
+                "name": "Nix",
+                "fullName": "Nix Eniego",
+                "designation": "Sr. Digital Marketing and Content Manager",
+                "company": "Convosight",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "nix-eniego.png",
                 "email": ""
             },
             {

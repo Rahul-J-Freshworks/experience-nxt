@@ -78,7 +78,7 @@ var json = [
                 "fullName": "Ajey Gore",
                 "designation": "Operating Partner, Technology ",
                 "company": "Sequoia Capital",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/ajeygore/",
                 "description": "",
                 "imgSrc": "ajey-gore.png",
                 "email": ""
@@ -89,7 +89,7 @@ var json = [
                 "fullName": "Arun Pattabhiraman",
                 "designation": "Chief Growth Officer",
                 "company": "Freshworks",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/arunpattabhiraman/",
                 "description": "",
                 "imgSrc": "arun-pattabhiraman.png",
                 "email": ""
@@ -100,7 +100,7 @@ var json = [
                 "fullName": "Vinod Chandramouli",
                 "designation": "Head of ASEAN Business",
                 "company": "Freshworks",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/vinodchandramouli/",
                 "description": "",
                 "imgSrc": "vinod-chandramouli.png",
                 "email": ""
@@ -111,7 +111,7 @@ var json = [
                 "fullName": "Vishal Chopra",
                 "designation": "Head of Field Marketing APAC & MEA",
                 "company": "Freshworks",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/vishalgchopra/",
                 "description": "",
                 "imgSrc": "vishal-chopra.png",
                 "email": ""
@@ -122,7 +122,7 @@ var json = [
                 "fullName": "Charles Manuel",
                 "designation": "Managing Partner",
                 "company": "Etragr Partners (Singapore)",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/charles-manuel/",
                 "description": "",
                 "imgSrc": "charles-manuel.png",
                 "email": ""
@@ -133,7 +133,7 @@ var json = [
                 "fullName": "Allian Marie Sheila Garcia",
                 "designation": "Business Process Innovations Consultant",
                 "company": "Philippine Seven Corporation",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/allian-marie-sheila-garcia-a8b09013/",
                 "description": "",
                 "imgSrc": "allian-marie.png",
                 "email": ""
@@ -144,7 +144,7 @@ var json = [
                 "fullName": "Raymond Devadass",
                 "designation": "Founder & CEO",
                 "company": "Daythree",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/raymond-devadass-4a76178/",
                 "description": "",
                 "imgSrc": "raymond-devadass.png",
                 "email": ""
@@ -155,7 +155,7 @@ var json = [
                 "fullName": "Stanley Chan",
                 "designation": "Head of Technology Partners, Asia Pacific ",
                 "company": "Amazon Web Services",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/stanleygchan/",
                 "description": "",
                 "imgSrc": "stanley-chan.png",
                 "email": ""
@@ -166,7 +166,7 @@ var json = [
                 "fullName": "Cliff Ricardo Sutantijo",
                 "designation": "VP of Growth & Marketing",
                 "company": "Qoala",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/cliffricardosutantijo/",
                 "description": "",
                 "imgSrc": "cliff-ricardo.png",
                 "email": ""
@@ -177,7 +177,7 @@ var json = [
                 "fullName": "Maneesha Bhusal",
                 "designation": "Director, Head of Customer Experience & Customer Service",
                 "company": "JD.ID",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/maneeshabhusal/",
                 "description": "",
                 "imgSrc": "maneesha-bhusal.png",
                 "email": ""
@@ -188,7 +188,7 @@ var json = [
                 "fullName": "Ricky S. Natapradja",
                 "designation": "Dep. Chief Sales Officer - Local Sales & Distribution",
                 "company": "PT Sompo Insurance Indonesia",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/ir-r-ricky-s-natapradja-1142ab1b/",
                 "description": "",
                 "imgSrc": "ricky-natapradja.png",
                 "email": ""
@@ -199,7 +199,7 @@ var json = [
                 "fullName": "Jeane Carolina",
                 "designation": "Customer Service Manager",
                 "company": "Peduli Sehat",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/jeane-carolina-47777322/",
                 "description": "",
                 "imgSrc": "jeane-carolina.png",
                 "email": ""
@@ -210,7 +210,7 @@ var json = [
                 "fullName": "Puspa Maslim",
                 "designation": "Chief of Happiness Resources",
                 "company": "Alterra",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/puspa-m-84573610/",
                 "description": "",
                 "imgSrc": "puspa-maslim.png",
                 "email": ""
@@ -221,7 +221,7 @@ var json = [
                 "fullName": "Mike Villar",
                 "designation": "CEO",
                 "company": "Growth Rocket",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/mikevillar/",
                 "description": "",
                 "imgSrc": "mike-villar.png",
                 "email": ""
@@ -232,7 +232,7 @@ var json = [
                 "fullName": "Nix Eniego",
                 "designation": "Sr. Digital Marketing and Content Manager",
                 "company": "Convosight",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/nixeniego/",
                 "description": "",
                 "imgSrc": "nix-eniego.png",
                 "email": ""
@@ -241,9 +241,9 @@ var json = [
                 "id": "e6",
                 "name": "Ganesh",
                 "fullName": "Ganesh Raj",
-                "designation": "Director Strategic Alliances",
+                "designation": "Director of Strategic Partnerships",
                 "company": "Freshworks",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/ganesh-raj-823ab65/",
                 "description": "",
                 "imgSrc": "ganesh-raj.png",
                 "email": ""
@@ -252,9 +252,9 @@ var json = [
                 "id": "e13",
                 "name": "Swaminathan",
                 "fullName": "Swaminathan Raghunathan",
-                "designation": "Head of Solution Engineering",
+                "designation": "Director- Solutions Engineering, Global Partnerships",
                 "company": "Freshworks",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/swaminathan-raghunathan-b89aa44/",
                 "description": "",
                 "imgSrc": "swaminathan-raghunathan.png",
                 "email": ""
@@ -265,7 +265,7 @@ var json = [
                 "fullName": "Chintu Bousally",
                 "designation": "Regional Sales Head, Singapore ",
                 "company": "Freshworks",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/chintu-bousally/",
                 "description": "",
                 "imgSrc": "chintu-bousally.png",
                 "email": ""
@@ -276,7 +276,7 @@ var json = [
                 "fullName": "Kaushik Sekar",
                 "designation": "Regional Sales Head, Phillipines ",
                 "company": "Freshworks",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/sekarkaushik/",
                 "description": "",
                 "imgSrc": "kaushik-sekar.png",
                 "email": ""
@@ -287,7 +287,7 @@ var json = [
                 "fullName": "Sandeep John",
                 "designation": "Head of Field Marketing, ASEAN",
                 "company": "Freshworks",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/sandeepjohn/",
                 "description": "",
                 "imgSrc": "sandeep-john.png",
                 "email": ""
@@ -295,12 +295,12 @@ var json = [
             {
                 "id": "e17",
                 "name": "Andrew",
-                "fullName": "Andrew Nawin",
+                "fullName": "Andrew Navin",
                 "designation": "Director, Customer Support",
                 "company": "Freshworks",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/andrew-navin-b54134104/",
                 "description": "",
-                "imgSrc": "andrew-nawin.png",
+                "imgSrc": "andrew-navin.png",
                 "email": ""
             }
         ]

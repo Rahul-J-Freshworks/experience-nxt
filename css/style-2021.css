@@ -2325,8 +2325,9 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
     font-size: 13px;
 } */
 .form-iframe {
-    height: 520px;
+    height: 600px;
     width: 100%;
+    border: none;
 }
 
 /* Modal Fix end */
@@ -3102,6 +3103,14 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
 
     .speaker-btn:nth-last-child(2) .speaker1 {
         margin-bottom: 50px;
+    }
+
+    .name-field-wrapper>.name-field {
+        width: 100%;
+    }
+
+    .form-iframe {
+        height: 690px;
     }
 }
 

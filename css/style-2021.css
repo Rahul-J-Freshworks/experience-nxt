@@ -1794,6 +1794,10 @@ section {
     margin: 0;
 }
 
+.nxt-exp-section .card-content-button-btn a {
+    text-align: center;
+}
+
 .nxt-exp-section .card-inside-details {
     background-color: #fff;
     border-radius: 20px;

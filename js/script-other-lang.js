@@ -3,7 +3,8 @@ $(document).ready(function () {
     $(".banner-card-wrap").owlCarousel({
         items: 1,
         autoplay: true,
-        loop: true
+        loop: false,
+        mouseDrag: false
     });
 
     $(".speakersSlide").owlCarousel({
@@ -597,7 +598,7 @@ for (var i = 0; i < json.length; i++) {
 
     for (var j = 0; j < json[i].speakers.length; j++) {
 
-        c += '<div class="col-xl-3 col-md-4 col-6"><div class="speakers"><div class="speaker1"><div class="speaker-content"><h4>' + json[i].speakers[j].fullName + '</h4><p>' + json[i].speakers[j].designation + '</p><p class="speaker-company">' + json[i].speakers[j].company + '</p> </div> <div class="speakersImg-main">  <img class="speakersImg" src="images/speakers/' + json[i].speakers[j].imgSrc + '" /> </div><a data-toggle="modal"'
+        c += '<div class="col-xl-3 col-md-4 col-sm-6 col-12"><div class="speakers"><div class="speaker1"><div class="speaker-content"><h4>' + json[i].speakers[j].fullName + '</h4><p>' + json[i].speakers[j].designation + '</p><p class="speaker-company">' + json[i].speakers[j].company + '</p> </div> <div class="speakersImg-main">  <img class="speakersImg" src="images/speakers/' + json[i].speakers[j].imgSrc + '" /> </div><a data-toggle="modal"'
         c += 'data-fullName=' + JSON.stringify(json[i].speakers[j].fullName) + ''
         c += 'data-name=' + JSON.stringify(json[i].speakers[j].name) + ''
         c += 'data-designation=' + JSON.stringify(json[i].speakers[j].designation) + ''

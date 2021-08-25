@@ -2381,6 +2381,10 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
     border-radius: 30px;
 }
 
+.default-section .img-fluid {
+    width: 450px;
+}
+
 /* Modal Fix end */
 @media screen and (min-width:1200px) {
     .speakersSlide .owl-nav {
@@ -2582,12 +2586,6 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
         margin-top: 2em;
     }
 
-    /* .ban-card-content {
-        max-width: calc(80% - 10px);
-        flex: 0 80%;
-        width: 80%;
-    } */
-
     .banner-card::before {
         width: 60%;
         opacity: 0.3;
@@ -2782,6 +2780,21 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
         height: 100%;
     }
 
+    .speakers {
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .speakers .speaker-content {
+        padding-bottom: 30px;
+    }
+
+    /* #speakersTabContent .row>div .speakers .speakersImg-main img {
+        height: calc(100% + 10%);
+        left: 7%;
+        bottom: -11%;
+    } */
 }
 
 @media screen and (max-width: 575px) {

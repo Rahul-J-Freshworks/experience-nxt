@@ -2374,6 +2374,8 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: calc(100vh - 72px);
+    align-items: center;
+    display: flex;
 }
 
 .banner-card.banner-img-other-lang .save-seat-btn {

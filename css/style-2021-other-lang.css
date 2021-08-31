@@ -2502,13 +2502,12 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
 .banner-primary-light-design {
     background-color: #eee;
     background-image: none !important;
-    padding-bottom: 170px !important;
+    padding-bottom: 50px !important;
     padding-top: 50px !important;
 }
 
 .banner-primary-light-design .lang-date-single {
-    position: absolute;
-    bottom: 0;
+    margin-top: 30px;
 }
 
 .banner-primary-light-design .lang-date-single .ban-card-content {

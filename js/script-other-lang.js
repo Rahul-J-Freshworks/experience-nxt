@@ -3,8 +3,9 @@ $(document).ready(function () {
     $(".banner-card-wrap").owlCarousel({
         items: 1,
         autoplay: true,
-        loop: false,
-        mouseDrag: false
+        loop: true,
+        mouseDrag: false,
+        autoHeight: true
     });
 
     $(".speakersSlide").owlCarousel({

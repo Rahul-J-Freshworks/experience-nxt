@@ -1319,6 +1319,7 @@ section {
     padding-bottom: 0;
     margin: auto;
     background: #141462;
+    background: transparent;
 }
 
 .banner-card.row img {
@@ -1435,7 +1436,7 @@ section {
 }
 
 .customer-videos-btn {
-    background-image: url(../images/lead-nxt-bg.svg);
+    background-image: url(../images/lead-nxt-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -2269,9 +2270,9 @@ section.whats-new-section {
 /* .banner-grp3.banner-card {
     background-image: url(../images/banner-grp3.png);
 } */
-.banner-card img {
+/* .banner-card img {
     display: none !important;
-}
+} */
 
 .banner-card.banner-img1-2021::before,
 .banner-card.banner-img2-2021::before,
@@ -2376,6 +2377,7 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
     min-height: calc(100vh - 72px);
     align-items: center;
     display: flex;
+    flex-direction: column;
 }
 
 .banner-card.banner-img-other-lang .save-seat-btn {
@@ -2385,6 +2387,198 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
 
 .default-section .img-fluid {
     width: 450px;
+}
+
+.banner-card.banner-primary-blue-design {
+    background-image: linear-gradient(123deg, #383b80 28%, #07c8fb 100%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.banner-card .ban-card-content .freshworks-img {
+    height: 41px;
+    width: auto;
+    object-fit: contain;
+    object-position: left;
+    margin-right: 20px;
+}
+
+.banner-card .ban-card-content .freshworks-img~.title-date {
+    margin: 0;
+    text-shadow: none;
+}
+
+.banner-card .ban-card-content .exp-nxt-img {
+    height: 51px;
+    width: auto;
+    object-fit: contain;
+    object-position: left;
+    margin-top: 33px;
+    margin-bottom: 30px;
+}
+
+.banner-card .ban-card-content .grad-curve-banner-txt {
+    font-family: 'Sailec-Regular';
+    font-size: 33.5px;
+    font-weight: bold;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.container-fluid.grad-curve-txt-design {
+    position: relative;
+}
+
+.container-fluid.grad-curve-txt-design::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    right: 41.7%;
+    border-radius: 0 60px 60px 0;
+    /* background-image: linear-gradient(294deg, #ff5869 105%, #383b80 -5%); */
+    background-image: linear-gradient(294deg, #ff5869, #383b80);
+}
+
+.banner-primary-blue-design::before,
+.banner-primary-light-design::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 20px;
+    display: block;
+    background-size: contain;
+    background-position: center right;
+    max-width: 41%;
+}
+
+.banner-primary-blue-design::before {
+    background-image: url(../images/banner-user-1.png);
+}
+
+.banner-primary-light-design::before {
+    background-image: url(../images/banner-user-2.png);
+}
+
+.banner-card .lang-dates {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-card .lang-dates img {
+    height: 64px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.banner-card .lang-dates h4 {
+    font-family: 'Sailec-Regular';
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+}
+
+.banner-card .lang-dates p {
+    font-family: 'Sailec-Light';
+    font-size: 18.1px;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+}
+
+.banner-primary-light-design {
+    background-color: #eee;
+    background-image: none !important;
+    padding-bottom: 210px !important;
+    padding-top: 50px !important;
+}
+
+.banner-primary-light-design .lang-date-single {
+    position: absolute;
+    bottom: 0;
+}
+
+.banner-primary-light-design .lang-date-single .ban-card-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.banner-primary-light-design .lang-date-single img {
+    height: 192px;
+    width: auto;
+    margin-right: 25px;
+}
+
+.banner-primary-light-design .lang-date-single p {
+    font-family: 'Sailec-Medium';
+    font-size: 24.1px;
+    font-weight: normal;
+    line-height: 1.37;
+    letter-spacing: normal;
+    text-align: left;
+    color: #171c5b;
+    text-shadow: none;
+    margin: 0;
+}
+
+.banner-primary-light-design .edition-name {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-family: 'Sailec-Regular';
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.62;
+    letter-spacing: normal;
+    text-align: left;
+    margin: 0;
+    padding: 12px 65px 12px 30px;
+    border-radius: 28px 0 0 28px;
+    background-color: #4d3261;
+    color: #fff;
+}
+
+.banner-primary-light-design .title-date {
+    color: #333333;
+}
+
+.banner-primary-light-design .container-fluid.grad-curve-txt-design::before {
+    border-radius: 0 98px 98px 0;
+    background-image: linear-gradient(211deg, #383b80, #ff5869);
+}
+
+.banner-card.banner-primary-light-design .ban-card-content .grad-curve-banner-txt {
+    line-height: 1.39;
+    /* padding: 20px 0; */
+    font-size: 28px;
+    padding: 15px 40px 15px 0;
+}
+
+.banner-card {
+    height: 100%;
+}
+
+.banner-card .owl-stage {
+    display: flex;
+}
+
+.banner-card .owl-stage .owl-item {
+    flex: 1 0 auto;
 }
 
 /* Modal Fix end */
@@ -2575,6 +2769,19 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
     .navbar-nav li.active a.nav-link::after {
         bottom: -3px;
     }
+
+    .banner-card .lang-dates h4 {
+        font-size: 18px;
+    }
+
+    .banner-card .lang-dates p,
+    .banner-primary-light-design .lang-date-single p {
+        font-size: 15px;
+    }
+
+    .banner-card .ban-card-content .grad-curve-banner-txt {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -2724,7 +2931,6 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
         height: 40px;
         font-size: 12px !important;
         font-family: 'Sailec-Regular';
-        font-family: 'Sailec-Regular';
         font-weight: unset;
     }
 
@@ -2790,6 +2996,83 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
 
     .speakers .speaker-content {
         padding-bottom: 30px;
+    }
+
+    .container-fluid.grad-curve-txt-design::before {
+        right: 20px;
+    }
+
+    .banner-primary-blue-design::before,
+    .banner-primary-light-design::before {
+        max-width: 100%;
+    }
+
+    .banner-card .ban-card-content .grad-curve-banner-txt,
+    .banner-card.banner-primary-light-design .ban-card-content .grad-curve-banner-txt {
+        font-size: 24px;
+    }
+
+    .banner-card .lang-dates h4 {
+        font-size: 17px;
+    }
+
+    .banner-card .lang-dates p,
+    .banner-primary-light-design .lang-date-single p {
+        font-size: 14px;
+    }
+
+    .banner-card.banner-img-other-lang .save-seat-btn {
+        margin: auto;
+    }
+
+    .banner-primary-light-design .lang-date-single img {
+        height: 150px;
+    }
+
+    .banner-primary-light-design {
+        padding-bottom: 160px !important;
+        padding-top: 75px !important;
+    }
+
+    .banner-primary-light-design .edition-name {
+        font-size: 18px;
+        padding: 10px 40px 10px 25px;
+        top: 15px;
+    }
+
+    .banner-card .ban-card-content .exp-nxt-img {
+        height: 35px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .banner-card .ban-card-content .freshworks-img {
+        height: 35px;
+    }
+
+    .banner-card.banner-img-other-lang::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: black;
+        display: block;
+        z-index: -1;
+        opacity: 0.3;
+    }
+
+    .banner-card.banner-img-other-lang.banner-primary-light-design::before {
+        display: none;
+    }
+
+    .banner-card .ban-card-content .content-txt {
+        color: white;
+    }
+
+    .banner-card.banner-primary-light-design .ban-card-content .grad-curve-banner-txt {
+        padding-right: 20px;
     }
 }
 

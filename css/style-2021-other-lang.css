@@ -2502,7 +2502,7 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
 .banner-primary-light-design {
     background-color: #eee;
     background-image: none !important;
-    padding-bottom: 210px !important;
+    padding-bottom: 170px !important;
     padding-top: 50px !important;
 }
 
@@ -2519,7 +2519,7 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
 }
 
 .banner-primary-light-design .lang-date-single img {
-    height: 192px;
+    height: 152px;
     width: auto;
     margin-right: 25px;
 }

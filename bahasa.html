@@ -333,12 +333,12 @@
 
 	<section class="speakers-section" id="speakersSection">
 		<div class="container">
-			<h2 class="main-title-md">Pembicara pada event tahun lalu </h2>
+			<h2 class="main-title-md">Pembicara</h2>
 			<p class="main-title-sm">Partisipasi. Terlibat. Mulailah Pengalaman yang Menyenangkan! </br>
 				Semua dari Kenyamanan Browser Anda.
 			</p>
 
-			<!-- <ul class="nav nav-tabs navbar-nav ml-auto" id="speakersTab" role="tablist">
+			<!-- <ul class="nav nav-tabs navbar-nav ml-auto d-none" id="speakersTab" role="tablist">
 				<li class="nav-item">
 					<a class="nav-link active" id="allSpeakers-tab" data-toggle="tab" href="#allSpeakers" role="tab"
 						aria-controls="allSpeakers" aria-selected="true">All Speakers</a>
@@ -397,8 +397,9 @@
 								<div class="col-md-2 agenda-time">9:30 - 9:40 SGT</div>
 								<div class="col-md-10">
 									<div class="agenda-event">
-										<p class="agenda-topic">Intisari Pembuka oleh <span>Vinod Chandramouli, Head of
-												ASEAN Business, Freshworks</span>
+										<p class="agenda-topic">Intisari Pembuka oleh <span>Hervé Danzelaud, Global Vice
+												President - Channels, Alliances, Marketplace & Startups,
+												Freshworks</span>
 										</p>
 									</div>
 								</div>
@@ -569,15 +570,21 @@
 	</footer>
 
 	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/fullcalender.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script-other-lang.js"></script>
 	<script>
 		$(window).on('load', function () {
-			// $('#English-tab, #English').addClass("show in active");
-			// $('#Bahasa-tab, #Thai-tab, #Vietnamese-tab ').addClass("hide");
+			$('#Bahasa-tab, #Bahasa').addClass("show in active");
+			$('#English, #Thai, #Vietnamese').removeClass("show in active");
+			$('#English-tab, #Thai-tab, #Vietnamese-tab ').addClass("hide");
 		});
+
+		// $(window).on('load', function () {
+		// $('#English-tab, #English').addClass("show in active");
+		// $('#Bahasa, #Thai, #Vietnamese').removeClass("show in active");
+		// $('#Bahasa-tab, #Thai-tab, #Vietnamese-tab ').addClass("hide");
+		// });
 	</script>
 </body>
 

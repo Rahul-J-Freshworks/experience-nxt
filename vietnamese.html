@@ -354,7 +354,7 @@
 				Tất Cả Trong Sự Tiện Nghi sử dụng Trình Duyệt Của Bạn.
 			</p>
 
-			<!-- <ul class="nav nav-tabs navbar-nav ml-auto" id="speakersTab" role="tablist">
+			<!-- <ul class="nav nav-tabs navbar-nav ml-auto d-none" id="speakersTab" role="tablist">
 				<li class="nav-item">
 					<a class="nav-link active" id="allSpeakers-tab" data-toggle="tab" href="#allSpeakers" role="tab"
 						aria-controls="allSpeakers" aria-selected="true">All Speakers</a>
@@ -412,8 +412,9 @@
 								<div class="col-md-2 agenda-time">9:30 - 9:40 SGT</div>
 								<div class="col-md-10">
 									<div class="agenda-event">
-										<p class="agenda-topic">Bài Phát Biểu Mở Đầu của <span>Vinod Chandramouli, Giám
-												Đốc Kinh Doanh Khu Vực ASEAN, Freshworks </span>
+										<p class="agenda-topic">Bài Phát Biểu Mở Đầu của <span>Hervé Danzelaud, Global
+												Vice President - Channels, Alliances, Marketplace & Startups, Freshworks
+											</span>
 										</p>
 									</div>
 								</div>
@@ -583,14 +584,14 @@
 	</footer>
 
 	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/fullcalender.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script-other-lang.js"></script>
 	<script>
 		$(window).on('load', function () {
-			// $('#English-tab, #English').addClass("show in active");
-			// $('#Bahasa-tab, #Thai-tab, #Vietnamese-tab ').addClass("hide");
+			$('#Vietnamese-tab, #Vietnamese').addClass("show in active");
+			$('#Bahasa, #Thai, #English ').removeClass("show in active");
+			$('#Bahasa-tab, #Thai-tab, #English-tab').addClass("hide");
 		});
 	</script>
 </body>

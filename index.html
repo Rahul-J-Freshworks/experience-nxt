@@ -277,11 +277,10 @@
 
 	<section class="speakers-section" id="speakersSection">
 		<div class="container">
-			<h2 class="main-title-md">Past Speakers</h2>
+			<h2 class="main-title-md">Confirmed Speakers</h2>
 			<p class="main-title-sm">
 				Engage. Involve. Embark On Exciting Experiences!</br>
-				All From The Comfort Of Your Browser.
-			</p>
+				All From The Comfort Of Your Browser.</p>
 
 			<!-- <ul class="nav nav-tabs navbar-nav ml-auto" id="speakersTab" role="tablist">
 				<li class="nav-item">
@@ -616,13 +615,13 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<!-- <script src="js/fullcalender.min.js"></script> -->
 	<script src="js/script-other-lang.js"></script>
 	<script>
-		// $(window).on('load', function () {
-		// $('#English-tab, #English').addClass("show in active");
-		// $('#Bahasa-tab, #Thai-tab, #Vietnamese-tab ').addClass("hide");
-		// });
+		$(window).on('load', function () {
+			$('#English-tab, #English').addClass("show in active");
+			$('#Bahasa, #Thai, #Vietnamese').removeClass("show in active");
+			$('#Bahasa-tab, #Thai-tab, #Vietnamese-tab ').addClass("hide");
+		});
 	</script>
 </body>
 

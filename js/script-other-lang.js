@@ -57,525 +57,204 @@ $(window).on('load', function () {
     $("body").removeClass("page-loading");
 });
 
-
-
 var json = [
     {
         "language": "English",
         "speakers": [
-            // {
-            //     "id": "e1",
-            //     "name": "Anand",
-            //     "fullName": "Anand Venkatraman",
-            //     "designation": "VP & GM for APAC",
-            //     "company": "Freshworks",
-            //     "linkedin": "",
-            //     "description": "",
-            //     "imgSrc": "anand-venkatraman.png",
-            //     "email": ""
-            // },
+            {
+                "id": "e1",
+                "name": "Hervé Danzelaud",
+                "fullName": "Hervé Danzelaud ",
+                "designation": "Global Vice President - Channels, Alliances, Marketplace & Startups",
+                "company": "Freshworks",
+                "linkedin": "https://www.linkedin.com/in/danzelaud/",
+                "description": "",
+                "imgSrc": "herve-dan.png",
+                "email": ""
+            },
             {
                 "id": "e2",
-                "name": "Ajey",
-                "fullName": "Ajey Gore",
-                "designation": "Operating Partner, Technology ",
-                "company": "Sequoia Capital",
-                "linkedin": "https://www.linkedin.com/in/ajeygore/",
-                "description": "",
-                "imgSrc": "ajey-gore.png",
+                "name": "Roy Tondra",
+                "fullName": "Roy Tondra",
+                "designation": "Head of Customer Care",
+                "company": "Ace Hardware Indonesia",
+                "linkedin": "https://www.linkedin.com/in/m-nurul-karim-roy-tondra-382a85163/",
+                "description": "M. Nurul Karim Roy Tondra, is the full name of Roy Tondra. Born in Jakarta, January 21, 1989, the eldest of 2 children, he graduated from the Indonesian Institute of Technology in Chemical Engineering major. He is currently continuing the degree at Indonesia Open University majoring in Communication Studies. Started a career 10 years ago as a Call Center Staff in a Pizza delivery company. As his career progresses, he now holds the position of Head of Customer Care at PT ACE Hardware Indonesia Tbk.The journey and experience of handling and treating customers is a part of his life.",
+                "imgSrc": "roy-tondra.png",
                 "email": ""
             },
             {
                 "id": "e3",
-                "name": "Arun",
-                "fullName": "Arun Pattabhiraman",
-                "designation": "Chief Growth Officer",
-                "company": "Freshworks",
-                "linkedin": "https://www.linkedin.com/in/arunpattabhiraman/",
-                "description": "",
-                "imgSrc": "arun-pattabhiraman.png",
+                "name": "Dery Mukti Hardiansah",
+                "fullName": "Dery Mukti Hardiansah",
+                "designation": "Head of Customer Care",
+                "company": "DOKU",
+                "linkedin": "https://www.linkedin.com/in/dery-mh-b7111585/",
+                "description": "A professional Customer Service Operation with more than 9 years of experience in handling clients and national customers. Successfully has been building a customer service operation team and support system tools, customer satisfaction programs that increase customer loyalty.",
+                "imgSrc": "dery-mh.png",
                 "email": ""
             },
             {
                 "id": "e4",
-                "name": "Vinod",
-                "fullName": "Vinod Chandramouli",
-                "designation": "Head of ASEAN Business",
-                "company": "Freshworks",
-                "linkedin": "https://www.linkedin.com/in/vinodchandramouli/",
+                "name": "Marcos Samosir",
+                "fullName": "Marcos Samosir",
+                "designation": "Country Leader - Customer Experience",
+                "company": "CISCO Indonesia",
+                "linkedin": "https://www.linkedin.com/in/marcossamosir/",
                 "description": "",
-                "imgSrc": "vinod-chandramouli.png",
+                "imgSrc": "marcos-samosir.png",
                 "email": ""
             },
             {
                 "id": "e5",
-                "name": "Vishal",
-                "fullName": "Vishal Chopra",
-                "designation": "Head of Field Marketing APAC & MEA",
-                "company": "Freshworks",
-                "linkedin": "https://www.linkedin.com/in/vishalgchopra/",
-                "description": "",
-                "imgSrc": "vishal-chopra.png",
-                "email": ""
-            },
-            {
-                "id": "e7",
-                "name": "Charles",
-                "fullName": "Charles Manuel",
-                "designation": "Managing Partner",
-                "company": "Etragr Partners (Singapore)",
-                "linkedin": "https://www.linkedin.com/in/charles-manuel/",
-                "description": "",
-                "imgSrc": "charles-manuel.png",
-                "email": ""
-            },
-            {
-                "id": "e8",
-                "name": "Allian",
-                "fullName": "Allian Marie Sheila Garcia",
-                "designation": "Business Process Innovations Consultant",
-                "company": "Philippine Seven Corporation",
-                "linkedin": "https://www.linkedin.com/in/allian-marie-sheila-garcia-a8b09013/",
-                "description": "",
-                "imgSrc": "allian-marie.png",
-                "email": ""
-            },
-            {
-                "id": "e9",
-                "name": "Raymond",
-                "fullName": "Raymond Devadass",
-                "designation": "Founder & CEO",
-                "company": "Daythree",
-                "linkedin": "https://www.linkedin.com/in/raymond-devadass-4a76178/",
-                "description": "",
-                "imgSrc": "raymond-devadass.png",
-                "email": ""
-            },
-            {
-                "id": "e10",
-                "name": "Stanley",
-                "fullName": "Stanley Chan",
-                "designation": "Head of Technology Partners, Asia Pacific ",
-                "company": "Amazon Web Services",
-                "linkedin": "https://www.linkedin.com/in/stanleygchan/",
-                "description": "",
-                "imgSrc": "stanley-chan.png",
-                "email": ""
-            },
-            {
-                "id": "e11",
-                "name": "Sutantijo",
-                "fullName": "Cliff Ricardo Sutantijo",
-                "designation": "VP of Growth & Marketing",
-                "company": "Qoala",
-                "linkedin": "https://www.linkedin.com/in/cliffricardosutantijo/",
-                "description": "",
-                "imgSrc": "cliff-ricardo.png",
-                "email": ""
-            },
-            {
-                "id": "e12",
-                "name": "Maneesha",
-                "fullName": "Maneesha Bhusal",
-                "designation": "Director, Head of Customer Experience & Customer Service",
-                "company": "JD.ID",
-                "linkedin": "https://www.linkedin.com/in/maneeshabhusal/",
-                "description": "",
-                "imgSrc": "maneesha-bhusal.png",
-                "email": ""
-            },
-            {
-                "id": "e18",
-                "name": "Ricky",
-                "fullName": "Ricky S. Natapradja",
-                "designation": "Dep. Chief Sales Officer - Local Sales & Distribution",
-                "company": "PT Sompo Insurance Indonesia",
-                "linkedin": "https://www.linkedin.com/in/ir-r-ricky-s-natapradja-1142ab1b/",
-                "description": "",
-                "imgSrc": "ricky-natapradja.png",
-                "email": ""
-            },
-            {
-                "id": "e19",
-                "name": "Jeane",
-                "fullName": "Jeane Carolina",
-                "designation": "Customer Service Manager",
-                "company": "Peduli Sehat",
-                "linkedin": "https://www.linkedin.com/in/jeane-carolina-47777322/",
-                "description": "",
-                "imgSrc": "jeane-carolina.png",
-                "email": ""
-            },
-            {
-                "id": "e20",
-                "name": "Puspa",
-                "fullName": "Puspa Maslim",
-                "designation": "Chief of Happiness Resources",
-                "company": "Alterra",
-                "linkedin": "https://www.linkedin.com/in/puspa-m-84573610/",
-                "description": "",
-                "imgSrc": "puspa-maslim.png",
-                "email": ""
-            },
-            {
-                "id": "e21",
-                "name": "Mike",
-                "fullName": "Mike Villar",
-                "designation": "CEO",
-                "company": "Growth Rocket",
-                "linkedin": "https://www.linkedin.com/in/mikevillar/",
-                "description": "",
-                "imgSrc": "mike-villar.png",
-                "email": ""
-            },
-            {
-                "id": "e22",
-                "name": "Nix",
-                "fullName": "Nix Eniego",
-                "designation": "Sr. Digital Marketing and Content Manager",
-                "company": "Convosight",
-                "linkedin": "https://www.linkedin.com/in/nixeniego/",
-                "description": "",
-                "imgSrc": "nix-eniego.png",
+                "name": "Andre Gunawan",
+                "fullName": "Andre Gunawan",
+                "designation": "VP Ops Excellence",
+                "company": "PT Shippindo Teknologi Logistik (Shipper.id)",
+                "linkedin": "https://www.linkedin.com/in/andre-gunawan/",
+                "description": "Andre is leading the Operations Excellence team of Shipper, with the goal to modernize and scale Shipper operations by leveraging automation, product and technology. Prior to joining Shipper, Andre was heading product and digital marketing of Tokopedia. A scientist by discipline, Andre focus of interest is around adopting cutting edge technology to create disruption across Indonesia industries.",
+                "imgSrc": "andre-gunawan.png",
                 "email": ""
             },
             {
                 "id": "e6",
-                "name": "Ganesh",
-                "fullName": "Ganesh Raj",
-                "designation": "Director of Strategic Partnerships",
-                "company": "Freshworks",
-                "linkedin": "https://www.linkedin.com/in/ganesh-raj-823ab65/",
+                "name": "Kelly Oktavian",
+                "fullName": "Kelly Oktavian",
+                "designation": "Chief Commercial Officer",
+                "company": "Riuh Renjana Creative",
+                "linkedin": "https://www.linkedin.com/in/kellyoktavian/",
                 "description": "",
-                "imgSrc": "ganesh-raj.png",
+                "imgSrc": "kelly-oktavian.png",
                 "email": ""
             },
             {
-                "id": "e13",
-                "name": "Swaminathan",
-                "fullName": "Swaminathan Raghunathan",
-                "designation": "Director- Solutions Engineering, Global Partnerships",
-                "company": "Freshworks",
-                "linkedin": "https://www.linkedin.com/in/swaminathan-raghunathan-b89aa44/",
+                "id": "e7",
+                "name": "Johnson Tan",
+                "fullName": "Johnson Tan",
+                "designation": "Sales Director",
+                "company": "Optimaa Data",
+                "linkedin": "https://www.linkedin.com/in/johnson-tan-a2810237/",
                 "description": "",
-                "imgSrc": "swaminathan-raghunathan.png",
-                "email": ""
-            },
-            {
-                "id": "e14",
-                "name": "Chintu",
-                "fullName": "Chintu Bousally",
-                "designation": "Regional Sales Head, Singapore ",
-                "company": "Freshworks",
-                "linkedin": "https://www.linkedin.com/in/chintu-bousally/",
-                "description": "",
-                "imgSrc": "chintu-bousally.png",
-                "email": ""
-            },
-            {
-                "id": "e15",
-                "name": "Kaushik",
-                "fullName": "Kaushik Sekar",
-                "designation": "Regional Sales Head, Phillipines ",
-                "company": "Freshworks",
-                "linkedin": "https://www.linkedin.com/in/sekarkaushik/",
-                "description": "",
-                "imgSrc": "kaushik-sekar.png",
-                "email": ""
-            },
-            {
-                "id": "e16",
-                "name": "Sandeep",
-                "fullName": "Sandeep John",
-                "designation": "Head of Field Marketing, ASEAN",
-                "company": "Freshworks",
-                "linkedin": "https://www.linkedin.com/in/sandeepjohn/",
-                "description": "",
-                "imgSrc": "sandeep-john.png",
-                "email": ""
-            },
-            {
-                "id": "e17",
-                "name": "Andrew",
-                "fullName": "Andrew Navin",
-                "designation": "Director, Customer Support",
-                "company": "Freshworks",
-                "linkedin": "https://www.linkedin.com/in/andrew-navin-b54134104/",
-                "description": "",
-                "imgSrc": "andrew-navin.png",
+                "imgSrc": "johnson-tan.png",
                 "email": ""
             }
         ]
     },
-    // {
-    //     "language": "Bahasa",
-    //     "speakers": [
+    {
+        "language": "Bahasa",
+        "speakers": [
+            {
+                "id": "b1",
+                "name": "Hervé Danzelaud",
+                "fullName": "Hervé Danzelaud ",
+                "designation": "Global Vice President - Channels, Alliances, Marketplace & Startups",
+                "company": "Freshworks",
+                "linkedin": "https://www.linkedin.com/in/danzelaud/",
+                "description": "",
+                "imgSrc": "herve-dan.png",
+                "email": ""
+            },
+            {
+                "id": "b2",
+                "name": "Roy Tondra",
+                "fullName": "Roy Tondra",
+                "designation": "Head of Customer Care",
+                "company": "Ace Hardware Indonesia",
+                "linkedin": "https://www.linkedin.com/in/m-nurul-karim-roy-tondra-382a85163/",
+                "description": "M. Nurul Karim Roy Tondra, adalah nama lengkap dari Roy Tondra. Lahir di Jakarta 21 Januari 1989 anak pertama dari 2 bersaudara mengenyam pendidikan di Institut Teknologi Indonesia program studi Chemical Engineering dan saat ini sedang melanjutkan kuliah dengan program studi Ilmu Komunikasi Universitas Terbuka. Meniti karir 10 tahun lalu sebagai Call Center Staff di perusahaan delivery Pizza. Seiring berjalannya karir, kini menduduki posisi sebagai Head of Customer Care di PT ACE Hardware Indonesia Tbk. Perjalanan dan pengalaman menghandle serta mentreatment customer adalah menjadi bagian dari hidupnya.",
+                "imgSrc": "roy-tondra.png",
+                "email": ""
+            },
+            {
+                "id": "b3",
+                "name": "Dery Mukti Hardiansah",
+                "fullName": "Dery Mukti Hardiansah",
+                "designation": "Head of Customer Care",
+                "company": "DOKU",
+                "linkedin": "https://www.linkedin.com/in/dery-mh-b7111585/",
+                "description": "Customer Service Operation profesional dengan pengalaman lebih dari 9 tahun menangani client dan pelanggan nasional. Telah berhasil membangun tim operasi layanan pelanggan dan sistem pendukung, serta program kepuasan pelanggan yang bertujuan untuk meningkatkan loyalitas pelanggan.",
+                "imgSrc": "dery-mh.png",
+                "email": ""
+            },
+            {
+                "id": "b4",
+                "name": "Marcos Samosir",
+                "fullName": "Marcos Samosir",
+                "designation": "Country Leader - Customer Experience",
+                "company": "CISCO Indonesia",
+                "linkedin": "https://www.linkedin.com/in/marcossamosir/",
+                "description": "",
+                "imgSrc": "marcos-samosir.png",
+                "email": ""
+            },
+            {
+                "id": "b5",
+                "name": "Andre Gunawan",
+                "fullName": "Andre Gunawan",
+                "designation": "VP Ops Excellence",
+                "company": "PT Shippindo Teknologi Logistik (Shipper.id)",
+                "linkedin": "https://www.linkedin.com/in/andre-gunawan/",
+                "description": "Andre is leading the Operations Excellence team of Shipper, with the goal to modernize and scale Shipper operations by leveraging automation, product and technology. Prior to joining Shipper, Andre was heading product and digital marketing of Tokopedia. A scientist by discipline, Andre focus of interest is around adopting cutting edge technology to create disruption across Indonesia industries.",
+                "imgSrc": "andre-gunawan.png",
+                "email": ""
+            },
+            {
+                "id": "b6",
+                "name": "Kelly Oktavian",
+                "fullName": "Kelly Oktavian",
+                "designation": "Chief Commercial Officer",
+                "company": "Riuh Renjana Creative",
+                "linkedin": "https://www.linkedin.com/in/kellyoktavian/",
+                "description": "",
+                "imgSrc": "kelly-oktavian.png",
+                "email": ""
+            },
+            {
+                "id": "b7",
+                "name": "Johnson Tan",
+                "fullName": "Johnson Tan",
+                "designation": "Sales Director",
+                "company": "Optimaa Data",
+                "linkedin": "https://www.linkedin.com/in/johnson-tan-a2810237/",
+                "description": "",
+                "imgSrc": "johnson-tan.png",
+                "email": ""
+            }
 
-    //         {
-    //             "id": "b1",
-    //             "name": "Jonathan",
-    //             "fullName": "Jonathan Bryan",
-    //             "designation": "Chief Marketing Officer",
-    //             "company": "Koinworks",
-    //             "linkedin": "https://www.linkedin.com/in/jonathan-bryan-a5615345/",
-    //             "description": "Jonathan Bryan as Chief Marketing Officer is responsible to plan and execute overall marketing ideas both online and offline.As an online business enthusiast, Jonathan takes parts in conducting marketing and campaign ideas to emphasize the existence of KoinWorks. Aside from planning marketing ideas, Jonathan is also in charge of product development as he analyzes various aspects from the marketing side to make it real. With his passion in digital marketing, he was regularly coaching at 1000 Startup training hundreds of future leaders.Prior to joining KoinWorks, this Mechatronics Engineering graduate of Swiss German University, had spent his time in JobsDB and CareerBuilder Indonesia",
-    //             "imgSrc": "jonathan.png",
-    //             "email": "value"
-    //         },
-    //         {
-    //             "id": "b2",
-    //             "name": "Dayu",
-    //             "fullName": "Dayu Dara Permata",
-    //             "designation": "CEO",
-    //             "company": "Pinhome",
-    //             "linkedin": "https://www.linkedin.com/in/dayu-dara-permata-38072a2b/",
-    //             "description": "Need access",
-    //             "imgSrc": "dayu.png",
-    //             "email": "value"
-    //         },
-    //         {
-    //             "id": "b3",
-    //             "name": "Kevin",
-    //             "fullName": "Kevin Sugianto",
-    //             "designation": "Head of Commercial",
-    //             "company": "Kerry Express",
-    //             "linkedin": "https://www.linkedin.com/in/kevinsugianto/",
-    //             "description": "",
-    //             "imgSrc": "kevin.png",
-    //             "email": "value"
-    //         },
-    //         {
-    //             "id": "b4",
-    //             "name": "Yumir",
-    //             "fullName": "Yumir Syamsyah Lubis",
-    //             "designation": "Head of Marketing & communications",
-    //             "company": "Chilibeli",
-    //             "linkedin": "https://www.linkedin.com/in/yumir-lubis-36886030/",
-    //             "description": "Yumir started to broaden up the marketing horizon in planning integrated advertising and promotional campaigns that stimulate sales, build consumer loyalty and increase bottom-line profitability.Previously, as the Creative Director at U-Studio Unilever, he led and commissions the team in the creation of entertaining and useful content, leveraging on creative insights from U-Studio's global network. Ten years of working in the creative industry gave him experience in creating thematic and tactical campaigns in teams such as Ogilvy, Geometry Global, TBWA, and leading a Tokopedia in-house creative team.  Also, Yumir led Tokopedia's in-house as Creative Group Lead, improving products and services for its users by using content creation both in visual and audio communication approach, standing up the social media engagement, creating and maintaining creative quality, and setting on brand guidelines.In 2015-2016, Yumir was the Senior Copywriter at Ogilvy & Mather Indonesia, where he created thematic and tactical campaigns from some of the biggest FMCG brands from Unilever and Nestle. He also joined in Thinking Machine Asia as Creative Group Head that won notable accounts for Pertamina, Mayora, PEPSI, via.com, and PZ Cussons.",
-    //             "imgSrc": "yumir.png",
-    //             "email": "value"
-    //         },
-    //         {
-    //             "id": "b5",
-    //             "name": "Hery Liandro",
-    //             "fullName": "Hery Liandro",
-    //             "designation": "Business Development Director",
-    //             "company": "Weefer",
-    //             "linkedin": "https://www.linkedin.com/in/hery-liandro-520a0850/",
-    //             "description": "",
-    //             "imgSrc": "hery.png",
-    //             "email": "value"
-    //         },
-    //         {
-    //             "id": "b6",
-    //             "name": "Daud Novel Leonardo",
-    //             "fullName": "Daud Novel Leonardo",
-    //             "designation": "General Manager",
-    //             "company": "Chilibeli",
-    //             "linkedin": "https://www.linkedin.com/in/daud-novel-leonardo-2a493463/",
-    //             "description": "",
-    //             "imgSrc": "daud.png",
-    //             "email": "value"
-    //         },
-    //         {
-    //             "id": "b7",
-    //             "name": "Aliya Amitra Tjakraamidjaja",
-    //             "fullName": "Aliya Amitra Tjakraamidjaja",
-    //             "designation": "COO",
-    //             "company": "Tinkerlust",
-    //             "linkedin": "https://www.linkedin.com/in/aliya-amitra-tjakraamidjaja-a4ab43a3/",
-    //             "description": "",
-    //             "imgSrc": "aliya.png",
-    //             "email": "value"
-    //         }
-    //         // {
-    //         //     "id": "b4",
-    //         //     "name": "Yulia Dwi",
-    //         //     "fullName": "Yulia Dwi Anggoro",
-    //         //     "designation": "Sr. Community Engagement",
-    //         //     "company": "Chilibeli",
-    //         //     "linkedin": "https://www.linkedin.com/in/yulia-dwi-anggoro/",
-    //         //     "description": "",
-    //         //     "imgSrc": "yulia.png",
-    //         //     "email": "value"
-    //         // }
-
-    //     ]
-    // },
-    // {
-    //     "language": "Vietnamese",
-    //     "speakers": [
-    //         {
-    //             "id": "v1",
-    //             "name": "Kalidas Ghose",
-    //             "fullName": "Kalidas Ghose",
-    //             "designation": "CEO",
-    //             "company": "FE Credit",
-    //             "linkedin": "https://www.linkedin.com/in/kalidas-ghose-a02ab74/",
-    //             "description": "",
-    //             "imgSrc": "kalidas.png",
-    //             "email": "value"
-    //         },
-    //         {
-    //             "id": "v2",
-    //             "name": "Vu Le Anh",
-    //             "fullName": "Vu Le Anh",
-    //             "designation": "CIO | Director",
-    //             "company": "CMC Telecom | CMC Cloud Computing Unit",
-    //             "linkedin": "https://www.linkedin.com/",
-    //             "description": "",
-    //             "imgSrc": "vu-le.png",
-    //             "email": "value"
-    //         },
-    //         {
-    //             "id": "v3",
-    //             "name": "Vy Nguyen",
-    //             "fullName": "Vy Nguyen",
-    //             "designation": "Country Manager",
-    //             "company": "Digi InfoFabrica",
-    //             "linkedin": "https://www.linkedin.com/in/vytnguyen171/",
-    //             "description": "",
-    //             "imgSrc": "vy.png",
-    //             "email": "value"
-    //         },
-    //         // {
-    //         //     "id": "v4",
-    //         //     "name": "Trung Dung",
-    //         //     "fullName": "Trung Dung",
-    //         //     "designation": "Human Resources Director",
-    //         //     "company": "USG Boral Vietnam",
-    //         //     "linkedin": "https://www.linkedin.com/in/trungdh/",
-    //         //     "description": "",
-    //         //     "imgSrc": "trun.png",
-    //         //     "email": "value"
-    //         // },
-    //         {
-    //             "id": "v4",
-    //             "name": "Thinh Nguyen",
-    //             "fullName": "Thinh Nguyen",
-    //             "designation": "Head Of Information Technology",
-    //             "company": "YOLA",
-    //             "linkedin": "https://www.linkedin.com/in/thinh-nguyen-595b0430/",
-    //             "description": "",
-    //             "imgSrc": "thinh.png",
-    //             "email": "value"
-    //         },
-    //         {
-    //             "id": "v5",
-    //             "name": "Peter Phuc Huynh",
-    //             "fullName": "Peter Phuc Huynh",
-    //             "designation": "Country Sales Director for Vietnam",
-    //             "company": "Resulticks",
-    //             "linkedin": "https://www.linkedin.com/in/hvphuc/",
-    //             "description": "",
-    //             "imgSrc": "peterphuchuynh.png",
-    //             "email": "value"
-    //         },
-    //         {
-    //             "id": "v5",
-    //             "name": "Le Hong Phuc",
-    //             "fullName": "Le Hong Phuc",
-    //             "designation": "Founder & President",
-    //             "company": "Vietnam Human Resources Association (VNHR)",
-    //             "linkedin": "https://www.linkedin.com/in/lehongphuc/",
-    //             "description": "",
-    //             "imgSrc": "lehongphuc.png",
-    //             "email": "value"
-    //         }
-    //         // {
-    //         //     "id": "v3",
-    //         //     "name": "Nguyễn Thịnh",
-    //         //     "fullName": "Nguyễn Thịnh",
-    //         //     "designation": "IT Director",
-    //         //     "company": "Yola",
-    //         //     "linkedin": "https://www.linkedin.com/in/thinh-nguyen-595b0430/",
-    //         //     "description": "",
-    //         //     "imgSrc": "thinh.png",
-    //         //     "email": "value"
-    //         // },
-    //         // {
-    //         //     "id": "v4",
-    //         //     "name": "Mandy Nguyen",
-    //         //     "fullName": "Mandy Nguyen",
-    //         //     "designation": "Director of Ecosystem Development",
-    //         //     "company": "Startup Vietnam Foundation",
-    //         //     "linkedin": "https://www.linkedin.com/in/mandyquyennguyen/",
-    //         //     "description": "",
-    //         //     "imgSrc": "mandy.png",
-    //         //     "email": "value"
-    //         // },
-    //         // {
-    //         //     "id": "v6",
-    //         //     "name": "Fulin Deok",
-    //         //     "fullName": "Fulin Deok",
-    //         //     "designation": "CTO",
-    //         //     "company": "Infofabrica",
-    //         //     "linkedin": "https://www.linkedin.com/in/fulin-deok-b0514455/",
-    //         //     "description": "",
-    //         //     "imgSrc": "fulin.png",
-    //         //     "email": "value"
-    //         // }
-    //     ]
-    // },
-    // {
-    //     "language": "Thai",
-    //     "speakers": [
-    //         {
-    //             "id": "t2",
-    //             "name": "Alex",
-    //             "fullName": "Alex Natthaphon Kanjarnavoranun",
-    //             "designation": "Assistant Vice President, Head of Online Marketing",
-    //             "company": "Ex-robinson",
-    //             "linkedin": "https://www.linkedin.com/in/natthaphon/",
-    //             "description": "",
-    //             "imgSrc": "alex.png",
-    //             "email": "value"
-    //         },
-    //         {
-    //             "id": "t3",
-    //             "email": "value",
-    //             "name": "Thanaboon Mingkaew",
-    //             "fullName": "Thanaboon Mingkaew",
-    //             "designation": "CEO & Chairman",
-    //             "company": "SmartIoT Technology Co., Ltd.",
-    //             "linkedin": "https://www.linkedin.com/in/thanaboon-mingkaew-953b332b/",
-    //             "description": "",
-    //             "imgSrc": "thanaboon.png",
-    //             "email": "value"
-    //         },
-    //         {
-    //             "id": "t1",
-    //             "name": "Anthony Daño",
-    //             "fullName": "Anthony Daño",
-    //             "designation": "Head Of Business Development",
-    //             "company": "SmartIoT Technology Co., Ltd.",
-    //             "linkedin": "https://www.linkedin.com/in/anthony-da%C3%B1o-73314416b/",
-    //             "description": "",
-    //             "imgSrc": "anthony.png",
-    //         },
-    //         {
-    //             "id": "t4",
-    //             "name": "Jitti Niramitranon",
-    //             "fullName": "Jitti Niramitranon",
-    //             "designation": "Deputy Director (Office of Educational Administration)",
-    //             "company": "Kasetsart University",
-    //             "linkedin": "https://www.linkedin.com/in/jitti-niramitranon-2363211b9/",
-    //             "description": "",
-    //             "imgSrc": "jitti.png",
-    //         },
-    //         {
-    //             "id": "t5",
-    //             "name": "Pansak Plumkoson",
-    //             "fullName": "Pansak Plumkoson",
-    //             "designation": "Head of Sales",
-    //             "company": "Cloudee Telecom",
-    //             "linkedin": "https://www.linkedin.com/in/pansak-plumkoson-bab59a126/",
-    //             "description": "",
-    //             "imgSrc": "pansak.png",
-    //         }
-
-    //     ]
-    // }
+        ]
+    },
+    {
+        "language": "Vietnamese",
+        "speakers": [
+            {
+                "id": "v1",
+                "name": "Hervé Danzelaud",
+                "fullName": "Hervé Danzelaud ",
+                "designation": "Global Vice President - Channels, Alliances, Marketplace & Startups",
+                "company": "Freshworks",
+                "linkedin": "https://www.linkedin.com/in/danzelaud/",
+                "description": "",
+                "imgSrc": "herve-dan.png",
+                "email": ""
+            }
+        ]
+    },
+    {
+        "language": "Thai",
+        "speakers": [
+            {
+                "id": "t1",
+                "name": "Hervé Danzelaud",
+                "fullName": "Hervé Danzelaud ",
+                "designation": "Global Vice President - Channels, Alliances, Marketplace & Startups",
+                "company": "Freshworks",
+                "linkedin": "https://www.linkedin.com/in/danzelaud/",
+                "description": "",
+                "imgSrc": "herve-dan.png",
+                "email": ""
+            }
+        ]
+    }
 ];
 
 var a = '';
@@ -673,13 +352,12 @@ if (params) { iframe.src = iframe.src + '?' + params; }
 
 
 function setHeightSpeakerImg() {
-
-    var $this = $('#speakersTabContent .row>div .speakers .speakersImg-main');
-    $this.css("height", $this.width())
-    // console.log($this.height())
+    $('.speakersImg-main').each(function () {
+        $(this).css("height", $(this).width());
+    });
 }
 setHeightSpeakerImg();
 
-$(window).resize(function () {
+$(window).on('resize', function () {
     setHeightSpeakerImg();
 });

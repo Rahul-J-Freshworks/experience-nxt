@@ -94,17 +94,17 @@ var json = [
                 "imgSrc": "dery-mh.png",
                 "email": ""
             },
-            {
-                "id": "e4",
-                "name": "Marcos Samosir",
-                "fullName": "Marcos Samosir",
-                "designation": "Country Leader - Customer Experience",
-                "company": "CISCO Indonesia",
-                "linkedin": "https://www.linkedin.com/in/marcossamosir/",
-                "description": "",
-                "imgSrc": "marcos-samosir.png",
-                "email": ""
-            },
+            // {
+            //     "id": "e4",
+            //     "name": "Marcos Samosir",
+            //     "fullName": "Marcos Samosir",
+            //     "designation": "Country Leader - Customer Experience",
+            //     "company": "CISCO Indonesia",
+            //     "linkedin": "https://www.linkedin.com/in/marcossamosir/",
+            //     "description": "",
+            //     "imgSrc": "marcos-samosir.png",
+            //     "email": ""
+            // },
             {
                 "id": "e5",
                 "name": "Andre Gunawan",
@@ -176,17 +176,17 @@ var json = [
                 "imgSrc": "dery-mh.png",
                 "email": ""
             },
-            {
-                "id": "b4",
-                "name": "Marcos Samosir",
-                "fullName": "Marcos Samosir",
-                "designation": "Country Leader - Customer Experience",
-                "company": "CISCO Indonesia",
-                "linkedin": "https://www.linkedin.com/in/marcossamosir/",
-                "description": "",
-                "imgSrc": "marcos-samosir.png",
-                "email": ""
-            },
+            // {
+            //     "id": "b4",
+            //     "name": "Marcos Samosir",
+            //     "fullName": "Marcos Samosir",
+            //     "designation": "Country Leader - Customer Experience",
+            //     "company": "CISCO Indonesia",
+            //     "linkedin": "https://www.linkedin.com/in/marcossamosir/",
+            //     "description": "",
+            //     "imgSrc": "marcos-samosir.png",
+            //     "email": ""
+            // },
             {
                 "id": "b5",
                 "name": "Andre Gunawan",
@@ -219,6 +219,61 @@ var json = [
                 "description": "",
                 "imgSrc": "johnson-tan.png",
                 "email": ""
+            },
+            {
+                "id": "b8",
+                "name": "Hery Liandro",
+                "fullName": "Hery Liandro",
+                "designation": "Business Development Director ",
+                "company": "Weefer Indonesia",
+                "linkedin": "https://www.linkedin.com/in/heryliandro/",
+                "description": "",
+                "imgSrc": "hery-liandro.png",
+                "email": ""
+            },
+            {
+                "id": "b9",
+                "name": "Edmund	Situmorang",
+                "fullName": "Edmund	Situmorang",
+                "designation": "Chief Technology Officer",
+                "company": "Prodigi (Sinarmas Group)",
+                "linkedin": "https://www.linkedin.com/in/situmorang/",
+                "description": "",
+                "imgSrc": "edmund-situmorang.png",
+                "email": ""
+            },
+            {
+                "id": "b10",
+                "name": "Viktor Iwan",
+                "fullName": "Viktor Iwan",
+                "designation": "CEO and Founder",
+                "company": "Doxadigital Creative and Digital Agency",
+                "linkedin": "https://www.linkedin.com/in/viktoriwan/",
+                "description": "",
+                "imgSrc": "viktor-iwan.png",
+                "email": ""
+            },
+            {
+                "id": "b11",
+                "name": "Triyosi Girinda Puri",
+                "fullName": "Triyosi Girinda Puri",
+                "designation": "Customer Success Manager",
+                "company": "Weefer Indonesia",
+                "linkedin": "https://www.linkedin.com/in/triyosigirinda/",
+                "description": "",
+                "imgSrc": "triyosi-girinda.png",
+                "email": ""
+            },
+            {
+                "id": "b12",
+                "name": "Sheilla Septayana",
+                "fullName": "Sheilla Septayana",
+                "designation": "Business Consultant",
+                "company": "Optimaa Data",
+                "linkedin": "https://www.linkedin.com/in/sheilla-septyana-4830ab144/",
+                "description": "",
+                "imgSrc": "sheilla-septayana.png",
+                "email": ""
             }
 
         ]
@@ -236,6 +291,50 @@ var json = [
                 "description": "",
                 "imgSrc": "herve-dan.png",
                 "email": ""
+            },
+            {
+                "id": "v2",
+                "name": "Hoa Do (Ella)",
+                "fullName": "Hoa Do (Ella)",
+                "designation": "Head of Digital",
+                "company": "TalentNet Corporation",
+                "linkedin": "https://www.linkedin.com/in/hoado-ellado/",
+                "description": "",
+                "imgSrc": "hoa-do.png",
+                "email": ""
+            },
+            {
+                "id": "v3",
+                "name": "Peter Huynh",
+                "fullName": "Peter Huynh",
+                "designation": "Managing Director",
+                "company": "Cloud Kinetics",
+                "linkedin": "https://www.linkedin.com/in/hvphuc/",
+                "description": "",
+                "imgSrc": "peter-huynh.png",
+                "email": ""
+            },
+            {
+                "id": "v4",
+                "name": "Tuong Vi Nguyen",
+                "fullName": "Tuong Vi Nguyen",
+                "designation": "Head Of Customer Experience",
+                "company": "Viet An Group",
+                "linkedin": "https://www.linkedin.com/in/tuong-vi-nguyen-thi/",
+                "description": "",
+                "imgSrc": "tuong-vi.png",
+                "email": ""
+            },
+            {
+                "id": "v5",
+                "name": "Tuan Nguyen",
+                "fullName": "Tuan Nguyen",
+                "designation": "Head Of Client Solutions",
+                "company": "Haravan",
+                "linkedin": "https://www.linkedin.com/in/ngoctuan/",
+                "description": "",
+                "imgSrc": "tuan-nguyen.png",
+                "email": ""
             }
         ]
     },
@@ -251,6 +350,39 @@ var json = [
                 "linkedin": "https://www.linkedin.com/in/danzelaud/",
                 "description": "",
                 "imgSrc": "herve-dan.png",
+                "email": ""
+            },
+            {
+                "id": "t2",
+                "name": "Nina Nichkamol Songvisit",
+                "fullName": "Nina Nichkamol Songvisit",
+                "designation": "Head of Product and Marketing for Digital Platform",
+                "company": "AIA",
+                "linkedin": "https://www.linkedin.com/in/nina-nichkamol-s-722321101/",
+                "description": "",
+                "imgSrc": "nina-nichkamol.png",
+                "email": ""
+            },
+            {
+                "id": "t3",
+                "name": "Nuttaporn Tayananuphut (Nut)",
+                "fullName": "Nuttaporn Tayananuphut (Nut)",
+                "designation": "Head of Customer Experience",
+                "company": "Prudential Life Assurance (Thailand) PCL",
+                "linkedin": "https://www.linkedin.com/in/nuttapornt/",
+                "description": "",
+                "imgSrc": "nuttaporn.png",
+                "email": ""
+            },
+            {
+                "id": "t4",
+                "name": "Dr.Thiti Vacharasintopchai",
+                "fullName": "Dr.Thiti Vacharasintopchai",
+                "designation": "Director, Innovative Business - Head of Strategic Technology and Innovation Center",
+                "company": "TEAM GROUP",
+                "linkedin": "https://www.linkedin.com/in/thitiv/",
+                "description": "",
+                "imgSrc": "thiti.png",
                 "email": ""
             }
         ]

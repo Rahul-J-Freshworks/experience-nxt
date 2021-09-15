@@ -2580,6 +2580,11 @@ body.page-loading .banner-section1 .banner-card:not(:first-child) {
     flex: 1 0 auto;
 }
 
+.speaker-content h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
 /* Modal Fix end */
 @media screen and (min-width:1200px) {
     .speakersSlide .owl-nav {

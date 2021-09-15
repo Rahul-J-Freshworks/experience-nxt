@@ -132,7 +132,7 @@ var json = [
                 "name": "Johnson Tan",
                 "fullName": "Johnson Tan",
                 "designation": "Sales Director",
-                "company": "Optimaa Data",
+                "company": "Optima Data Internasional",
                 "linkedin": "https://www.linkedin.com/in/johnson-tan-a2810237/",
                 "description": "",
                 "imgSrc": "johnson-tan.png",
@@ -268,6 +268,94 @@ var json = [
                 "linkedin": "https://www.linkedin.com/in/thitiv/",
                 "description": "",
                 "imgSrc": "thiti.png",
+                "email": ""
+            },
+            {
+                "id": "v6",
+                "name": "Minh Vũ",
+                "fullName": "Minh Vũ",
+                "designation": "Delivery Project Manager",
+                "company": "IBM",
+                "linkedin": "https://www.linkedin.com/in/minhvuict",
+                "description": "",
+                "imgSrc": "minh-vu.png",
+                "email": ""
+            },
+            {
+                "id": "v7",
+                "name": "Quang Trần",
+                "fullName": "Quang Trần",
+                "designation": "IT Operations Manager",
+                "company": "Masan",
+                "linkedin": "https://www.linkedin.com/in/quang-tran-67b13095",
+                "description": "",
+                "imgSrc": "quang-tran.png",
+                "email": ""
+            },
+            {
+                "id": "v8",
+                "name": "Thủy Đặng",
+                "fullName": "Thủy Đặng",
+                "designation": "Cloud Sales Manager",
+                "company": "Cloud Kinetics",
+                "linkedin": "https://www.linkedin.com/in/th%E1%BB%A7y-%C4%91%E1%BA%B7ng-782088100?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAaGSx9ovSKerzs0Iuuvv5g%3D%3D",
+                "description": "",
+                "imgSrc": "thuy-dang.png",
+                "email": ""
+            },
+            {
+                "id": "v9",
+                "name": "Tâm Vũ",
+                "fullName": "Tâm Vũ",
+                "designation": "Account Manager",
+                "company": "Cloud Kinetics",
+                "linkedin": "https://www.linkedin.com/in/bella-t%C3%A2m-1930a01a0/",
+                "description": "",
+                "imgSrc": "tam-vu.png",
+                "email": ""
+            },
+            {
+                "id": "b13",
+                "name": "Betty Surya Rosalina",
+                "fullName": "Betty Surya Rosalina",
+                "designation": "Head of Business Development",
+                "company": "PT Valdo International",
+                "linkedin": "https://www.linkedin.com/in/betty-surya-rosalina-124b6386/",
+                "description": "",
+                "imgSrc": "betty-surya.png",
+                "email": ""
+            },
+            {
+                "id": "b14",
+                "name": "Maulana Malik Muqorrobun",
+                "fullName": "Maulana Malik Muqorrobun",
+                "designation": "Head of Business Customer Experience Management",
+                "company": "Sampingan",
+                "linkedin": "https://www.linkedin.com/in/mmalikm/",
+                "description": "",
+                "imgSrc": "maulana-malik.png",
+                "email": ""
+            },
+            {
+                "id": "b15",
+                "name": "Nanda Amedina Putri",
+                "fullName": "Nanda Amedina Putri",
+                "designation": "Customer Success Executive",
+                "company": "Weefer Indonesia",
+                "linkedin": "https://www.linkedin.com/in/nanda-amedina-p/",
+                "description": "",
+                "imgSrc": "nanda-amedina.png",
+                "email": ""
+            },
+            {
+                "id": "t5",
+                "name": "Bangorn Suwanmongkol",
+                "fullName": "Bangorn Suwanmongkol",
+                "designation": "CEO and Founder",
+                "company": "Hummingbirds Consulting",
+                "linkedin": "https://www.linkedin.com/in/bangorns/",
+                "description": "",
+                "imgSrc": "bangorn-suwanmongkol.png",
                 "email": ""
             }
         ]
@@ -398,13 +486,46 @@ var json = [
             },
             {
                 "id": "b12",
-                "name": "Sheilla Septayana",
-                "fullName": "Sheilla Septayana",
+                "name": "Sheilla Septyana",
+                "fullName": "Sheilla Septyana",
                 "designation": "Business Consultant",
-                "company": "Optimaa Data",
+                "company": "Optima Data Internasional",
                 "linkedin": "https://www.linkedin.com/in/sheilla-septyana-4830ab144/",
                 "description": "",
                 "imgSrc": "sheilla-septayana.png",
+                "email": ""
+            },
+            {
+                "id": "b13",
+                "name": "Betty Surya Rosalina",
+                "fullName": "Betty Surya Rosalina",
+                "designation": "Head of Business Development",
+                "company": "PT Valdo International",
+                "linkedin": "https://www.linkedin.com/in/betty-surya-rosalina-124b6386/",
+                "description": "",
+                "imgSrc": "betty-surya.png",
+                "email": ""
+            },
+            {
+                "id": "b14",
+                "name": "Maulana Malik Muqorrobun",
+                "fullName": "Maulana Malik Muqorrobun",
+                "designation": "Head of Business Customer Experience Management",
+                "company": "Sampingan",
+                "linkedin": "https://www.linkedin.com/in/mmalikm/",
+                "description": "",
+                "imgSrc": "maulana-malik.png",
+                "email": ""
+            },
+            {
+                "id": "b15",
+                "name": "Nanda Amedina Putri",
+                "fullName": "Nanda Amedina Putri",
+                "designation": "Customer Success Executive",
+                "company": "Weefer Indonesia",
+                "linkedin": "https://www.linkedin.com/in/nanda-amedina-p/",
+                "description": "",
+                "imgSrc": "nanda-amedina.png",
                 "email": ""
             }
 
@@ -467,6 +588,50 @@ var json = [
                 "description": "",
                 "imgSrc": "tuan-nguyen.png",
                 "email": ""
+            },
+            {
+                "id": "v6",
+                "name": "Minh Vũ",
+                "fullName": "Minh Vũ",
+                "designation": "Delivery Project Manager",
+                "company": "IBM",
+                "linkedin": "https://www.linkedin.com/in/minhvuict",
+                "description": "",
+                "imgSrc": "minh-vu.png",
+                "email": ""
+            },
+            {
+                "id": "v7",
+                "name": "Quang Trần",
+                "fullName": "Quang Trần",
+                "designation": "IT Operations Manager",
+                "company": "Masan",
+                "linkedin": "https://www.linkedin.com/in/quang-tran-67b13095",
+                "description": "",
+                "imgSrc": "quang-tran.png",
+                "email": ""
+            },
+            {
+                "id": "v8",
+                "name": "Thủy Đặng",
+                "fullName": "Thủy Đặng",
+                "designation": "Cloud Sales Manager",
+                "company": "Cloud Kinetics",
+                "linkedin": "https://www.linkedin.com/in/th%E1%BB%A7y-%C4%91%E1%BA%B7ng-782088100?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAaGSx9ovSKerzs0Iuuvv5g%3D%3D",
+                "description": "",
+                "imgSrc": "thuy-dang.png",
+                "email": ""
+            },
+            {
+                "id": "v9",
+                "name": "Tâm Vũ",
+                "fullName": "Tâm Vũ",
+                "designation": "Account Manager",
+                "company": "Cloud Kinetics",
+                "linkedin": "https://www.linkedin.com/in/bella-t%C3%A2m-1930a01a0/",
+                "description": "",
+                "imgSrc": "tam-vu.png",
+                "email": ""
             }
         ]
     },
@@ -515,6 +680,17 @@ var json = [
                 "linkedin": "https://www.linkedin.com/in/thitiv/",
                 "description": "",
                 "imgSrc": "thiti.png",
+                "email": ""
+            },
+            {
+                "id": "t5",
+                "name": "Bangorn Suwanmongkol",
+                "fullName": "Bangorn Suwanmongkol",
+                "designation": "CEO and Founder",
+                "company": "Hummingbirds Consulting",
+                "linkedin": "https://www.linkedin.com/in/bangorns/",
+                "description": "",
+                "imgSrc": "bangorn-suwanmongkol.png",
                 "email": ""
             }
         ]

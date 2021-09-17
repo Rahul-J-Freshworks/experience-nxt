@@ -357,6 +357,50 @@ var json = [
                 "description": "",
                 "imgSrc": "bangorn-suwanmongkol.png",
                 "email": ""
+            },
+            {
+                "id": "t6",
+                "name": "Apichai Chairattana",
+                "fullName": "Apichai Chairattana",
+                "designation": "Business Coach & Strategist",
+                "company": "CEO Club Thailand",
+                "linkedin": "https://www.linkedin.com/in/apichai-chairattanat-592497176/",
+                "description": "",
+                "imgSrc": "apichai-chairattana.png",
+                "email": ""
+            },
+            {
+                "id": "t7",
+                "name": "Attaphon Phayak",
+                "fullName": "Attaphon Phayak",
+                "designation": "Deputy Head of IT Security Control Management & Governance",
+                "company": "Bitkub Online Co., Ltd.",
+                "linkedin": "https://www.linkedin.com/in/attaphon-phayak-725a0876/",
+                "description": "",
+                "imgSrc": "attaphon-phayak.png",
+                "email": ""
+            },
+            {
+                "id": "v10",
+                "name": "Nguyen Truong Duy",
+                "fullName": "Nguyen Truong Duy",
+                "designation": "Head of Partnerships, Zalo Ads",
+                "company": "VNG (Zalo)",
+                "linkedin": "https://www.linkedin.com/in/truongduy/",
+                "description": "",
+                "imgSrc": "nguyen-truong.png",
+                "email": ""
+            },
+            {
+                "id": "v11",
+                "name": "Dr. Tuan Anh Pham",
+                "fullName": "Dr. Tuan Anh Pham",
+                "designation": "CIO",
+                "company": "Becamex IDC Vietnam",
+                "linkedin": "https://www.linkedin.com/in/phamanh0606/",
+                "description": "",
+                "imgSrc": "tuan-anh.png",
+                "email": ""
             }
         ]
     },
@@ -632,6 +676,28 @@ var json = [
                 "description": "",
                 "imgSrc": "tam-vu.png",
                 "email": ""
+            },
+            {
+                "id": "v10",
+                "name": "Nguyen Truong Duy",
+                "fullName": "Nguyen Truong Duy",
+                "designation": "Head of Partnerships, Zalo Ads",
+                "company": "VNG (Zalo)",
+                "linkedin": "https://www.linkedin.com/in/truongduy/",
+                "description": "",
+                "imgSrc": "nguyen-truong.png",
+                "email": ""
+            },
+            {
+                "id": "v11",
+                "name": "Dr. Tuan Anh Pham",
+                "fullName": "Dr. Tuan Anh Pham",
+                "designation": "CIO",
+                "company": "Becamex IDC Vietnam",
+                "linkedin": "https://www.linkedin.com/in/phamanh0606/",
+                "description": "",
+                "imgSrc": "tuan-anh.png",
+                "email": ""
             }
         ]
     },
@@ -691,6 +757,28 @@ var json = [
                 "linkedin": "https://www.linkedin.com/in/bangorns/",
                 "description": "",
                 "imgSrc": "bangorn-suwanmongkol.png",
+                "email": ""
+            },
+            {
+                "id": "t6",
+                "name": "Apichai Chairattana",
+                "fullName": "Apichai Chairattana",
+                "designation": "Business Coach & Strategist",
+                "company": "CEO Club Thailand",
+                "linkedin": "https://www.linkedin.com/in/apichai-chairattanat-592497176/",
+                "description": "",
+                "imgSrc": "apichai-chairattana.png",
+                "email": ""
+            },
+            {
+                "id": "t7",
+                "name": "Attaphon Phayak",
+                "fullName": "Attaphon Phayak",
+                "designation": "Deputy Head of IT Security Control Management & Governance",
+                "company": "Bitkub Online Co., Ltd.",
+                "linkedin": "https://www.linkedin.com/in/attaphon-phayak-725a0876/",
+                "description": "",
+                "imgSrc": "attaphon-phayak.png",
                 "email": ""
             }
         ]

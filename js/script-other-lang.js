@@ -62,14 +62,14 @@ var json = [
         "language": "English",
         "speakers": [
             {
-                "id": "e1",
-                "name": "Hervé Danzelaud",
-                "fullName": "Hervé Danzelaud ",
-                "designation": "Global Vice President - Channels, Alliances, Marketplace & Startups",
+                "id": "all1",
+                "name": "Priyanka Chandramouli",
+                "fullName": "Priyanka Chandramouli",
+                "designation": "Head of Partnership Sales, ASEAN",
                 "company": "Freshworks",
-                "linkedin": "https://www.linkedin.com/in/danzelaud/",
-                "description": "",
-                "imgSrc": "herve-dan.png",
+                "linkedin": "",
+                "description": "https://www.linkedin.com/in/priyanka-chandramouli-85968298/",
+                "imgSrc": "priyanka-chandramouli.png",
                 "email": ""
             },
             {
@@ -94,17 +94,6 @@ var json = [
                 "imgSrc": "dery-mh.png",
                 "email": ""
             },
-            // {
-            //     "id": "e4",
-            //     "name": "Marcos Samosir",
-            //     "fullName": "Marcos Samosir",
-            //     "designation": "Country Leader - Customer Experience",
-            //     "company": "CISCO Indonesia",
-            //     "linkedin": "https://www.linkedin.com/in/marcossamosir/",
-            //     "description": "",
-            //     "imgSrc": "marcos-samosir.png",
-            //     "email": ""
-            // },
             {
                 "id": "e5",
                 "name": "Andre Gunawan",
@@ -198,7 +187,7 @@ var json = [
                 "name": "Hoa Do (Ella)",
                 "fullName": "Hoa Do (Ella)",
                 "designation": "Head of Digital",
-                "company": "TalentNet Corporation",
+                "company": "Talentnet Corporation",
                 "linkedin": "https://www.linkedin.com/in/hoado-ellado/",
                 "description": "",
                 "imgSrc": "hoa-do.png",
@@ -274,8 +263,8 @@ var json = [
                 "id": "v6",
                 "name": "Minh Vũ",
                 "fullName": "Minh Vũ",
-                "designation": "Delivery Project Manager",
-                "company": "IBM",
+                "designation": "ITSM Expert",
+                "company": "Former IBM Vietnam",
                 "linkedin": "https://www.linkedin.com/in/minhvuict",
                 "description": "",
                 "imgSrc": "minh-vu.png",
@@ -286,7 +275,7 @@ var json = [
                 "name": "Quang Trần",
                 "fullName": "Quang Trần",
                 "designation": "IT Operations Manager",
-                "company": "Masan",
+                "company": "Masan Group",
                 "linkedin": "https://www.linkedin.com/in/quang-tran-67b13095",
                 "description": "",
                 "imgSrc": "quang-tran.png",
@@ -296,7 +285,7 @@ var json = [
                 "id": "v8",
                 "name": "Thủy Đặng",
                 "fullName": "Thủy Đặng",
-                "designation": "Cloud Sales Manager",
+                "designation": "Freshservice Sales Manager",
                 "company": "Cloud Kinetics",
                 "linkedin": "https://www.linkedin.com/in/th%E1%BB%A7y-%C4%91%E1%BA%B7ng-782088100?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAaGSx9ovSKerzs0Iuuvv5g%3D%3D",
                 "description": "",
@@ -401,6 +390,72 @@ var json = [
                 "description": "",
                 "imgSrc": "tuan-anh.png",
                 "email": ""
+            },
+            {
+                "id": "v12",
+                "name": "Thành Nguyễn",
+                "fullName": "Thành Nguyễn",
+                "designation": "Account Manager",
+                "company": "Cloud Kinetics",
+                "linkedin": "https://www.linkedin.com/in/thanh-nguyen-b5a2a11a1/",
+                "description": "",
+                "imgSrc": "thanh-nguyen.png",
+                "email": ""
+            },
+            {
+                "id": "t8",
+                "name": "Dr. Pattanant Petchchedchoo",
+                "fullName": "Dr. Pattanant Petchchedchoo",
+                "designation": "Vice President for Academic Affairs",
+                "company": "Dhurakij Pundit University",
+                "linkedin": "https://www.linkedin.com/in/pattanant-petchchedchoo-9878056/",
+                "description": "",
+                "imgSrc": "pattanant-petchchedchoo.png",
+                "email": ""
+            },
+            {
+                "id": "t9",
+                "name": "Nuttama Keoboonrueng",
+                "fullName": "Nuttama Keoboonrueng",
+                "designation": "Managing Director",
+                "company": "Triforce Global Solutions",
+                "linkedin": "https://www.linkedin.com/in/nuttama-keoboonrueng-6710488/",
+                "description": "",
+                "imgSrc": "nuttama-keoboonrueng.png",
+                "email": ""
+            },
+            {
+                "id": "t10",
+                "name": "Phitthaya Parinyarot",
+                "fullName": "Phitthaya Parinyarot",
+                "designation": "IT Manager",
+                "company": "Mermaid Group",
+                "linkedin": "https://www.linkedin.com/in/phitthaya-parinyarot-326756aa/",
+                "description": "",
+                "imgSrc": "phitthaya-parinyarot.png",
+                "email": ""
+            },
+            {
+                "id": "t11",
+                "name": "Sorachart Karphkraikaew",
+                "fullName": "Sorachart Karphkraikaew",
+                "designation": "Senior IT Manager",
+                "company": "Tipco Asphalt Public Company Limited",
+                "linkedin": "https://www.linkedin.com/in/sorachart-karphkraikaew-821414b3/",
+                "description": "",
+                "imgSrc": "sorachart-karphkraikaew.png",
+                "email": ""
+            },
+            {
+                "id": "t12",
+                "name": "Pensri Techasiripaiboon (Helen)",
+                "fullName": "Pensri Techasiripaiboon (Helen)",
+                "designation": "Senior Sales Manager",
+                "company": "Toworksmile",
+                "linkedin": "",
+                "description": "https://www.linkedin.com/in/helen-techasiripaiboon-2b934b44/",
+                "imgSrc": "pensri-techasiripaiboon.png",
+                "email": ""
             }
         ]
     },
@@ -408,14 +463,14 @@ var json = [
         "language": "Bahasa",
         "speakers": [
             {
-                "id": "b1",
-                "name": "Hervé Danzelaud",
-                "fullName": "Hervé Danzelaud ",
-                "designation": "Global Vice President - Channels, Alliances, Marketplace & Startups",
+                "id": "all1",
+                "name": "Priyanka Chandramouli",
+                "fullName": "Priyanka Chandramouli",
+                "designation": "Head of Partnership Sales, ASEAN",
                 "company": "Freshworks",
-                "linkedin": "https://www.linkedin.com/in/danzelaud/",
-                "description": "",
-                "imgSrc": "herve-dan.png",
+                "linkedin": "",
+                "description": "https://www.linkedin.com/in/priyanka-chandramouli-85968298/",
+                "imgSrc": "priyanka-chandramouli.png",
                 "email": ""
             },
             {
@@ -440,17 +495,6 @@ var json = [
                 "imgSrc": "dery-mh.png",
                 "email": ""
             },
-            // {
-            //     "id": "b4",
-            //     "name": "Marcos Samosir",
-            //     "fullName": "Marcos Samosir",
-            //     "designation": "Country Leader - Customer Experience",
-            //     "company": "CISCO Indonesia",
-            //     "linkedin": "https://www.linkedin.com/in/marcossamosir/",
-            //     "description": "",
-            //     "imgSrc": "marcos-samosir.png",
-            //     "email": ""
-            // },
             {
                 "id": "b5",
                 "name": "Andre Gunawan",
@@ -572,21 +616,20 @@ var json = [
                 "imgSrc": "nanda-amedina.png",
                 "email": ""
             }
-
         ]
     },
     {
         "language": "Vietnamese",
         "speakers": [
             {
-                "id": "v1",
-                "name": "Hervé Danzelaud",
-                "fullName": "Hervé Danzelaud ",
-                "designation": "Global Vice President - Channels, Alliances, Marketplace & Startups",
+                "id": "all1",
+                "name": "Priyanka Chandramouli",
+                "fullName": "Priyanka Chandramouli",
+                "designation": "Head of Partnership Sales, ASEAN",
                 "company": "Freshworks",
-                "linkedin": "https://www.linkedin.com/in/danzelaud/",
-                "description": "",
-                "imgSrc": "herve-dan.png",
+                "linkedin": "",
+                "description": "https://www.linkedin.com/in/priyanka-chandramouli-85968298/",
+                "imgSrc": "priyanka-chandramouli.png",
                 "email": ""
             },
             {
@@ -594,7 +637,7 @@ var json = [
                 "name": "Hoa Do (Ella)",
                 "fullName": "Hoa Do (Ella)",
                 "designation": "Head of Digital",
-                "company": "TalentNet Corporation",
+                "company": "Talentnet Corporation",
                 "linkedin": "https://www.linkedin.com/in/hoado-ellado/",
                 "description": "",
                 "imgSrc": "hoa-do.png",
@@ -637,8 +680,8 @@ var json = [
                 "id": "v6",
                 "name": "Minh Vũ",
                 "fullName": "Minh Vũ",
-                "designation": "Delivery Project Manager",
-                "company": "IBM",
+                "designation": "ITSM Expert",
+                "company": "Former IBM Vietnam",
                 "linkedin": "https://www.linkedin.com/in/minhvuict",
                 "description": "",
                 "imgSrc": "minh-vu.png",
@@ -649,7 +692,7 @@ var json = [
                 "name": "Quang Trần",
                 "fullName": "Quang Trần",
                 "designation": "IT Operations Manager",
-                "company": "Masan",
+                "company": "Masan Group",
                 "linkedin": "https://www.linkedin.com/in/quang-tran-67b13095",
                 "description": "",
                 "imgSrc": "quang-tran.png",
@@ -659,7 +702,7 @@ var json = [
                 "id": "v8",
                 "name": "Thủy Đặng",
                 "fullName": "Thủy Đặng",
-                "designation": "Cloud Sales Manager",
+                "designation": "Freshservice Sales Manager",
                 "company": "Cloud Kinetics",
                 "linkedin": "https://www.linkedin.com/in/th%E1%BB%A7y-%C4%91%E1%BA%B7ng-782088100?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAaGSx9ovSKerzs0Iuuvv5g%3D%3D",
                 "description": "",
@@ -698,6 +741,17 @@ var json = [
                 "description": "",
                 "imgSrc": "tuan-anh.png",
                 "email": ""
+            },
+            {
+                "id": "v12",
+                "name": "Thành Nguyễn",
+                "fullName": "Thành Nguyễn",
+                "designation": "Account Manager",
+                "company": "Cloud Kinetics",
+                "linkedin": "https://www.linkedin.com/in/thanh-nguyen-b5a2a11a1/",
+                "description": "",
+                "imgSrc": "thanh-nguyen.png",
+                "email": ""
             }
         ]
     },
@@ -705,14 +759,14 @@ var json = [
         "language": "Thai",
         "speakers": [
             {
-                "id": "t1",
-                "name": "Hervé Danzelaud",
-                "fullName": "Hervé Danzelaud ",
-                "designation": "Global Vice President - Channels, Alliances, Marketplace & Startups",
+                "id": "all1",
+                "name": "Priyanka Chandramouli",
+                "fullName": "Priyanka Chandramouli",
+                "designation": "Head of Partnership Sales, ASEAN",
                 "company": "Freshworks",
-                "linkedin": "https://www.linkedin.com/in/danzelaud/",
-                "description": "",
-                "imgSrc": "herve-dan.png",
+                "linkedin": "",
+                "description": "https://www.linkedin.com/in/priyanka-chandramouli-85968298/",
+                "imgSrc": "priyanka-chandramouli.png",
                 "email": ""
             },
             {
@@ -779,6 +833,61 @@ var json = [
                 "linkedin": "https://www.linkedin.com/in/attaphon-phayak-725a0876/",
                 "description": "",
                 "imgSrc": "attaphon-phayak.png",
+                "email": ""
+            },
+            {
+                "id": "t8",
+                "name": "Dr. Pattanant Petchchedchoo",
+                "fullName": "Dr. Pattanant Petchchedchoo",
+                "designation": "Vice President for Academic Affairs",
+                "company": "Dhurakij Pundit University",
+                "linkedin": "https://www.linkedin.com/in/pattanant-petchchedchoo-9878056/",
+                "description": "",
+                "imgSrc": "pattanant-petchchedchoo.png",
+                "email": ""
+            },
+            {
+                "id": "t9",
+                "name": "Nuttama Keoboonrueng",
+                "fullName": "Nuttama Keoboonrueng",
+                "designation": "Managing Director",
+                "company": "Triforce Global Solutions",
+                "linkedin": "https://www.linkedin.com/in/nuttama-keoboonrueng-6710488/",
+                "description": "",
+                "imgSrc": "nuttama-keoboonrueng.png",
+                "email": ""
+            },
+            {
+                "id": "t10",
+                "name": "Phitthaya Parinyarot",
+                "fullName": "Phitthaya Parinyarot",
+                "designation": "IT Manager",
+                "company": "Mermaid Group",
+                "linkedin": "https://www.linkedin.com/in/phitthaya-parinyarot-326756aa/",
+                "description": "",
+                "imgSrc": "phitthaya-parinyarot.png",
+                "email": ""
+            },
+            {
+                "id": "t11",
+                "name": "Sorachart Karphkraikaew",
+                "fullName": "Sorachart Karphkraikaew",
+                "designation": "Senior IT Manager",
+                "company": "Tipco Asphalt Public Company Limited",
+                "linkedin": "https://www.linkedin.com/in/sorachart-karphkraikaew-821414b3/",
+                "description": "",
+                "imgSrc": "sorachart-karphkraikaew.png",
+                "email": ""
+            },
+            {
+                "id": "t12",
+                "name": "Pensri Techasiripaiboon (Helen)",
+                "fullName": "Pensri Techasiripaiboon (Helen)",
+                "designation": "Senior Sales Manager",
+                "company": "Toworksmile",
+                "linkedin": "",
+                "description": "https://www.linkedin.com/in/helen-techasiripaiboon-2b934b44/",
+                "imgSrc": "pensri-techasiripaiboon.png",
                 "email": ""
             }
         ]

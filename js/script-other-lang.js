@@ -414,6 +414,17 @@ var json = [
                 "email": ""
             },
             {
+                "id": "v14",
+                "name": "Hoang Anh Bui",
+                "fullName": "Hoang Anh Bui",
+                "designation": "SME Business Center Director",
+                "company": "CMC Telecom",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "hoang-anh.png",
+                "email": ""
+            },
+            {
                 "id": "t8",
                 "name": "Dr. Pattanant Petchchedchoo",
                 "fullName": "Dr. Pattanant Petchchedchoo",
@@ -785,6 +796,17 @@ var json = [
                 "description": "",
                 "imgSrc": "trang-duong.png",
                 "email": ""
+            },
+            {
+                "id": "v14",
+                "name": "Hoang Anh Bui",
+                "fullName": "Hoang Anh Bui",
+                "designation": "SME Business Center Director",
+                "company": "CMC Telecom",
+                "linkedin": "",
+                "description": "",
+                "imgSrc": "hoang-anh.png",
+                "email": ""
             }
         ]
     },
@@ -1038,8 +1060,7 @@ function setHeightSpeakerImg() {
     });
 }
 setHeightSpeakerImg();
-// Resize
+
 $(window).on('resize', function () {
     setHeightSpeakerImg();
 });
-

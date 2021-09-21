@@ -403,6 +403,17 @@ var json = [
                 "email": ""
             },
             {
+                "id": "v13",
+                "name": "Trang Duong",
+                "fullName": "Trang Duong",
+                "designation": "Cloud Sales Manager",
+                "company": "Cloud Kinetics",
+                "linkedin": "https://www.linkedin.com/in/trangduong83/",
+                "description": "",
+                "imgSrc": "trang-duong.png",
+                "email": ""
+            },
+            {
                 "id": "t8",
                 "name": "Dr. Pattanant Petchchedchoo",
                 "fullName": "Dr. Pattanant Petchchedchoo",
@@ -455,6 +466,17 @@ var json = [
                 "linkedin": "",
                 "description": "https://www.linkedin.com/in/helen-techasiripaiboon-2b934b44/",
                 "imgSrc": "pensri-techasiripaiboon.png",
+                "email": ""
+            },
+            {
+                "id": "t13",
+                "name": "Nuttanee Pongrattanakul",
+                "fullName": "Nuttanee Pongrattanakul",
+                "designation": "CEO",
+                "company": "Toworksmile",
+                "linkedin": "",
+                "description": "https://www.linkedin.com/in/nutty-pongrattanakul-88266b15b/",
+                "imgSrc": "nuttanee-pongrattanakul.png",
                 "email": ""
             }
         ]
@@ -752,6 +774,17 @@ var json = [
                 "description": "",
                 "imgSrc": "thanh-nguyen.png",
                 "email": ""
+            },
+            {
+                "id": "v13",
+                "name": "Trang Duong",
+                "fullName": "Trang Duong",
+                "designation": "Cloud Sales Manager",
+                "company": "Cloud Kinetics",
+                "linkedin": "https://www.linkedin.com/in/trangduong83/",
+                "description": "",
+                "imgSrc": "trang-duong.png",
+                "email": ""
             }
         ]
     },
@@ -888,6 +921,17 @@ var json = [
                 "linkedin": "",
                 "description": "https://www.linkedin.com/in/helen-techasiripaiboon-2b934b44/",
                 "imgSrc": "pensri-techasiripaiboon.png",
+                "email": ""
+            },
+            {
+                "id": "t13",
+                "name": "Nuttanee Pongrattanakul",
+                "fullName": "Nuttanee Pongrattanakul",
+                "designation": "CEO",
+                "company": "Toworksmile",
+                "linkedin": "",
+                "description": "https://www.linkedin.com/in/nutty-pongrattanakul-88266b15b/",
+                "imgSrc": "nuttanee-pongrattanakul.png",
                 "email": ""
             }
         ]

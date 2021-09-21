@@ -1038,7 +1038,8 @@ function setHeightSpeakerImg() {
     });
 }
 setHeightSpeakerImg();
-
+// Resize
 $(window).on('resize', function () {
     setHeightSpeakerImg();
 });
+
